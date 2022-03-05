@@ -14,8 +14,10 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#why-did-i-make-this-guide"> ➤ Why did I make this guide?</a></li>
+    <li><a href="#what-can-you-do"> ➤ What you can do with a hacked switch?</a></li>
+    <li><a href="#is-hacking-illegal"> ➤ Is hacking your switch illegal?</a></li>
     <li><a href="#what-you-will-need"> ➤ What you will need</a></li>
-    <li><a href="#folder-structure"> ➤ Folder Structure</a></li>
+    <li><a href="#how-much"> ➤ How much will it cost? How long will it take?</a></li>
     <li><a href="#dataset"> ➤ Dataset</a></li>
     <li><a href="#roadmap"> ➤ Roadmap</a></li>
     <li>
@@ -56,60 +58,49 @@ There are many homebrew guides out there. Some are better than others, but they 
   - PC recommended, but android phones or jailbroken ios devises also work
 * Some kind of cable to connect your Switch to your payload sender of choice
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- :paw_prints:-->
-<!-- FOLDER STRUCTURE -->
-<h2 id="folder-structure"> :cactus: Folder Structure</h2>
-
-    code
-    .
-    │
-    ├── data
-    │   ├── raw_data
-    │   │   ├── phone
-    │   │   │   ├── accel
-    │   │   │   └── gyro
-    │   │   ├── watch
-    │   │       ├── accel
-    │   │       └── gyro
-    │   │
-    │   ├── transformed_data
-    │   │   ├── phone
-    │   │   │   ├── accel
-    │   │   │   └── gyro
-    │   │   ├── watch
-    │   │       ├── accel
-    │   │       └── gyro
-    │   │
-    │   ├── feature_label_tables
-    │   │    ├── feature_phone_accel
-    │   │    ├── feature_phone_gyro
-    │   │    ├── feature_watch_accel
-    │   │    ├── feature_watch_gyro
-    │   │
-    │   ├── wisdm-dataset
-    │        ├── raw
-    │        │   ├── phone
-    │        │   ├── accel
-    │        │   └── gyro
-    │        ├── watch
-    │            ├── accel
-    │            └── gyro
-    │
-    ├── CNN_Impersonal_TransformedData.ipynb
-    ├── CNN_Personal_TransformedData.ipynb  
-    ├── CNN_Impersonal_RawData.ipynb    
-    ├── CNN_Personal_RawData.ipynb 
-    ├── Classifier_SVM_Personal.ipynb
-    ├── Classifier_SVM_Impersonal.ipynb
-    ├── statistical_analysis_time_domain.py
-    ├── Topological data analysis.ipynb  
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<!-- DATASET -->
-<h2 id="dataset"> :floppy_disk: Dataset</h2>
+<!-- What you can do with a hacked switch? -->
+<h2 id="what-can-you-do"> :video_game: What you can do with a hacked switch?</h2>
+
+*	Easily edit, backup and manage save files
+*	Customize your menu pages including home, lockscreen, settings, etc. 
+*	Emulate older Console games
+*	Download games from a cartridge to your switch
+*	Use custom mods and cheats 
+*	Connect ps4 and Xbox controllers through Bluetooth
+*	Play pirated games (Not recommended for legal reasons)
+*	Much much more…
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- Is hacking your switch illegal? -->
+<h2 id="is-hacking-illegal"> :detective: Is hacking your switch illegal?</h2>
+
+*	The short answer is No
+*	Hacking your switch is against Nintendo terms of service and puts your device at risk of getting banned. That is all.
+*	Pirating games is illegal but…
+*	Nobody has EVER been arrested or charged for downloading pirated games. Distributing games is punishable, but again nobody as far as I know has EVER been arrested or charged for pirating games
+
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- How much will it cost? How long will it take? -->
+<h2 id="how-much"> :moneybag: How much will it cost? How long will it take?</h2>
+
+*	~$250-350 USD
+*	I bought my switch from an online local marketplace for $230, 256GB SD card for $28 on Amazon, and RCM jig for $8 on Amazon.
+*	Using this guide it should take about 1-2 hours depending on your download speed
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h1 align="center"> Lets Begin! </h1>
+<p>
+  
+<!-- Step One: Setup SD Card -->
+<h2 id="setup"> :floppy_disk: Step One: Setup SD Card</h2>
 <p> 
   The WISDM (Wireless Sensor Data Mining) dataset includes raw time-series data collected from accelerometer and gyroscope sensors of a smartphone and smartwatch with their corresponding labels for each activity. The sensor data was collected at a rate of 20 Hz (i.e., every 50ms). Weiss et.al., collected this dataset from 51 subjects who performed 18 different activities listed in Table 2, each for 3 minutes, while having the smartphone in their right pant pocket and wearing the smartwatch in their dominant hand. Each line of the time-series sensor file is considered as input.
 
