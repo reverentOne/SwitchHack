@@ -1,13 +1,10 @@
-<p align="center"> 
-  <img src="images/nintendo-switch-Logo.jpg" alt="Switch Logo" width="150px">
-</p>
 <h1 align="center"> SwitchHack </h1>
 <h3 align="center"> All-in-One Guide to Hacking your Nintendo Switch </h3>  
 
 </br>
 
 <p align="center"> 
-  <img src="images/emulators.gif" alt="Sample signal" width="40%" height="40%">
+  <img src="images/emulators.gif" alt="Sample signal" width="40%">
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -16,8 +13,8 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project"> ➤ About The Project</a></li>
-    <li><a href="#prerequisites"> ➤ Prerequisites</a></li>
+    <li><a href="#why-did-i-make-this-guide"> ➤ Why did I make this guide?</a></li>
+    <li><a href="#what-you-will-need"> ➤ What you will need</a></li>
     <li><a href="#folder-structure"> ➤ Folder Structure</a></li>
     <li><a href="#dataset"> ➤ Dataset</a></li>
     <li><a href="#roadmap"> ➤ Roadmap</a></li>
@@ -38,38 +35,26 @@
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<!-- ABOUT THE PROJECT -->
-<h2 id="about-the-project"> :pencil: About The Project</h2>
+<!-- Why did I make this guide -->
+<h2 id="why-did-i-make-this-guide"> :thinking: Why Did I Make This Guide</h2>
 
 <p align="justify"> 
-  This project aims to classify human activities using data obtained from accelerometer and gyroscope sensors from phone and watch. The raw data will be preprocessed using two
-  different approaches such as topological data analysis and statistical features extraction from segmented time series. The goal is to compare and evaluate the performance of
-  different classifiers (Decision Tree, k Nearest Neighbors, Random Forest, SVM and CNN) which are trained on the two sets of preprocessed data.
-</p>
-
-<p align="center">
-  <img src="images/WISDM Activities.png" alt="Table1: 18 Activities" width="70%" height="70%">        
-  <!--figcaption>Caption goes here</figcaption-->
+There are many homebrew guides out there. Some are better than others, but they are all different because often there are multiple ways of doing the same thing. None are all-in-one. This guide has its limitations, but if followed it will walk you through every step in the process of setting up a hacked switch. I wrote this guide for a buddy of mine who decided he wanted to buy and hack a switch. I got 2 new SD cards and went through this whole process step-by-step twice more to make sure I did everything correctly. It is not finished, but I plan to continue improving and expanding it.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<!-- PREREQUISITES -->
-<h2 id="prerequisites"> :fork_and_knife: Prerequisites</h2>
+<!-- What You Will Need -->
+<h2 id="what-you-will-need"> :hammer_and_wrench: What You Will Need</h2>
 
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) <br>
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try) <br>
-
-<!--This project is written in Python programming language. <br>-->
-The following open source packages are used in this project:
-* Numpy
-* Pandas
-* Matplotlib
-* Scikit-Learn
-* Scikit-tda
-* Giotto-tda
-* TensorFlow
-* Keras
+* Unpatched v1 switch (Check your switch serial number <a href="https://ismyswitchpatched.com/">here</a>)
+* Micro SD card (256GB or 512GB Recommended, 64GB Minimum)
+  - Keep in mind that games are on average 5GB but the largest ones are over 15GB
+  - Quality is important as this will help with boot and load times
+* RCM jig (highly recommended)
+* A device to send a payload
+  - PC recommended, but android phones or jailbroken ios devises also work
+* Some kind of cable to connect your Switch to your payload sender of choice
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
