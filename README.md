@@ -7,7 +7,7 @@
 </br>
 
 <p align="center"> 
-  <img src="images/Signal.gif" alt="Sample signal" width="70%" height="70%">
+  <img src="images/emulators.gif" alt="Sample signal" width="40%" height="40%">
 </p>
 
 <!-- TABLE OF CONTENTS -->
