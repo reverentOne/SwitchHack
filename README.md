@@ -102,21 +102,26 @@ There are many homebrew guides out there. Some are better than others, but they 
 <!-- Step One: Setup SD Card -->
 <h2 id="setup"> :floppy_disk: Step One: Setup SD Card</h2>
 <p> 
-  The WISDM (Wireless Sensor Data Mining) dataset includes raw time-series data collected from accelerometer and gyroscope sensors of a smartphone and smartwatch with their corresponding labels for each activity. The sensor data was collected at a rate of 20 Hz (i.e., every 50ms). Weiss et.al., collected this dataset from 51 subjects who performed 18 different activities listed in Table 2, each for 3 minutes, while having the smartphone in their right pant pocket and wearing the smartwatch in their dominant hand. Each line of the time-series sensor file is considered as input.
+1.	Format SD card to Fat32. I used <a href="http://ridgecrop.co.uk/index.htm?guiformat.htm">this tool</a>
+2.	Download payload sending application to desktop or other easily accessible location
+    a. For Windows, you can use TegraRcmGUI: https://github.com/eliboa/TegraRcmGUI/releases 
+b.	For Mac and Linux, you can use fusee-interface-tk: https://github.com/nh-server/fusee-interfacee-tk/releases 
+c.	For Android, you can use Rekado: https://github.com/MenosGrante/Rekado/releases 
+d.	For ios, you can use NXBoot: https://github.com/mologie/nxboot/releases
+e.	For all other payload options: https://wiki.gbatemp.net/wiki/List_of_Switch_payloads
+3.	Download Software
+a.	Go to https://www.sdsetup.com/console?switch
+b.	Select Recommended Defaults
+c.	Under tesla overlays check EdiZon Overlay and Status Monitor Overlay
+d.	Under Utilities check Checkpoint and NxThemes Installer
+e.	Download your ZIP then Extract the files
+f.	Open the sd folder and transfer all the files inside to the root of your sd card
+Download latest updates
+Extract each and transfer to root of SD card. Click yes when asked to merge and override existing files
+	Atmosphere: https://github.com/Atmosphere-NX/Atmosphere/releases
+Hekate: https://github.com/CTCaer/hekate/releases, just the bootloader folder
+Sigpatches: https://github.com/ITotalJustice/patches/releases
 
-<p align="center">
-  <img src="images/Human Activity.gif" alt="Human Activity.gif" display="inline-block" width="60%" height="50%">
-</p>
-
-
- _The WISDM dataset is publicly available. Please refer to the [Link](https://archive.ics.uci.edu/ml/datasets/WISDM+Smartphone+and+Smartwatch+Activity+and+Biometrics+Dataset+)_ 
-
-  The following table shows the 18 activities represented in data set.
-</p>
-
-<p align="center">
-  <img src="images/Activity Table.png" alt="Table1: 18 Activities" width="45%" height="45%">
-</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
