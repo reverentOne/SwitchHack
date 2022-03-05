@@ -1,12 +1,8 @@
-# SwitchHack
-All-in-One Guide to Hacking your Nintendo Switch
-
-
 <p align="center"> 
-  <img src="images/Project Logo.png" alt="HAR Logo" width="80px" height="80px">
+  <img src="images/nintendo-switch-Logo.jpg" alt="Switch Logo" width="150px">
 </p>
-<h1 align="center"> Human Activity Recognition </h1>
-<h3 align="center"> A Comparative Study between Different Pre-processing Approaches and Classifiers </h3>  
+<h1 align="center"> SwitchHack </h1>
+<h3 align="center"> All-in-One Guide to Hacking your Nintendo Switch </h3>  
 
 </br>
 
