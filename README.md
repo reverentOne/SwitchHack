@@ -22,14 +22,8 @@
     <li><a href="#enter_rcm"> ➤ Step 2: Enter RCM and Inject Payload</a></li>
     <li><a href="#safety"> ➤ Step 3: Safety Precautions</a></li>
     <li><a href="#applications"> ➤ Step 4: Installing Useful Applications</a></li>
-    <li>
-      <a href="#"> ➤ </a>
-      <ul>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-      </ul>
-    </li>
+    <li><a href="#accessing"> ➤ Accessing your installed apps</a></li>  
+    <li><a href="#overview"> ➤ Overview of apps</a></li>
     <li><a href="#resources"> ➤ Useful Resources</a></li>
   </ol>
 </details>
@@ -48,7 +42,7 @@ There are many homebrew guides out there. Some are better than others, but they 
 <!-- What You Will Need -->
 <h2 id="what-you-will-need"> :hammer_and_wrench: What You Will Need</h2>
 
-* Unpatched v1 switch (Check your switch serial number <a href="https://ismyswitchpatched.com/" target="_blank">here</a>)
+* Unpatched v1 switch (Check your switch serial number <a href="https://ismyswitchpatched.com/">here</a>)
 * Micro SD card (256GB or 512GB Recommended, 64GB Minimum)
   - Keep in mind that games are on average 5GB but the largest ones are over 15GB
   - Quality is important as this will help with boot and load times
@@ -190,6 +184,19 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 		</ul>
 	<li>Now follow step 4 to open Hetake</li>
 </ol>
+	
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- Accessing your Installed apps -->
+<h2 id="accessing"> :heavy_check_mark: Accessing your Installed apps</h2>
+<p>
+	
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- Overview of apps -->
+<h2 id="overview"> :world_map: Overview of apps</h2>
+<p>
+	
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
