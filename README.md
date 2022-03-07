@@ -183,10 +183,10 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
     <li>Unzip and Transfer these to the root of your SD card:</li>
 	    <ul>
 		    <li><a href="https://www.retroarch.com/index.php?page=platforms">RetroArch for Switch</a> (RetroArch is a large file and will take longer than the rest so be patient)</li>
-		    <li><a href="https://tinfoil.io/Download](https://tinfoil.io/Download">Tinfoil nro Self Installer</a></li>
+		    <li><a href="https://tinfoil.io/Download">Tinfoil nro Self Installer</a></li>
 		    <li><a href="https://github.com/averne/Fizeau/releases">Fizeau</a></li>
 		    <li><a href="https://github.com/HookedBehemoth/sys-tune/releases">SysTune</a></li>
-		    <li><a href="https://github.com/ndeadly/MissionControl/releases](https://github.com/ndeadly/MissionControl/releases">MissionControl</a></li>
+		    <li><a href="https://github.com/ndeadly/MissionControl/releases">MissionControl</a></li>
 		</ul>
 	<li>Now follow step 4 to open Hetake</li>
 </ol>
