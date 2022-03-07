@@ -127,8 +127,8 @@ There are many homebrew guides out there. Some are better than others, but they 
 3. Take off right joycon and completely insert RCM jig (There are many other methods but this one is highly recommended. I used an LED light with bent wires before I got the jig which worked but was very annoying)
 4. Hold down the volume up button and press the power button
 5. If the screen stays black you are in YAH! If the switch logo appears something went wrong and you need to try again
-6. Now you can take out the RCM jig and connect your switch to your PC
-7. Time to open up TegraRcmGUI or whatever payload sending application you are using (from here on out I will assume you are using a PC)
+6. Now you can take out the RCM jig and connect your switch to your PC (from here on out I will assume you are using a PC)
+7. Time to open up TegraRcmGUI or whatever payload sending application you are using
 8. Install drivers from settings tab (First time only)
 9. If your Switch is in RCM and connected correctly the red image should turn green and say RCM OK
 10. Select the hetake bin file from when you updated hetake and click inject payload
@@ -152,7 +152,7 @@ These steps will prevent your switch from getting permanently bricked or banned
 	<ul>
 		<li>Before you follow the steps for Getting your Console’s Unique keys you will need to download <a href="https://github.com/shchmue/Lockpick_RCM/releases">Lockpick_RCM</a> and transfer it to the payloads folder which is located in the bootloader folder on the root of your SD card</li>
 	</ul>
-		<li>Follow <a href="https://rentry.org/ExosphereDNSMITM">this</a> Exosphere and DNS Mitty guide</li>
+	  <li>Follow <a href="https://rentry.org/ExosphereDNSMITM">this</a> <b>Exosphere</b> and <b>DNS Mitty</b> guide</li>
 	<ul>
 		<li>I used notepad on my windows PC to create these .ini and .txt files</li>
 		<li>For Exosphere just paste For EmuNAND</li>
@@ -182,7 +182,6 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 		    <li><a href="https://github.com/HookedBehemoth/sys-tune/releases">SysTune</a></li>
 		    <li><a href="https://github.com/ndeadly/MissionControl/releases">MissionControl</a></li>
 		</ul>
-	<li>Now follow step 4 to open Hetake</li>
 </ol>
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -190,6 +189,18 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <!-- Accessing your Installed apps -->
 <h2 id="accessing"> :heavy_check_mark: Accessing your Installed apps</h2>
 <p>
+	
+1. Firstly follow step 4 completely. Now click launch, then Fusee. This should start your Homebrew Switch. *Each time you Turn off your switch or take out the SD card you will have to repeat this process.* If you keep your switch powered on (which is quite easy to do) then this process won’t have to be followed.
+2. Accessing the homebrew menu: There are 2 ways to open the homebrew menu.
+   1. First, you can launch it through the Album (Hold R when selecting if you actually want to access the Album not the hbmenu)
+   2. Second, you can launch it by selecting any game while holding R
+      - Some hb apps don’t work if you access the menu through the Album, but until you have a game you need to use the Album
+3. Opening Tesla Menu
+4. Mission Control
+   - with MissionControl, you can use other consoles’ controllers on your Switch through Bluetooth. This is a background process 
+   - For a list of compatible controllers see: https://github.com/ndeadly/MissionControl I use the DualShock 4 PlayStation controller
+   - To pair a controller go to the Switch Home screen, then Controllers, then Change Grip/Order. While on this screen, place your controller in pairing mode and wait for it to connect to the switch. That is all!
+
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
