@@ -48,7 +48,7 @@ There are many homebrew guides out there. Some are better than others, but they 
 <!-- What You Will Need -->
 <h2 id="what-you-will-need"> :hammer_and_wrench: What You Will Need</h2>
 
-* Unpatched v1 switch (Check your switch serial number <a href="https://ismyswitchpatched.com/">here</a>)
+* Unpatched v1 switch (Check your switch serial number <a href="https://ismyswitchpatched.com/" target="_blank">here</a>)
 * Micro SD card (256GB or 512GB Recommended, 64GB Minimum)
   - Keep in mind that games are on average 5GB but the largest ones are over 15GB
   - Quality is important as this will help with boot and load times
