@@ -82,7 +82,7 @@ There are many homebrew guides out there. Some are better than others, but they 
 *	The short answer is No
 *	Hacking your switch is against Nintendo terms of service and puts your device at risk of getting banned. That is all.
 *	Pirating games is illegal but…
-*	Nobody has EVER been arrested or charged for downloading pirated games. Distributing games is punishable, but again nobody as far as I know has EVER been arrested or charged for pirating games
+*	Nobody has EVER been arrested or charged for downloading pirated games. Distributing games is punishable, but again nobody as far as I know has EVER been arrested or charged for pirating games. The reason being that procecuting <a href="https://en.m.wikipedia.org/wiki/Criminal_copyright_law_in_the_United_States#Legal_definition">criminal copyright infringement</a> requires that the infringer acted "for the purpose of commercial advantage or private financial gain."
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -102,192 +102,92 @@ There are many homebrew guides out there. Some are better than others, but they 
 <!-- Step One: Setup SD Card -->
 <h2 id="setup"> :floppy_disk: Step One: Setup SD Card</h2>
 <p> 
-1.	Format SD card to Fat32. I used <a href="http://ridgecrop.co.uk/index.htm?guiformat.htm">this tool</a>
-2.	Download payload sending application to desktop or other easily accessible location
-    a. For Windows, you can use TegraRcmGUI: https://github.com/eliboa/TegraRcmGUI/releases 
-b.	For Mac and Linux, you can use fusee-interface-tk: https://github.com/nh-server/fusee-interfacee-tk/releases 
-c.	For Android, you can use Rekado: https://github.com/MenosGrante/Rekado/releases 
-d.	For ios, you can use NXBoot: https://github.com/mologie/nxboot/releases
-e.	For all other payload options: https://wiki.gbatemp.net/wiki/List_of_Switch_payloads
-3.	Download Software
-a.	Go to https://www.sdsetup.com/console?switch
-b.	Select Recommended Defaults
-c.	Under tesla overlays check EdiZon Overlay and Status Monitor Overlay
-d.	Under Utilities check Checkpoint and NxThemes Installer
-e.	Download your ZIP then Extract the files
-f.	Open the sd folder and transfer all the files inside to the root of your sd card
-Download latest updates
-Extract each and transfer to root of SD card. Click yes when asked to merge and override existing files
-	Atmosphere: https://github.com/Atmosphere-NX/Atmosphere/releases
-Hekate: https://github.com/CTCaer/hekate/releases, just the bootloader folder
-Sigpatches: https://github.com/ITotalJustice/patches/releases
+	
+1. Format SD card to Fat32. I used <a href="http://ridgecrop.co.uk/index.htm?guiformat.htm">this tool</a> <a href=""></a>
+2. Download payload sending application to desktop or other easily accessible location
+   1. For Windows, you can use <a href="https://github.com/eliboa/TegraRcmGUI/releases">TegraRcmGUI</a> 
+   2. For Mac and Linux, you can use <a href="https://github.com/nh-server/fusee-interfacee-tk/releases">fusee-interface-tk</a> 
+   3.	For Android, you can use <a href="https://github.com/MenosGrante/Rekado/releases">Rekado</a> 
+   4.	For ios, you can use <a href="https://github.com/mologie/nxboot/releases">NXBoot</a>
+   5.	For all other payload options see <a href="https://wiki.gbatemp.net/wiki/List_of_Switch_payloads">here</a>
+3. Download Software
+   1.	Open <a href="https://www.sdsetup.com/console?switch">sdsetup</a>
+   2.	Select Recommended Defaults
+   3.	Under tesla overlays check EdiZon Overlay and Status Monitor Overlay
+   4.	Under Utilities check Checkpoint and NxThemes Installer
+   5.	Download your ZIP then Extract the files
+   6.	Open the sd folder and transfer all the files inside to the root of your sd card
+4. Download latest updates (Extract each and transfer to root of SD card. Click yes when asked to merge and override existing files)
+   1. <a href="https://github.com/Atmosphere-NX/Atmosphere/releases">Atmosphere</a>
+   2. <a href="https://github.com/CTCaer/hekate/releases">Hekate</a>, just the bootloader folder
+   3. <a href="https://github.com/ITotalJustice/patches/releases">Sigpatches</a>
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<!-- ROADMAP -->
-<h2 id="roadmap"> :dart: Roadmap</h2>
-
-<p align="justify"> 
-  Weiss et. al. has trained three models namely Decision Tree, k-Nearest Neighbors, and Random Forest for human activity classification by preprocessing the raw time series data using statistical feature extraction from segmented time series. 
-  The goals of this project include the following:
-<ol>
-  <li>
-    <p align="justify"> 
-      Train the same models - Decision Tree, k Nearest Neighbors, and Random Forest using the preprocessed data obtained from topological data analysis and compare the
-      performance against the results obtained by Weiss et. al.
-    </p>
-  </li>
-  <li>
-    <p align="justify"> 
-      Train SVM and CNN using the preprocessed data generated by Weiss et. al. and evaluate the performance against their Decision Tree, k Nearest Neighbors, and Random Forest models.
-    </p>
-  </li>
-</ol>
-</p>
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- PREPROCESSING -->
-<h2 id="preprocessing"> :hammer: Preprocessing</h2>
-
-<p align="justify"> 
-  The WISDM (Wireless Sensor Data Mining) dataset includes raw time-series data collected from accelerometer and gyroscope sensors of a smartphone and smartwatch with their corresponding labels for each activity. The sensor data was collected at a rate of 20 Hz (i.e., every 50ms). Weiss et.al., collected this dataset from 51 subjects who performed 18 different activities listed in the previous table, each for 3 minutes, while having the smartphone in their right pant pocket and wearing the smartwatch in their dominant hand. <br>
-  In this project we tried three different feature sets, extracted from the raw data, which are as follows: 
-  <ol>
-    <li><b>Pre-processed data</b> generated by Weiss et. al.</li> 
-    <li><b>Statistical feature extraction</b></li>
-    <li><b>Topological feature extraction</b></li>
-  </ol>
-  
-All these three approaches used windowing technique to segment the raw time series and extract features from each segment.
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- PRE-PROCESSED DATA -->
-<h2 id="preprocessed-data"> :diamond_shape_with_a_dot_inside: Pre-processed data</h2>
-
-<p align="justify"> 
-  Weiss et.al used windowing technique with window size of 10 seconds to extract statistical features. They extracted 93 features out of which 43 were used to train their models. We also used the same 43 features to train our SVM and CNN. The 43 features are 1. average sensor value 2. standard deviation 3. absolute difference 4. average resultant acceleration 5. Binned distribution (10 equal sized bins per axis) and 5. time between peaks, for each axis.
-</p>
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- STATISTICAL FEATURE -->
-<h2 id="statistical-feature"> :large_orange_diamond: Statistical feature</h2>
-
-<p align="justify"> 
-  For this approach, we segmented the dataset using 10 second window size (200 datapoints) with no overlapping. We decided to keep the window size same as whatWeiss et.al. applied in their study, for the sake of comparison. After segmentation, for each segment we calculated eight statistical features, namely, ‘min’, ‘max’, ‘mean’, ‘standard deviation’, ‘median’, ‘variance’, ‘zero crossing’ and ‘mean crossing’, for each axes. The zero and mean crossing features are calculated by counting the rate of when a signal passes line y=0 (if we let y-axis to be the specific measurement and x-axis to represent time) and the frequency at which the signal passes the line y = mean(signal), respectively. However, these two features did not show a significant difference between different activities, so we decided to ignore them.
-</p>
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- TOPOLOGICAL FEATURE -->
-<h2 id="topological-feature"> :large_blue_diamond: Topological feature</h2>
-
-<p align="justify"> 
-  Topological data analysis provides various techniques toexplore the topological properties and shape of the data.
-  Since time series sensor data obtained from performing an activity may have topological properties, we tried extracting features using the topology of the data and perform the classification task on those features. For a given time segment we explore the topology of each segment using persistence diagram generated via persistence homology. Persistent homology can be created through filtrations such as Vietoris- Rips, SparseRips, Cubical Persistence etc., on the data and capture the growth, birth, and death of different topological features across dimensions (e.g., components, tunnels, voids) [2]. One of the main challenges in computing the persistent homology is finding the appropriate filtration for the time segments. In total 18 topological features where extracted for each time segment.
-</p>
-
-<!-- EXPERIMENTS -->
-<!--<h2 id="experiments"> :microscope: Experiments</h2>-->
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- RESULTS AND DISCUSSION -->
-<h2 id="results-and-discussion"> :mag: Results and Discussion</h2>
-
-<p align="justify">
-  The overall accuracy score of personal and impersonal models are shown in the following tables. Some of the results we observed are similar to the results obtained by Weiss et.al and they are discussed below: <br>
-</p>
-<p align="justify">
-<ul>
-  <li>
-    Since accelerometers senses acceleration based on vibration which can be more prominent during an activity and gyroscope only senses rotational changes, accelerometers outperformed gyroscope in all our models. <br>
-  </li>
-  <li>
-    As the style of performing an activity differs from each person, it is difficult to aggregate those features among all subjects. So our personal models vastly outperformed our impersonal models.
-  </li>
-  <li>
-    It is also observed that non hand-oriented activities are classified better with sensors from smartphone and handoriented activities are classified better with sensors from smartwatch. Refer appendix for activity wise recall scores. Some key take-aways based on our results are listed below:
-  </li>
-  <li>
-    CNN trained on raw sensor data performed better for personal models, however it performed poorly on impersonal models.
-  </li>
-</ul>
-</p>
-
-<p align="center">
-  <img src="images/Personal and Impersonal Table.png" alt="Table 3 and 4" width="75%" height="75%">
-</p>
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- REFERENCES -->
-<h2 id="references"> :books: References</h2>
-
-<ul>
-  <li>
-    <p>Matthew B. Kennel, Reggie Brown, and Henry D. I. Abarbanel. Determining embedding dimension for phase-space reconstruction using a geometrical construction. Phys. Rev. A, 45:3403–3411, Mar 1992.
-    </p>
-  </li>
-  <li>
-    <p>
-      L. M. Seversky, S. Davis, and M. Berger. On time-series topological data analysis: New data and opportunities. In 2016 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), pages 1014–1022, 2016.
-    </p>
-  </li>
-  <li>
-    <p>
-      Floris Takens. Detecting strange attractors in turbulence. In David Rand and Lai-Sang Young, editors, Dynamical Systems and Turbulence, Warwick 1980, pages 366–381, Berlin, Heidelberg, 1981. Springer Berlin Heidelberg.
-    </p>
-  </li>
-  <li>
-    <p>
-      Guillaume Tauzin, Umberto Lupo, Lewis Tunstall, Julian Burella P´erez, Matteo Caorsi, Anibal Medina-Mardones, Alberto Dassatti, and Kathryn Hess. giotto-tda: A topological data analysis toolkit for machine learning and data exploration, 2020.
-    </p>
-  </li>
-  <li>
-    <p>
-      G. M. Weiss and A. E. O’Neill. Smartphone and smartwatchbased activity recognition. Jul 2019.
-    </p>
-  </li>
-  <li>
-    <p>
-      G. M. Weiss, K. Yoneda, and T. Hayajneh. Smartphone and smartwatch-based biometrics using activities of daily living. IEEE Access, 7:133190–133202, 2019.
-    </p>
-  </li>
-  <li>
-    <p>
-      Jian-Bo Yang, Nguyen Nhut, Phyo San, Xiaoli li, and Priyadarsini Shonali. Deep convolutional neural networks on multichannel time series for human activity recognition. IJCAI, 07 2015.
-    </p>
-  </li>
-</ul>
-
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- CONTRIBUTORS -->
-<h2 id="contributors"> :scroll: Contributors</h2>
-
+<!-- Enter RCM and Inject Payload -->
+<h2 id="enter_rcm"> :syringe: Step 2: Enter RCM and Inject Payload</h2>
 <p>
-  :mortar_board: <i>All participants in this project are graduate students in the <a href="https://www.concordia.ca/ginacody/computer-science-software-eng.html">Department of Computer Science and Software Engineering</a> <b>@</b> <a href="https://www.concordia.ca/">Concordia University</a></i> <br> <br>
-  
-  :woman: <b>Divya Bhagavathiappan Shiva</b> <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: <a>divya.bhagavathiappanshiva@mail.concordia.ca</a> <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GitHub: <a href="https://github.com/divyabhagavathiappan">@divyabhagavathiappan</a> <br>
-  
-  :woman: <b>Reethu Navale</b> <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: <a>reethu.navale@mail.concordia.ca</a> <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GitHub: <a href="https://github.com/reethunavale">@reethunavale</a> <br>
 
-  :woman: <b>Mahsa Sadat Afzali Arani</b> <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: <a>m_afzali93@yahoo.com</a> <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GitHub: <a href="https://github.com/MahsaAfzali">@MahsaAfzali</a> <br>
+1. Insert SD Card into switch
+2. Turn off Switch
+3. Take off right joycon and completely insert RCM jig (There are many other methods but this one is highly recommended. I used an LED light with bent wires before I got the jig which worked but was very annoying)
+4. Hold down the volume up button and press the power button
+5. If the screen stays black you are in YAH! If the switch logo appears something went wrong and you need to try again
+6. Now you can take out the RCM jig and connect your switch to your PC
+7. Time to open up TegraRcmGUI or whatever payload sending application you are using (from here on out I will assume you are using a PC)
+8. Install drivers from settings tab (First time only)
+9. If your Switch is in RCM and connected correctly the red image should turn green and say RCM OK
+10. Select the hetake bin file from when you updated hetake and click inject payload
+11. Your switch should turn on. You can now disconnect from your PC
+12. Enter the date and time then click Done then OK (First time only)
 
-  :boy: <b>Mohammad Amin Shamshiri</b> <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: <a>mohammadamin.shamshiri@mail.concordia.ca</a> <br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GitHub: <a href="https://github.com/ma-shamshiri">@ma-shamshiri</a> <br>
-</p>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<br>
-✤ <i>This was the final project for the course COMP 6321 - Machine Learning (Fall 2020), at <a href="https://www.concordia.ca/">Concordia University</a><i>
+<!-- Safety Precautions -->
+<h2 id="safety"> :closed_lock_with_key: Step 3: Safety Precautions</h2>
+<p>
+	
+These steps will prevent your switch from getting permanently bricked or banned
+  <ol>
+    <li><b>Emummc:</b> Follow steps 2-10 of <a href="https://switch.homebrew.guide/emummc/emummc.html">this</a> guide</li> 
+	<ul>
+		<li>For part 4 make sure to slide to 29GiB. Creating the emuMMC will take some time so be patient. You are cloning the switches internal memory to your SD card</li>
+	</ul>
+    <li>After installing press close, then change emuMMC, then SD Raw 1, ok</li>
+    <li>Now follow <a href="https://nh-server.github.io/switch-guide/user_guide/emummc/making_emummc/">this</a> guide under Making a <b>NAND backup</b> and Getting your Console's <b>Unique Keys</b></li>
+	<ul>
+		<li>Before you follow the steps for Getting your Console’s Unique keys you will need to download <a href="https://github.com/shchmue/Lockpick_RCM/releases">Lockpick_RCM</a> and transfer it to the payloads folder which is located in the bootloader folder on the root of your SD card</li>
+	</ul>
+		<li>Follow <a href="https://rentry.org/ExosphereDNSMITM">this</a> Exosphere and DNS Mitty guide</li>
+	<ul>
+		<li>I used notepad on my windows PC to create these .ini and .txt files</li>
+		<li>For Exosphere just paste For EmuNAND</li>
+		<li>For DNS MITY make sure to rename the file to emummc.txt</li>
+  </ol>
+<p>
+Older guides recommend 90DNS. DO NOT DO THIS. It is not necessary and will slow down your internet connection. Incognito is also redundant as Exosphere does the same thing
+	
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- Installing Useful Applications -->
+<h2 id="applications"> :computer: Step 4: Installing Useful Applications</h2>
+<p>
+Your Switch is now hacked and safe to use. In this step you will install many applications that I will explain in detail later. Follow each of the links below and install the files onto your SD card
+
+<ol>
+    <li>Transfer these nro files into your switch folder:</li> 
+	    <ul>
+				<li><a href="https://github.com/mtheall/ftpd/releases">ftpd pro</a> (download ftpd.nro)</li>
+				<li><a href="https://github.com/tallbl0nde/NX-Activity-Log/releases">Activity Log</a> (Create a folder called NX-Activity-Log inside the Switch folder and place NX-Activity-Log.nro inside of it)</li>
+		</ul>
+    <li>Unzip and Transfer these to the root of your SD card:</li>
+	    <ul>
+		    <li><a href="https://www.retroarch.com/index.php?page=platforms">RetroArch for Switch</a> (RetroArch is a large file and will take longer than the rest so be patient)</li>
+		    <li><a href="https://tinfoil.io/Download](https://tinfoil.io/Download">Tinfoil nro Self Installer</a></li>
+		    <li><a href="https://github.com/averne/Fizeau/releases">Fizeau</a></li>
+		    <li><a href="https://github.com/HookedBehemoth/sys-tune/releases">SysTune</a></li>
+		    <li><a href="https://github.com/ndeadly/MissionControl/releases](https://github.com/ndeadly/MissionControl/releases">MissionControl</a></li>
+		</ul>
+	<li>Now follow step 4 to open Hetake</li>
+	
