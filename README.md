@@ -190,7 +190,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <h2 id="accessing"> :heavy_check_mark: Accessing your Installed apps</h2>
 <p>
 	
-1. Firstly follow step 4 completely. Now click launch, then Fusee. This should start your Homebrew Switch. *Each time you Turn off your switch or take out the SD card you will have to repeat this process.* If you keep your switch powered on (which is quite easy to do) then this process won’t have to be followed.
+1. Follow <a href="#enter_rcm">step 2<a/> completely. Now click launch, then Fusee. This should start your Homebrew Switch. *Each time you Turn off your switch or take out the SD card you will have to repeat this process.* If you keep your switch powered on (which is quite easy to do) then this process won’t have to be followed.
 2. Accessing the homebrew menu: There are 2 ways to open the homebrew menu.
    1. First, you can launch it through the Album (Hold R when selecting if you actually want to access the Album not the hbmenu)
    2. Second, you can launch it by selecting any game while holding R
@@ -198,7 +198,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 3. Opening Tesla Menu
 4. Mission Control
    - with MissionControl, you can use other consoles’ controllers on your Switch through Bluetooth. This is a background process 
-   - For a list of compatible controllers see: https://github.com/ndeadly/MissionControl I use the DualShock 4 PlayStation controller
+   - For a list of compatible controllers look <a href="https://github.com/ndeadly/MissionControl">here</a>. I use the DualShock 4 PlayStation controller
    - To pair a controller go to the Switch Home screen, then Controllers, then Change Grip/Order. While on this screen, place your controller in pairing mode and wait for it to connect to the switch. That is all!
 
 	
@@ -208,6 +208,33 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <h2 id="overview"> :world_map: Overview of apps</h2>
 <p>
 	
+Note: Skip to Tinfoil to start downloading games
+
+1. Breeze and Edizon SE
+2. <a href="https://github.com/averne/Fizeau/blob/master/README.md">Checkpoint</a>
+   - Checkpoint is a fast simple save manager. With this tool you can backup or edit save files. For a while this app wasn’t compatible with the latest firmware. If that happens again check out JKSB which does essentially the exact same thing
+3. Daybreak
+4. Fizeau
+   - Fizeau allows you to adjust the color of your screen with corrections including gamma, luminance, and color range. I usually use this to filter out some blue light when playing at night. You can also use this to try and make games look more vibrant. I usually access this through the Tesla Menu.
+5. Ftpd pro
+   - This is one of my very favorite apps. This allows you to download onto your switch wirelessly through wifi.
+   - On your PC file browser, enter the ip address with the ftp:// prefix. e.g. ftp://xxx.xxx.x.x:5000
+   - The Switch SD files should now appear on your PC. This is extremely useful for small files, but not recommended for files larger than 100MB as the transfer speed is much slower than direct to SD card
+6. Goldleaf
+   - This is a multipurpose app that acts as a filesystem browser, NRO installer, web browser, and more
+   - If for whatever reason all the Tinfoil app stores are down you can use this app to install NRO game files
+7. HB App Store
+   - This is a store for homebrew apps. Feel free to browse this and download any apps that seem interesting. Personally, I don’t like using this, but others may really appreciate it. There are many outdated or useless apps on the store so be careful. Most of the documentation for the apps are going to be on github so I recommend you check that out before installing
+   - Start by checking out nxmp if you want a video player, ppsspp if you want to emulate psp games, amuiibo for virtual amiibos, sysDVR if you want to stream switch games to your PC
+8. NX Activity Log
+   - Because you can no longer connect to Nintendo servers you wouldn’t be able to see your activity and game play times without this app.
+   - I recommend you replace your User Page with this app. To do that go to settings, scroll down to the bottom, and select Replace User Page to Enable it
+9. nxdumptool
+10. NXThemes Installer
+11. Reboot to Payload
+12. Sys-clk manager
+   - Sys-clk is a system-wide underclock and overclock sysmodule that allows you to overclock the Switch. It includes automatic underclocking and overclocking depending on if you are docked and what games you are playing
+
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
