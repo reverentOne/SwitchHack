@@ -18,20 +18,19 @@
     <li><a href="#is-hacking-illegal"> ➤ Is hacking your switch illegal?</a></li>
     <li><a href="#what-you-will-need"> ➤ What you will need</a></li>
     <li><a href="#how-much"> ➤ How much will it cost? How long will it take?</a></li>
-    <li><a href="#dataset"> ➤ Dataset</a></li>
-    <li><a href="#roadmap"> ➤ Roadmap</a></li>
+    <li><a href="#setup"> ➤ Step 1: Setup SD Card</a></li>
+    <li><a href="#enter_rcm"> ➤ Step 2: Enter RCM and Inject Payload</a></li>
+    <li><a href="#safety"> ➤ Step 3: Safety Precautions</a></li>
+    <li><a href="#applications"> ➤ Step 4: Installing Useful Applications</a></li>
     <li>
-      <a href="#preprocessing"> ➤ Preprocessing</a>
+      <a href="#"> ➤ </a>
       <ul>
-        <li><a href="#preprocessed-data">Pre-processed data</a></li>
-        <li><a href="#statistical-feature">Statistical feature</a></li>
-        <li><a href="#topological-feature">Topological feature</a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
       </ul>
     </li>
-    <!--<li><a href="#experiments">Experiments</a></li>-->
-    <li><a href="#results-and-discussion"> ➤ Results and Discussion</a></li>
-    <li><a href="#references"> ➤ References</a></li>
-    <li><a href="#contributors"> ➤ Contributors</a></li>
+    <li><a href="#resources"> ➤ Useful Resources</a></li>
   </ol>
 </details>
 
@@ -99,8 +98,8 @@ There are many homebrew guides out there. Some are better than others, but they 
 <h1 align="center"> Lets Begin! </h1>
 <p>
   
-<!-- Step One: Setup SD Card -->
-<h2 id="setup"> :floppy_disk: Step One: Setup SD Card</h2>
+<!-- Step 1e: Setup SD Card -->
+<h2 id="setup"> :floppy_disk: Step 1: Setup SD Card</h2>
 <p> 
 	
 1. Format SD card to Fat32. I used <a href="http://ridgecrop.co.uk/index.htm?guiformat.htm">this tool</a> <a href=""></a>
@@ -190,4 +189,21 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 		    <li><a href="https://github.com/ndeadly/MissionControl/releases](https://github.com/ndeadly/MissionControl/releases">MissionControl</a></li>
 		</ul>
 	<li>Now follow step 4 to open Hetake</li>
+</ol>
 	
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- Useful Resources -->
+<h2 id="resources"> :toolbox: Useful Resources</h2>
+<p>
+	
+Switch acking communities:
+* GBATEMP: https://gbatemp.net/forums/nintendo-switch.283/
+* Reddit: https://www.reddit.com/r/SwitchPirates/
+* Discord: https://discord.gg/C29hYvh
+<p>
+	
+Useful but incomplete guides:
+* https://rentry.org/SwitchHackingIsEasy
+* https://nh-server.github.io/switch-guide/
+* https://switch.homebrew.guide/index.html
