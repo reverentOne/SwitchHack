@@ -214,26 +214,60 @@ Note: Skip to Tinfoil to start downloading games
 2. <a href="https://github.com/averne/Fizeau/blob/master/README.md">Checkpoint</a>
    - Checkpoint is a fast simple save manager. With this tool you can backup or edit save files. For a while this app wasn’t compatible with the latest firmware. If that happens again check out JKSB which does essentially the exact same thing
 3. Daybreak
-4. Fizeau
+4. <a href="https://github.com/averne/Fizeau/blob/master/README.md">Fizeau</a>
    - Fizeau allows you to adjust the color of your screen with corrections including gamma, luminance, and color range. I usually use this to filter out some blue light when playing at night. You can also use this to try and make games look more vibrant. I usually access this through the Tesla Menu.
-5. Ftpd pro
+5. <a href="https://github.com/mtheall/ftpd/blob/master/README.md">Ftpd pro</a>
    - This is one of my very favorite apps. This allows you to download onto your switch wirelessly through wifi.
    - On your PC file browser, enter the ip address with the ftp:// prefix. e.g. ftp://xxx.xxx.x.x:5000
    - The Switch SD files should now appear on your PC. This is extremely useful for small files, but not recommended for files larger than 100MB as the transfer speed is much slower than direct to SD card
-6. Goldleaf
+6. <a href="https://github.com/XorTroll/Goldleaf/blob/master/README.md">Goldleaf</a>
    - This is a multipurpose app that acts as a filesystem browser, NRO installer, web browser, and more
    - If for whatever reason all the Tinfoil app stores are down you can use this app to install NRO game files
-7. HB App Store
+7. <a href="https://github.com/fortheusers/hb-appstore/blob/master/README.md">HB App Store</a>
    - This is a store for homebrew apps. Feel free to browse this and download any apps that seem interesting. Personally, I don’t like using this, but others may really appreciate it. There are many outdated or useless apps on the store so be careful. Most of the documentation for the apps are going to be on github so I recommend you check that out before installing
    - Start by checking out nxmp if you want a video player, ppsspp if you want to emulate psp games, amuiibo for virtual amiibos, sysDVR if you want to stream switch games to your PC
-8. NX Activity Log
+8. <a href="https://github.com/tallbl0nde/NX-Activity-Log/blob/master/README.md">NX Activity Log</a>
    - Because you can no longer connect to Nintendo servers you wouldn’t be able to see your activity and game play times without this app.
    - I recommend you replace your User Page with this app. To do that go to settings, scroll down to the bottom, and select Replace User Page to Enable it
-9. nxdumptool
-10. NXThemes Installer
+9. <a href="https://github.com/DarkMatterCore/nxdumptool/blob/main/README.md">nxdumptool</a>
+10. <a href="https://github.com/exelix11/SwitchThemeInjector/blob/master/readme.md">NXThemes Installer</a>
 11. Reboot to Payload
-12. Sys-clk manager
-   - Sys-clk is a system-wide underclock and overclock sysmodule that allows you to overclock the Switch. It includes automatic underclocking and overclocking depending on if you are docked and what games you are playing
+12. <a href="https://github.com/retronx-team/sys-clk/blob/develop/README.md">Sys-clk manager</a>
+    - Sys-clk is a system-wide underclock and overclock sysmodule that allows you to overclock the Switch. It includes automatic underclocking and overclocking depending on if you are docked and what games you are playing
+13. <a href="https://www.retroarch.com/">Retroarch</a>
+
+Retroarch is one of the coolest features of the hacked Switch! You can easily play retro games from many consoles including but not limited to NES, SNES, N64, GB, GBC, and GBA. On these older consoles games will run perfectly. Many other consoles are supported, but even ones as recent as the DS may lag or crash so they are not recommended.
+Playing games is very simple. These are the steps:
+	
+1. Find games you want to play and download the roms. I recommend this website: https://www.romsgames.net/
+2. Create a ROMS folder anywhere on your switch. I recommend either the root or in the Retroarch folder. Now create a fold inside this ROMS folder for each console you want to emulate. For example name one ‘NES’ and another ‘GBA’, etc.
+3. Transfer your downloaded games into there game folders you just created on the Switch
+4. On your switch open the hbmenu and select Retroarch
+5. Under Main Menu select Load Core then Download a Core. A list will appear and you can download the core for each console you plan to emulate
+6. Under Main Menu select Load Content then Start Directory then locate the ROMS folder 
+7. Select which game you wish to play and start playing!
+	
+Now you will quickly come to realize that it takes some time to open your games. I just tested and it took me 17 clicks to open a game starting from the switches home. I will show you a way to have games on your Switch home so you can start playing in as little as one click.
+	
+1. Follow this link and download the zip file: https://gbatemp.net/threads/gui-for-nsp-forwarder-tool-for-12.588018/ It is a GUI for an NSP Forwarder
+2. Unzip the file and transfer it to a safe place on your PC.
+3. Open it and run the menu executable and follow the next steps for each game
+4. Fill out each box in the GUI before clicking Create Forwarder
+   * Application Name: Name of the game you want displayed
+   * Author Name: You or whoever/whatever you want here
+   * Title ID: Hit the random key to generate an ID
+   * Icon Path: Where you have the icon you want used when you select the game
+   * Logo Path: Small logo you see when you boot the game. I keep this blank
+   * (Your images must be 256x256 for icons, 160x40 for logos)
+   * Custom prod.keys location: I like keeping the prod.keys in the root folder of the app. To get your keys boot into your switch using the lockpick_RCM payload found here: https://github.com/shchmue/Lockpick_RCM/releases and Dump 
+   * Forwarder Options: Check the Retroarch Rom Forwarder
+   * Core Path: This is the path on your sd card from the root to the core you want to use for the rom.
+   * Rom Path: This is the location of your rom you want to use with the core you selected in the previous step.
+5. The Forwarder should have created nsp files in the NSP folder on the root of the app
+6. Now create a folder on the root of your sd card called NSP Files or whatever
+7. Transfer the files in the NSP folder on the root of the app to the NSP Files folder on the root of your sd card
+8. On your switch open the hbmenu and select Goldleaf then Explore content then SD card then NSP Files
+9. Install each nsp file and they should now show up on your Switch’s Home!
 
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -252,3 +286,4 @@ Useful but incomplete guides:
 * https://rentry.org/SwitchHackingIsEasy
 * https://nh-server.github.io/switch-guide/
 * https://switch.homebrew.guide/index.html
+* https://www.cfwaifu.com/switch/
