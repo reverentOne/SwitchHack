@@ -1,7 +1,7 @@
 <h1 align="center"> SwitchHack </h1>
 <h3 align="center"> All-in-One Guide to Hacking your Nintendo Switch </h3>  
 
-</br>
+</br> 
 
 <p align="center"> 
   <img src="images/emulators.gif" alt="Sample signal" width="40%">
@@ -14,7 +14,7 @@
   <summary>Table of Contents</summary>
   <ol start="0">
     <li>
-      <a href="#intro"> ➤ Before you Begin</a>
+      <a href="#intro"> ➤ :checkered_flag: Before you Begin</a>
       <ul>
         <li><a href="#why-did-i-make-this-guide"> ➤ :thinking: Why did I make this guide?</a></li>
     	<li><a href="#what-you-will-need"> ➤ :hammer_and_wrench: What you will need</a></li>
@@ -42,7 +42,7 @@
 <h2 id="why-did-i-make-this-guide"> :thinking: Why Did I Make This Guide</h2>
 
 <p align="justify"> 
-There are many homebrew guides out there. Some are better than others, but most were either made in 2019 and are not well maintained or they are not easy to follow. None are all-in-one. This guide has its limitations, but if followed it will walk you through every step in the process of setting up a hacked switch. I wrote this guide for a buddy of mine who decided he wanted to buy and hack a switch. I got 2 new SD cards and went through this whole process step-by-step 3 times to make sure I did everything correctly. It is not finished, but I plan to continue updating and expanding it.
+There are many homebrew guides out there. Some are better than others, but most were either made in 2019 and are not well maintained or they are not easy to follow. None are all-in-one. This guide has its limitations, but if followed it will walk you through every step in the process of setting up a hacked switch. I wrote this guide for a buddy of mine who decided he wanted to buy and hack a switch. I got 2 new SD cards and went through this whole process step-by-step 3 times to make sure I'm explaining everything correctly. It is not finished, but I plan to continue updating and expanding it.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -50,14 +50,89 @@ There are many homebrew guides out there. Some are better than others, but most 
 <!-- What You Will Need -->
 <h2 id="what-you-will-need"> :hammer_and_wrench: What You Will Need</h2>
 
-* Unpatched v1 switch (Check your switch serial number <a href="https://ismyswitchpatched.com/">here</a>)
+* Unpatched Switch
+ 	- You can check your switch serial number <a href="https://ismyswitchpatched.com/">here</a>
+	- <details><summary>Alternatively, for compatable devices see this chart ➤</summary>
+		<table>
+		<thead>
+		<tr>
+		<th align="left">Serial Numbers</th>
+		<th align="left"><span>Unpatched</span></th>
+		<th align="left"><span>Potentially patched</span></th>
+		<th align="left"><span>Patched</span></th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td align="left">XAW1</td>
+		<td align="left">XAW10000000000 to XAW10074000000</td>
+		<td align="left">XAW10074000000 to XAW10120000000</td>
+		<td align="left">XAW10120000000 and up</td>
+		</tr>
+		<tr>
+		<td align="left">XAW4</td>
+		<td align="left">XAW40000000000 to XAW40011000000</td>
+		<td align="left">XAW40011000000 to XAW40012000000</td>
+		<td align="left">XAW40012000000 and up</td>
+		</tr>
+		<tr>
+		<td align="left">XAW7</td>
+		<td align="left">XAW70000000000 to XAW70017800000</td>
+		<td align="left">XAW70017800000 to XAW70030000000</td>
+		<td align="left">XAW70030000000 and up</td>
+		</tr>
+		<tr>
+		<td align="left">XAJ1</td>
+		<td align="left">XAJ10000000000 to XAJ10020000000</td>
+		<td align="left">XAJ10020000000 to XAJ10030000000</td>
+		<td align="left">XAJ10030000000 and up</td>
+		</tr>
+		<tr>
+		<td align="left">XAJ4</td>
+		<td align="left">XAJ40000000000 to XAJ40046000000</td>
+		<td align="left">XAJ40046000000 to XAJ40060000000</td>
+		<td align="left">XAJ40060000000 and up</td>
+		</tr>
+		<tr>
+		<td align="left">XAJ7</td>
+		<td align="left">XAJ70000000000 to XAJ70040000000</td>
+		<td align="left">XAJ70040000000 to XAJ70050000000</td>
+		<td align="left">XAJ70050000000 and up</td>
+		</tr>
+		<tr>
+		<td align="left">XKW1</td>
+		<td align="left"><strong>N/A</strong></td>
+		<td align="left"><strong>N/A</strong></td>
+		<td align="left">XKW10000000000 and up</td>
+		</tr>
+		<tr>
+		<td align="left">XKJ1</td>
+		<td align="left"><strong>N/A</strong></td>
+		<td align="left"><strong>N/A</strong></td>
+		<td align="left">XKJ10000000000 and up</td>
+		</tr>
+		<tr>
+		<td align="left">XJW1</td>
+		<td align="left"><strong>N/A</strong></td>
+		<td align="left"><strong>N/A</strong></td>
+		<td align="left">XJW01000000000 and up</td>
+		</tr>
+		<tr>
+		<td align="left">XWW1</td>
+		<td align="left"><strong>N/A</strong></td>
+		<td align="left"><strong>N/A</strong></td>
+		<td align="left">XWW01000000000 and up</td>
+		</tr>
+		</tbody>
+		</table>
+		</details>
 * Micro SD card (256GB or 512GB Recommended, 64GB Minimum)
   - Keep in mind that games are on average 5GB but the largest ones are over 15GB
   - Quality is important as this will help with boot and load times
-* RCM jig (highly recommended)
+* RCM jig (highly recommended) <a href="https://www.amazon.com/s?k=rcm+jig&crid=2WTYTM5F11KRR&sprefix=rcm+jig%2Caps%2C145&ref=nb_sb_noss_1">Find on Amazon</a>
 * A device to send a payload
   - PC recommended, but android phones or jailbroken ios devises also work
-* Some kind of cable to connect your Switch to your payload sender of choice
+* Some kind of cable to connect your Switch to your PC or other payload sender of choice
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -70,7 +145,7 @@ There are many homebrew guides out there. Some are better than others, but most 
 *	Emulate older Console games
 *	Download games from a cartridge to your switch
 *	Use custom mods and cheats 
-*	Connect ps4 and Xbox controllers through Bluetooth
+*	Connect PS4, Xbox, or other controllers through Bluetooth
 *	Play pirated games (Not recommended for legal reasons)
 *	Much much more…
 
@@ -92,7 +167,7 @@ There are many homebrew guides out there. Some are better than others, but most 
 <h2 id="how-much"> :moneybag: How much will it cost? How long will it take?</h2>
 
 *	~$250-350 USD
-*	I bought my switch from an online local marketplace for $230, 256GB SD card for $28 on Amazon, and RCM jig for $8 on Amazon.
+*	I bought my switch from an online local marketplace for $230, 256GB SD card for $28 on Amazon, and RCM jig for $7 on Amazon.
 *	Using this guide it should take about 1-2 hours depending on your download speed
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -117,10 +192,10 @@ There are many homebrew guides out there. Some are better than others, but most 
    3.	Under tesla overlays check EdiZon Overlay and Status Monitor Overlay
    4.	Under Utilities check Checkpoint and NxThemes Installer
    5.	Download your ZIP then Extract the files
-   6.	Open the sd folder and transfer all the files inside to the root of your sd card
+   6.	Open the SD folder and transfer all the files inside to the root (a.k.a the main/home directory) of your SD card
 4. Download latest updates (Extract each and transfer to root of SD card. Click yes when asked to merge and override existing files)
    1. <a href="https://github.com/Atmosphere-NX/Atmosphere/releases">Atmosphere</a>
-   2. <a href="https://github.com/CTCaer/hekate/releases">Hekate</a>, just the bootloader folder
+   2. <a href="https://github.com/CTCaer/hekate/releases">Hekate</a>, just the bootloader folder (save the bin file for the next step)
    3. <a href="https://github.com/ITotalJustice/patches/releases">Sigpatches</a>
 
 
@@ -131,16 +206,20 @@ There are many homebrew guides out there. Some are better than others, but most 
 <p>
 
 1. Insert SD Card into switch
-2. Turn off Switch
-3. Take off right joycon and completely insert RCM jig (There are many other methods but this one is highly recommended. I used an LED light with bent wires before I got the jig which worked but was very annoying)
-4. Hold down the volume up button and press the power button
-5. If the screen stays black you are in YAH! If the switch logo appears something went wrong and you need to try again
-6. Now you can take out the RCM jig and connect your switch to your PC (from here on out I will assume you are using a PC)
-7. Time to open up TegraRcmGUI or whatever payload sending application you are using
-8. Install drivers from settings tab (First time only)
-9. If your Switch is in RCM and connected correctly the red image should turn green and say RCM OK
-10. Select the hetake bin file from when you updated hetake and click inject payload
-11. Your switch should turn on. You can now disconnect from your PC
+2. Turn off your Switch
+	- Hold down the power button on your Switch for 3 seconds and choose power options then Turn Off
+3. Take off the right joycon and completely insert the RCM jig 
+	- There are many other methods but this one is highly highly recommended. I used an LED light with bent wires before I got the jig which worked but was very annoying.
+	- For a list of alternate methods see <a href="https://gbatemp.net/threads/the-ultimate-list-of-mods-to-enter-rcm.502145/">here</a>)
+4. Hold down the <b>Volume Up</b> button and press the <b>Power</b> button
+	- If the screen stays black that means you are in, YAH! If the switch logo appears, something went wrong and you need to try again
+6. Now you can take out the RCM jig and connect your Switch to your PC
+	- For other devices follow the instruction in the README.md file on their individual github pages)
+7. Time to open up TegraRcmGUI on your PC
+8. Open the settings tab and select Install drivers (First time only)
+9. If your Switch is in RCM mode and connected correctly the red image should turn green and say RCM OK
+10. Select the hetake bin file from when you updated hetake and click Inject Payload
+11. Your switch should turn on. You can now disconnect it from your PC
 12. Enter the date and time then click Done then OK (First time only)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -294,11 +373,11 @@ Note: Skip to Tinfoil to start downloading games
 	   * (Your images must be 256x256 for icons, 160x40 for logos)
 	   * Custom prod.keys location: I like keeping the prod.keys in the root folder of the app. To get your keys boot into your switch using the lockpick_RCM payload found here: https://github.com/shchmue/Lockpick_RCM/releases and Dump 
 	   * Forwarder Options: Check the Retroarch Rom Forwarder
-	   * Core Path: This is the path on your sd card from the root to the core you want to use for the rom.
+	   * Core Path: This is the path on your SD card from the root to the core you want to use for the rom.
 	   * Rom Path: This is the location of your rom you want to use with the core you selected in the previous step.
 	5. The Forwarder should have created nsp files in the NSP folder on the root of the app
-	6. Now create a folder on the root of your sd card called NSP Files or whatever
-	7. Transfer the files in the NSP folder on the root of the app to the NSP Files folder on the root of your sd card
+	6. Now create a folder on the root of your SD card called NSP Files or whatever
+	7. Transfer the files in the NSP folder on the root of the app to the NSP Files folder on the root of your SD card
 	8. On your switch open the hbmenu and select Goldleaf then Explore content then SD card then NSP Files
 	9. Install each nsp file and they should now show up on your Switch’s Home!
 
