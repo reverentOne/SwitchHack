@@ -34,7 +34,7 @@
 <h2 id="why-did-i-make-this-guide"> :thinking: Why Did I Make This Guide</h2>
 
 <p align="justify"> 
-There are many homebrew guides out there. Some are better than others, but they are all different because often there are multiple ways of doing the same thing. None are all-in-one. This guide has its limitations, but if followed it will walk you through every step in the process of setting up a hacked switch. I wrote this guide for a buddy of mine who decided he wanted to buy and hack a switch. I got 2 new SD cards and went through this whole process step-by-step twice more to make sure I did everything correctly. It is not finished, but I plan to continue improving and expanding it.
+There are many homebrew guides out there. Some are better than others, but most were either made in 2019 and are not well maintained or they are not easy to follow. None are all-in-one. This guide has its limitations, but if followed it will walk you through every step in the process of setting up a hacked switch. I wrote this guide for a buddy of mine who decided he wanted to buy and hack a switch. I got 2 new SD cards and went through this whole process step-by-step twice more to make sure I did everything correctly. It is not finished, but I plan to continue updating and expanding it.
 </p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -213,9 +213,9 @@ Note: Skip to Tinfoil to start downloading games
 1. Breeze and Edizon SE
 2. <a href="https://github.com/averne/Fizeau/blob/master/README.md">Checkpoint</a>
    - Checkpoint is a fast simple save manager. With this tool you can backup or edit save files. For a while this app wasn’t compatible with the latest firmware. If that happens again check out JKSB which does essentially the exact same thing
-3. Daybreak
-4. <a href="https://github.com/averne/Fizeau/blob/master/README.md">Fizeau</a>
-   - Fizeau allows you to adjust the color of your screen with corrections including gamma, luminance, and color range. I usually use this to filter out some blue light when playing at night. You can also use this to try and make games look more vibrant. I usually access this through the Tesla Menu.
+3. Daybreak and Reboot to Payload
+4. <details><summary>Fizeau</summary>
+   - Fizeau allows you to adjust the color of your screen with corrections including gamma, luminance, and color range. I usually use this to filter out some blue light when playing at night. You can also use this to try and make games look more vibrant. I usually access this through the Tesla Menu. (<a href="https://github.com/averne/Fizeau/blob/master/README.md">Documentation</a>)</details>
 5. <a href="https://github.com/mtheall/ftpd/blob/master/README.md">Ftpd pro</a>
    - This is one of my very favorite apps. This allows you to download onto your switch wirelessly through wifi.
    - On your PC file browser, enter the ip address with the ftp:// prefix. e.g. ftp://xxx.xxx.x.x:5000
@@ -231,10 +231,9 @@ Note: Skip to Tinfoil to start downloading games
    - I recommend you replace your User Page with this app. To do that go to settings, scroll down to the bottom, and select Replace User Page to Enable it
 9. <a href="https://github.com/DarkMatterCore/nxdumptool/blob/main/README.md">nxdumptool</a>
 10. <a href="https://github.com/exelix11/SwitchThemeInjector/blob/master/readme.md">NXThemes Installer</a>
-11. Reboot to Payload
-12. <a href="https://github.com/retronx-team/sys-clk/blob/develop/README.md">Sys-clk manager</a>
+11. <a href="https://github.com/retronx-team/sys-clk/blob/develop/README.md">Sys-clk manager</a>
     - Sys-clk is a system-wide underclock and overclock sysmodule that allows you to overclock the Switch. It includes automatic underclocking and overclocking depending on if you are docked and what games you are playing
-13. <a href="https://www.retroarch.com/">Retroarch</a>
+12. <a href="https://www.retroarch.com/">Retroarch</a>
 
 Retroarch is one of the coolest features of the hacked Switch! You can easily play retro games from many consoles including but not limited to NES, SNES, N64, GB, GBC, and GBA. On these older consoles games will run perfectly. Many other consoles are supported, but even ones as recent as the DS may lag or crash so they are not recommended.
 Playing games is very simple. These are the steps:
@@ -268,6 +267,38 @@ Now you will quickly come to realize that it takes some time to open your games.
 7. Transfer the files in the NSP folder on the root of the app to the NSP Files folder on the root of your sd card
 8. On your switch open the hbmenu and select Goldleaf then Explore content then SD card then NSP Files
 9. Install each nsp file and they should now show up on your Switch’s Home!
+
+13. <details><summary>Tinfoil</summary>
+
+	There are basically 3 unconventional ways to get games onto your switch. Firstly, you can download from a cartridge that you own. If your goal is to avoid pirating than this is the best method for you. Secondly, you can go to any number of sketchy websites filled with adds and links to malware to download the game file onto your switch. Using an app like Goldleaf you can install and play them. Thirdly, you can use a game store through Tinfoil. This is far easier, quicker, and safer than the second method. I will now walk you through how to get games from Tinfoil.
+
+	1. Boot into your switch using fusee and make sure you are connected to the internet
+	2. On your switch open the hbmenu and select Tinfoil installer
+	3. After installation Tinfoil should show up as an app on the Switch home
+	4. Open Tinfoil if not already open, select File Browser, and press (-)
+	5. Fill out:
+	   * Protocol: https
+	   * Host: raw.githubusercontent.com
+	   * Path: carcaschoi/tinfoil-json/master/tinfoilshop.json
+	   * Titles: Luffshop
+	6. The details, if needed, to install Luffshop can be found here: https://github.com/carcaschoi/tinfoil-json
+	7. Save and wait a minute or so for the shop to load
+	8. A new tab in Tinfoil should appear called New Games
+	9. Great! Now you can search for any games or DLCs that your heart desires
+	*To install via USB on Windows read: https://discord.com/channels/679180031854903316/703531443267043409/745781154757476373 
+	**If you want to explore more ways to access games check out: https://games.jits.cc/ 
+
+	Titz Pro shop
+
+	Luffshop is not actually a shop but a redirect to many other shops. Sometimes shops go down, but with Luffshop you will have your best bet of having access to games. One of these shops that you are redirected to is titz (turtle in the shop). There is also a premium shop called Titz Pro. The only way to access this shop is through the turtle in the shop discord channel here: https://discord.com/channels/829394042025672704/874130275343401000 
+	Follow the instructions under #info-check-here-first. You will need to buy an eshop code and donate it. There are links to where to buy codes under #support-nintendo. $5 cards work as well as 500 Yen cards
+
+	Why should I get Titz Pro?
+
+	First, you are supporting the community as all donations go to expanding the shop. Second you will have early access to many titles often before they are officially released. Third, You will have access to Retroarch games.
+
+	(<a href="https://tinfoil.io/">Tinfoil Documentation</a>)
+</details>
 
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
