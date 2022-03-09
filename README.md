@@ -12,23 +12,31 @@
 
 <details open="open">
   <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#why-did-i-make-this-guide"> ➤ Why did I make this guide?</a></li>
-    <li><a href="#what-can-you-do"> ➤ What you can do with a hacked switch?</a></li>
-    <li><a href="#is-hacking-illegal"> ➤ Is hacking your switch illegal?</a></li>
-    <li><a href="#what-you-will-need"> ➤ What you will need</a></li>
-    <li><a href="#how-much"> ➤ How much will it cost? How long will it take?</a></li>
-    <li><a href="#setup"> ➤ Step 1: Setup SD Card</a></li>
-    <li><a href="#enter_rcm"> ➤ Step 2: Enter RCM and Inject Payload</a></li>
-    <li><a href="#safety"> ➤ Step 3: Safety Precautions</a></li>
-    <li><a href="#applications"> ➤ Step 4: Installing Useful Applications</a></li>
-    <li><a href="#accessing"> ➤ Accessing your installed apps</a></li>  
-    <li><a href="#overview"> ➤ Overview of apps</a></li>
-    <li><a href="#resources"> ➤ Useful Resources</a></li>
+  <ol start="0">
+    <li>
+      <a href="#intro"> ➤ Before you Begin</a>
+      <ul>
+        <li><a href="#why-did-i-make-this-guide"> ➤ :thinking: Why did I make this guide?</a></li>
+    	<li><a href="#what-you-will-need"> ➤ :hammer_and_wrench: What you will need</a></li>
+    	<li><a href="#what-can-you-do"> ➤ :video_game: What you can do with a hacked switch?</a></li>
+    	<li><a href="#is-hacking-illegal"> ➤ :detective: Is hacking your switch illegal?</a></li>
+    	<li><a href="#how-much"> ➤ :moneybag: How much will it cost? How long will it take?</a></li>
+      </ul>
+    </li>
+    <li><a href="#setup"> ➤ :floppy_disk: Step 1: Setup SD Card</a></li>
+    <li><a href="#enter_rcm"> ➤ :syringe: Step 2: Enter RCM and Inject Payload</a></li>
+    <li><a href="#safety"> ➤ :closed_lock_with_key: Step 3: Safety Precautions</a></li>
+    <li><a href="#applications"> ➤ :computer: Step 4: Installing Useful Applications</a></li>
+    <li><a href="#accessing"> ➤ :heavy_check_mark: Accessing your installed apps</a></li>  
+    <li><a href="#overview"> ➤ :world_map: Overview of apps</a></li>
+    <li><a href="#resources"> ➤ :toolbox: Useful Resources</a></li>
   </ol>
 </details>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<h1 id="intro" align="center"> Before You Begin! </h1>
+<p>
 
 <!-- Why did I make this guide -->
 <h2 id="why-did-i-make-this-guide"> :thinking: Why Did I Make This Guide</h2>
@@ -328,6 +336,8 @@ Note: Skip to Tinfoil to start downloading games
 
 	(<a href="https://tinfoil.io/">Tinfoil Documentation</a>)
 </details>
+	<details><summary>Test</summary>
+	</details>
 
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
