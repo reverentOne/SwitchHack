@@ -193,6 +193,7 @@ There are many homebrew guides out there. Some are better than others, but most 
    4.	Under Utilities check Checkpoint and NxThemes Installer
    5.	Download your ZIP then Extract the files
    6.	Open the SD folder and transfer all the files inside to the root (a.k.a the main/home directory) of your SD card
+   7.	Open the Payloads folder and copy Lockpick_RCM.bin to your SD card inside the payloads folder which is located inside the bootloader folder
 4. Download latest updates (Extract each and transfer to root of SD card. Click yes when asked to merge and override existing files)
    1. <a href="https://github.com/Atmosphere-NX/Atmosphere/releases">Atmosphere</a>
    2. <a href="https://github.com/CTCaer/hekate/releases">Hekate</a>, just the bootloader folder (save the bin file for the next step)
@@ -236,9 +237,6 @@ These steps will prevent your switch from getting permanently bricked or banned
 	</ul>
     <li>After installing press close, then change emuMMC, then SD Raw 1, ok</li>
     <li>Now follow <a href="https://nh-server.github.io/switch-guide/user_guide/emummc/making_emummc/">this</a> guide under Making a <b>NAND backup</b> and Getting your Console's <b>Unique Keys</b></li>
-	<ul>
-		<li>Before you follow the steps for Getting your Console’s Unique keys you will need to download <a href="https://github.com/shchmue/Lockpick_RCM/releases">Lockpick_RCM</a> and transfer it to the payloads folder which is located in the bootloader folder on the root of your SD card</li>
-	</ul>
 	  <li>Follow <a href="https://rentry.org/ExosphereDNSMITM">this</a> <b>Exosphere</b> and <b>DNS Mitty</b> guide</li>
 	<ul>
 		<li>I used notepad on my windows PC to create these .ini and .txt files</li>
