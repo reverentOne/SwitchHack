@@ -368,42 +368,50 @@ Note: Skip to Tinfoil to start downloading games
 	
 	(<a href="https://github.com/retronx-team/sys-clk/blob/develop/README.md">Documentation</a>)
 	</details>
-12. <details><summary>Retroarch</summary>
+12. <details><summary><b>Retroarch</b></summary>
 
 	Retroarch is one of the coolest features of the hacked Switch! You can easily play retro games from many consoles including but not limited to NES, SNES, N64, GB, GBC, and GBA. On these older consoles games will run perfectly. Many other consoles are supported, but even ones as recent as the DS may lag or crash so they are not recommended.
 	Playing games is very simple. These are the steps:
 
-	1. Find games you want to play and download the roms. I recommend this website: https://www.romsgames.net/
-	2. Create a ROMS folder anywhere on your switch. I recommend either the root or in the Retroarch folder. Now create a fold inside this ROMS folder for each console you want to emulate. For example name one ‘NES’ and another ‘GBA’, etc.
-	3. Transfer your downloaded games into there game folders you just created on the Switch
-	4. On your switch open the hbmenu and select Retroarch
-	5. Under Main Menu select Load Core then Download a Core. A list will appear and you can download the core for each console you plan to emulate
-	6. Under Main Menu select Load Content then Start Directory then locate the ROMS folder 
-	7. Select which game you wish to play and start playing!
-
-	Now you will quickly come to realize that it takes some time to open your games. I just tested and it took me 17 clicks to open a game starting from the switches home. I will show you a way to have games on your Switch home so you can start playing in as little as one click.
-
-	1. Follow this link and download the zip file: https://gbatemp.net/threads/gui-for-nsp-forwarder-tool-for-12.588018/ It is a GUI for an NSP Forwarder
-	2. Unzip the file and transfer it to a safe place on your PC.
-	3. Open it and run the menu executable and follow the next steps for each game
-	4. Fill out each box in the GUI before clicking Create Forwarder
-	   * Application Name: Name of the game you want displayed
-	   * Author Name: You or whoever/whatever you want here
-	   * Title ID: Hit the random key to generate an ID
-	   * Icon Path: Where you have the icon you want used when you select the game
-	   * Logo Path: Small logo you see when you boot the game. I keep this blank
-	   * (Your images must be 256x256 for icons, 160x40 for logos)
-	   * Custom prod.keys location: I like keeping the prod.keys in the root folder of the app. To get your keys boot into your switch using the lockpick_RCM payload found here: https://github.com/shchmue/Lockpick_RCM/releases and Dump 
-	   * Forwarder Options: Check the Retroarch Rom Forwarder
-	   * Core Path: This is the path on your SD card from the root to the core you want to use for the rom.
-	   * Rom Path: This is the location of your rom you want to use with the core you selected in the previous step.
-	5. The Forwarder should have created nsp files in the NSP folder on the root of the app
-	6. Now create a folder on the root of your SD card called NSP Files or whatever
-	7. Transfer the files in the NSP folder on the root of the app to the NSP Files folder on the root of your SD card
-	8. On your switch open the hbmenu and select Goldleaf then Explore content then SD card then NSP Files
-	9. Install each nsp file and they should now show up on your Switch’s Home!
-
+	* 1)&nbsp;Find games you want to play and download the roms. I recommend <a href="https://www.romsgames.net/">this</a> website
+	* 2)&nbsp;Create a ROMS folder in the root of your switch. Now create a fold inside this ROMS folder for each console you want to emulate. For example name one ‘NES’ and another ‘GBA’, etc.
+	* 3)&nbsp;Transfer your downloaded games into their game folders you just created on the Switch
+	* 4)&nbsp;On your switch open the hbmenu and select Retroarch
+	* 5)&nbsp;Under Main Menu select Load Core then Download a Core. A list will appear and you can download the core for each console you plan to emulate
+	* 6)&nbsp;Under Main Menu select Load Content then Start Directory then locate the ROMS folder 
+	* 7)&nbsp;Select which game you wish to play and start playing!
+	
 	(<a href="https://www.retroarch.com/">Retroarch Documentation</a>)
+
+	<details><summary><b>NSP Forwarder</b></summary>
+	
+	        Now you will quickly come to realize that it takes some time to open your games. I just tested and it took me 17 clicks to open a game starting from the switches home. I will show you a way to have games on your Switch home so you can start playing in as little as one click.
+
+		* 1)&nbsp;Follow <a href="https://gbatemp.net/threads/gui-for-nsp-forwarder-tool-for-12.588018/">this</a> link and download the zip file. It is a GUI for an NSP Forwarder
+		* 2)&nbsp;Unzip the file and transfer it to a safe place on your PC.
+		* 3)&nbsp;Open it and run the menu executable and follow the next steps for each game
+		* <details><summary>4)&nbsp;:camera: Fill out each box in the GUI before clicking Create Forwarder</summary>
+		
+			<img src="images/Forwarder.png" alt="forwarder" width="70%">
+			</details>
+
+			* Application Name: Name of the game you want displayed
+			* Author Name: You or whoever/whatever you want here
+			* Title ID: Hit the random key to generate an ID
+			* Icon Path: Where you have the icon you want used when you select the game
+			* Logo Path: Small logo you see when you boot the game. I keep this blank
+			* (Your images must be 256x256 for icons, 160x40 for logos)
+			* Custom prod.keys location: I like keeping a copy of my prod.keys in the root folder of the app. You should have a copy of your prod.keys in your Switch folder as well as a backup on your PC.
+			* Forwarder Options: Check the Retroarch Rom Forwarder
+			* Core Path: This is the path on your SD card from the root to the core you want to use for the rom.
+			* Rom Path: This is the location of your rom you want to use with the core you selected in the previous step.
+		* 5)&nbsp;The Forwarder should have created nsp files in the NSP folder on the root of the app
+		* 6)&nbsp;Now create a folder on the root of your SD card called NSP Files or whatever
+		* 7)&nbsp;Transfer the files in the NSP folder on the root of the app to the NSP Files folder on the root of your SD card
+		* 8)&nbsp;On your switch open the hbmenu and select Goldleaf then Explore content then SD card then NSP Files
+		* 9)&nbsp;Install each nsp file and they should now show up on your Switch’s Home!
+		</details>
+	
 	</details>
 
 13. <details><summary>Tinfoil</summary>
