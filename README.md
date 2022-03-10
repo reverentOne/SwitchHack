@@ -1,4 +1,4 @@
-<h1 align="center"> SwitchHack </h1>
+<h1 align="center"><img src="images/Switch_HD_Photo.png" alt="Switch_HD_Photo" width="4.5%"> SwitchHack <img src="images/Switch_HD_Photo.png" alt="Switch_HD_Photo" width="4.5%"></h1>
 <h3 align="center"> All-in-One Guide to Hacking your Nintendo Switch </h3>  
 
 </br> 
@@ -6,6 +6,12 @@
 <p align="center"> 
   <img src="images/emulators.gif" alt="emulator gif" width="40%">
 </p>
+
+
+<!---<p align="center"> 
+  <img src="images/Switch_HD_Photo.png" alt="Switch_HD_Photo" width="40%">
+</p>--->
+
 
 <!-- TABLE OF CONTENTS -->
 <h2 id="table-of-contents"> :book: Table of Contents</h2>
