@@ -4,7 +4,7 @@
 </br> 
 
 <p align="center"> 
-  <img src="images/emulators.gif" alt="Sample signal" width="40%">
+  <img src="images/emulators.gif" alt="emulator gif" width="40%">
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -140,6 +140,10 @@ There are many homebrew guides out there. Some are better than others, but all w
 <!-- What you can do with a hacked switch? -->
 <h2 id="what-can-you-do"> :video_game: What you can do with a hacked switch?</h2>
 
+<img align="right" src="images/hacked_switch_home.jpg" alt="hacked switch home" width="55%">
+
+<br>
+
 *	Easily edit, backup and manage save files
 *	Customize your menu pages including home, lockscreen, settings, etc. 
 *	Emulate older Console games
@@ -148,7 +152,6 @@ There are many homebrew guides out there. Some are better than others, but all w
 *	Connect PS4, Xbox, or other controllers through Bluetooth
 *	Play pirated games (Not recommended for legal reasons)
 *	Much much more…
-
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -179,7 +182,9 @@ There are many homebrew guides out there. Some are better than others, but all w
 <h2 id="setup"> :floppy_disk: Step 1: Setup SD Card</h2>
 <p> 
 	
-1. Format SD card to Fat32. I used <a href="http://ridgecrop.co.uk/index.htm?guiformat.htm">this tool</a> <a href=""></a>
+1. <details><summary>:camera: Format SD card to Fat32. I used <a href="http://ridgecrop.co.uk/index.htm?guiformat.htm">this tool</a> <a href=""></a></summary>
+	<img src="images/emulators.gif" alt="emulator gif" width="40%">
+	</details>
 2. Download payload sending application to desktop or other easily accessible location
    1. For Windows, you can use <a href="https://github.com/eliboa/TegraRcmGUI/releases">TegraRcmGUI</a> 
    2. For Mac and Linux, you can use <a href="https://github.com/nh-server/fusee-interfacee-tk/releases">fusee-interface-tk</a> 
