@@ -183,7 +183,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 <p> 
 	
 1. <details><summary>:camera: Format SD card to Fat32. I used <a href="http://ridgecrop.co.uk/index.htm?guiformat.htm">this tool</a> <a href=""></a></summary>
-	<img src="images/emulators.gif" alt="emulator gif" width="40%">
+	<img src="images/1.png" alt="1" width="40%">
 	</details>
 2. Download payload sending application to desktop or other easily accessible location
    1. For Windows, you can use <a href="https://github.com/eliboa/TegraRcmGUI/releases">TegraRcmGUI</a> 
@@ -199,11 +199,13 @@ There are many homebrew guides out there. Some are better than others, but all w
    5.	Download your ZIP then Extract the files
    6.	Open the SD folder and transfer all the files inside to the root (a.k.a the main/home directory) of your SD card
    7.	Open the Payloads folder and copy Lockpick_RCM.bin to your SD card inside the payloads folder which is located inside the bootloader folder
-4. Download latest updates (Extract each and transfer to root of SD card. Click yes when asked to merge and override existing files)
-   1. <a href="https://github.com/Atmosphere-NX/Atmosphere/releases">Atmosphere</a>
-   2. <a href="https://github.com/CTCaer/hekate/releases">Hekate</a>, just the bootloader folder (save the bin file for the next step)
-   3. <a href="https://github.com/ITotalJustice/patches/releases">Sigpatches</a>
-
+4. <details><summary>:camera: Download latest updates (Extract each and transfer to root of SD card. Click yes when asked to merge and override existing files)</summary>
+	<img src="images/2.png" alt="2" width="80%">
+	</details> <p>
+		
+	1. <a href="https://github.com/Atmosphere-NX/Atmosphere/releases">Atmosphere</a>
+   	2. <a href="https://github.com/CTCaer/hekate/releases">Hekate</a>, just the bootloader folder (save the bin file for the next step)
+   	3. <a href="https://github.com/ITotalJustice/patches/releases">Sigpatches</a>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -219,14 +221,16 @@ There are many homebrew guides out there. Some are better than others, but all w
 	- For a list of alternate methods see <a href="https://gbatemp.net/threads/the-ultimate-list-of-mods-to-enter-rcm.502145/">here</a>)
 4. Hold down the <b>Volume Up</b> button and press the <b>Power</b> button
 	- If the screen stays black that means you are in, YAH! If the switch logo appears, something went wrong and you need to try again
-6. Now you can take out the RCM jig and connect your Switch to your PC
+5. Now you can take out the RCM jig and connect your Switch to your PC
 	- For other devices follow the instruction in the README.md file on their individual github pages)
-7. Time to open up TegraRcmGUI on your PC
-8. Open the settings tab and select Install drivers (First time only)
-9. If your Switch is in RCM mode and connected correctly the red image should turn green and say RCM OK
-10. Select the hetake bin file from when you updated hetake and click Inject Payload
-11. Your switch should turn on. You can now disconnect it from your PC
-12. Enter the date and time then click Done then OK (First time only)
+6. Time to open up TegraRcmGUI on your PC
+7. Open the settings tab and select Install drivers (First time only)
+8. <details><summary>:camera: If your Switch is in RCM mode and connected correctly the red image should turn green and say RCM OK</summary>
+	<img src="images/3.png" alt="3" width="50%">
+	</details>
+9. Select the hetake bin file from when you updated hetake and click Inject Payload
+10. Your switch should turn on. You can now disconnect it from your PC
+11. Enter the date and time then click Done then OK (First time only)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -273,6 +277,11 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 		    <li><a href="https://github.com/ndeadly/MissionControl/releases">MissionControl</a></li>
 		</ul>
 </ol>
+<details><summary>:camera: This is what your root and switch folders should look like</summary>
+	<img src="images/4.png" alt="4" width="40%">
+	&nbsp;&nbsp;&nbsp;
+	<img src="images/5.png" alt="5" width="40%">
+	</details>
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -296,6 +305,10 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 
 <!-- Overview of apps -->
 <h2 id="overview"> :world_map: Overview of apps</h2>
+<p>
+
+<img src="images/6.jpg" alt="6" width="70%" align="left">
+<img src="images/7.png" alt="7" width="70%" align="center">
 <p>
 	
 Note: Skip to Tinfoil to start downloading games
@@ -418,8 +431,6 @@ Note: Skip to Tinfoil to start downloading games
 
 	(<a href="https://tinfoil.io/">Tinfoil Documentation</a>)
 </details>
-	<details><summary>Test</summary>
-	</details>
 
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
