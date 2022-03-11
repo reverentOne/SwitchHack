@@ -33,7 +33,8 @@
     <li><a href="#enter_rcm"> ➤ :syringe: Step 2: Enter RCM and Inject Payload</a></li>
     <li><a href="#safety"> ➤ :closed_lock_with_key: Step 3: Safety Precautions</a></li>
     <li><a href="#applications"> ➤ :computer: Step 4: Installing Useful Applications</a></li>
-    <li><a href="#accessing"> ➤ :heavy_check_mark: Accessing your installed apps</a></li>  
+    <li><a href="#accessing"> ➤ :heavy_check_mark: Accessing your installed apps</a></li>
+    <li><a href="#games"> ➤ :joystick: Installing games on your Switch</a></li>
     <li><a href="#overview"> ➤ :world_map: Overview of apps</a></li>
     <li><a href="#resources"> ➤ :toolbox: Useful Resources</a></li>
   </ol>
@@ -305,6 +306,140 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
    - with MissionControl, you can use other consoles’ controllers on your Switch through Bluetooth. This is a background process 
    - For a list of compatible controllers look <a href="https://github.com/ndeadly/MissionControl">here</a>. I use the DualShock 4 PlayStation controller
    - To pair a controller go to the Switch Home screen, then Controllers, then Change Grip/Order. While on this screen, place your controller in pairing mode and wait for it to connect to the switch. That is all!
+	
+	
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- Installing games on your Switch -->
+<h2 id="games"> :joystick: Installing games on your Switch</h2>
+
+<p>I will go over the 3 main ways to intall and play games on your Switch:</p>
+<ul>
+<li><p>Method 1: Buying games through Nintendo and playing online</p>
+<ul>
+<li>Regional eshops</li>
+</ul>
+</li>
+<li><p>Method 2: Tinfoil shops</p>
+<ul>
+<li><p>Luffshop</p>
+</li>
+<li><p>Titz Pro shop</p>
+</li>
+<li><p>NUT</p>
+</li>
+</ul>
+</li>
+<li><p>Method 3: PC Download and Transfer</p>
+<ul>
+<li><p>Nekodrive</p>
+</li>
+<li><p>jitz share</p>
+</li>
+<li><p>ROM Websites and Torrents</p>
+</li>
+<li><p>Goldleaf Installer</p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 class="atx" id="Method One: buying-games-through-nintendo-and-playing-online"><strong>Method 1: Buying games through Nintendo and playing online</strong></h3>
+<p>The only way to play online games is to buy the game from Nintendo's eshop or the cartridge from a distributor. In order to play online you will need to boot using sysNAND. To do this-&gt;injecting hetake like normal, select launch, then sysNAND. WARRNING: Make sure you do not break any of Nintendo's terms of service while in sysNAND or you will get banned! Banned means you will no longer be able to access any Nintendo features on your device including the eshop and online play. If you cheat in online games, your Switch will be banned as well as your Nintendo account will be banned.</p>
+<ul>
+<li><strong>Regional eshops</strong>
+ There is a completely legitamate way to get some games super cheap! This is, by buying games from a different region's eshop. Some games are significantly cheaper. For example, as of this writing in the USA eshop the game Overlanders costs $24.99 while that same game cost about $0.92 in Poland. You can find the region with the cheapest prices for each game <a href="eShop-Prices.com">here</a>. If the eshop does not accept your method of payment, then you may have to buy an eshop card for the region and use that.</li>
+</ul>
+<h3 class="atx" id="Method 2: tinfoil-shops"><strong>Method 2: Tinfoil Shops</strong></h3>
+<p>Tinfoil is by far the easiest fastest and best way to access pirated games!</p>
+<ol>
+<li><p>Boot into your switch using fusee and make sure you are connected to the internet</p>
+</li>
+<li><p>On your switch open the hbmenu and select Tinfoil installer</p>
+</li>
+<li><p>After installation Tinfoil should show up as an app on the Switch home</p>
+</li>
+<li><p>To add shops open Tinfoil if not already open, select File Browser, and press (-)</p>
+</li>
+<li><p>Now you fill out the information for the shop you want (see Luffshop and Titz Pro)</p>
+</li>
+<li><p>A new tab in Tinfoil should appear called New Games</p>
+</li>
+<li><p>Great! Now you can search for any games or DLCs that your heart desires</p>
+</li>
+</ol>
+<h5 class="atx" id="luffshop">Luffshop</h5>
+<p>Luffshop is not actually a shop but a redirect to many other shops. Sometimes shops go down, but with Luffshop you will have a better shot at having access to games.</p>
+<details><summary>:camera: Fill out:</summary>
+<img width="70%" alt="tf1" src="images/tf1.jpg">
+</details>
+
+<ul>
+<li><p>Protocol: https</p>
+</li>
+<li><p>Host: raw.githubusercontent.com</p>
+</li>
+<li><p>Path: carcaschoi/tinfoil-json/master/tinfoilshop.json</p>
+</li>
+<li><p>Titles: Luffshop</p>
+</li>
+</ul>
+<p>The details, if needed, to install Luffshop can be found <a href="https://github.com/carcaschoi/tinfoil-json">here</a></p>
+<h5 class="atx" id="titz-pro-shop"><strong>Titz Pro shop</strong></h5>
+<p>One of the shops that Luffshop redirected you to is titz (turtle in the shop). There is also a premium shop called Titz Pro. The only way to access this shop is through the turtle in the shop discord server here: <a href="https://discord.com/channels/829394042025672704/874130275343401000">Discord</a></p>
+<p>Follow the instructions under the channel #info-check-here-first. You will need to buy an eshop code and donate it. There are links to where to buy codes under #support-nintendo. $5 cards work as well as 500 Yen cards</p>
+<p>I donated a 500 yen card and got access to the shop within 10 minutes. You can also donate codes in USD, EUR, CAD, GBP &amp; AUD but it may take a day or two to get access. In the discord there are instructions on how to buy a 500 yen card for about $4 USD.</p>
+<ul>
+<li><p><em>Why should I get Titz Pro?</em></p>
+<ol>
+<li><p>You are supporting the community as all donations go into expanding all the stores</p>
+</li>
+<li><p>Because tits pro is private it gets less trafic and is less likely to shutdown compared to other shops</p>
+</li>
+<li><p>You gain access to Retroarch titles through Tinfoil. Nothing new, but this is a time saver</p>
+</li>
+<li><p>You get early access to many titles. (Games get leaked, especially ones with physical releases. The most common reason is an employee of a store takes a copy home early from the stock that arrived. That is why leaks are usually 1-7 days before release.)</p>
+</li>
+<li><p>Gain Contributor roles in partner shop Discords. This includes: Pengu, Quota, Neko, Stealth and jits. This perk includes gaining access to Nekoshop's Google drive stash.</p>
+</li>
+</ol>
+</li>
+</ul>
+<p>*To install games via USB on Windows use <strong>NUT</strong>:</p>
+<ol>
+<li><p>Download the nut release and the driver installer for nut <a href="https://github.com/blawar/nut/releases">here</a></p>
+</li>
+<li><p>Run nut on your pc and launch tinfoil on your switch and connect them via a usb cable</p>
+</li>
+<li><p>Run the driver installer so that nut reports the device as connected in the top right</p>
+</li>
+<li><p>To install games either scan the folder they are located in with nut to make them appear in the usb section of file browser, or using usbfs in file browser browse to the folder they are in</p>
+</li>
+</ol>
+<h3 class="atx" id="methods-for-pc-download">Method 3: PC Download and Transfer</h3>
+<h5 class="atx" id="nekodrive">Nekodrive</h5>
+<p>Nekodrive is a shared Google Drive stash. When you donate to tits pro you will gain access to nekodrive.</p>
+<ol>
+<li><p>After gaining access, join the nekodrive <a href="https://discord.com/channels/835841234467553312">discord server</a></p>
+</li>
+<li><p>There should be a channel under the Contributor tab called #kool-kids-klub
+In that channel select Pinned Messages and follow the link that says nekoshop Drive sign-up</p>
+</li>
+<li><p>Fill this form out. (To get your Discord ID go to Discord settings, then Advanced, then turn on Developer mode. Now, in Discord you need to select yourself. To find yourself select Show member list, now scroll and find your name, right click, select copy ID)</p>
+</li>
+<li><p>Once the form is filled out you may have to wait a bit to gain access</p>
+</li>
+</ol>
+<h5 class="atx" id="jitz-share">jitz share</h5>
+<p>With jitz share, instead of gaining access to a shared google drive, you will have to save games directly to your drive. The only advantage I see over nekodrive is that you
+don't need to donate before gaining access. All the instructions are clearly
+laid out <a href="https://games.jits.cc/">here</a></p>
+<ul>
+<li>Note: For&nbsp;jitz share you may want to make a new google account. This is quick and easy, and will free up Drive space. The maximum free space is still 15GB so most games will download, but there are a few that are too large.</li>
+</ul>
+<h5 class="atx" id="rom-websites-and-torrents">ROM Websites and Torrents</h5>
+<p>There are many websites that offer pirated games. Unfortunately every one of them are completely filled with ads, hidden downloads, and viruses. <strong>Do not use this method unless you have no other option!</strong> It is the most time consuming and dangerous. An <strong>ad blocker is required</strong>, but even then it only does so much. I also recommend you <strong>scan for viruses</strong> before you install anything.</p>
+<p>Torrenting is another method of obtaining games, but this is highly risky without a paid VPN to hide your IP address. Without a VPN many people receive copyright infringement warnings from their internet service provider. You are unlikely to go to court over this, but after a few warnings the ISP will shutdown your internet access. <b>Don't torrent without VPN!</b></p>
+
 
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
