@@ -205,7 +205,7 @@ There are many homebrew guides out there. Some are better than others, but all w
    4.	Under Utilities check Checkpoint and NxThemes Installer
    5.	Download your ZIP then Extract the files
    6.	Open the SD folder and transfer all the files inside to the root (a.k.a the main/home directory) of your SD card
-   7.	Open the Payloads folder and copy Lockpick_RCM.bin to your SD card inside the payloads folder which is located inside the bootloader folder
+   7.	Open the Payloads folder and copy `Lockpick_RCM.bin` to your SD card inside the payloads folder which is located inside the bootloader folder
 4. <details><summary>:camera: Download latest updates (Extract each and transfer to root of SD card. Click yes when asked to merge and override existing files)</summary>
 	<img src="images/2.png" alt="2" width="80%">
 	</details> <p>
@@ -272,8 +272,8 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <ol>
     <li>Transfer these nro files into your switch folder:</li> 
 	    <ul>
-				<li><a href="https://github.com/mtheall/ftpd/releases">ftpd pro</a> (download ftpd.nro)</li>
-				<li><a href="https://github.com/tallbl0nde/NX-Activity-Log/releases">Activity Log</a> (Create a folder called NX-Activity-Log inside the Switch folder and place NX-Activity-Log.nro inside of it)</li>
+				<li><a href="https://github.com/mtheall/ftpd/releases">ftpd pro</a> (download <code>ftpd.nro</code> )</li>
+				<li><a href="https://github.com/tallbl0nde/NX-Activity-Log/releases">Activity Log</a> (Create a folder called NX-Activity-Log inside the Switch folder and place <code>NX-Activity-Log.nro</code> inside of it)</li>
 		</ul>
     <li>Unzip and Transfer these to the root of your SD card:</li>
 	    <ul>
