@@ -387,9 +387,12 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 </ul>
 <p>The details, if needed, to install Luffshop can be found <a href="https://github.com/carcaschoi/tinfoil-json">here</a></p>
 <h5 class="atx" id="titz-pro-shop"><strong>Titz Pro shop</strong></h5>
-<p>One of the shops that Luffshop redirected you to is titz (turtle in the shop). There is also a premium shop called Titz Pro. The only way to access this shop is through the turtle in the shop discord server here: <a href="https://discord.com/channels/829394042025672704/874130275343401000">Discord</a></p>
+<p>One of the shops that Luffshop redirected you to is titz (turtle in the shop). There is also a premium shop called Titz Pro. The only way to access this shop is through the turtle in the shop discord server <a href="https://discord.com/channels/829394042025672704/874130275343401000">here</a></p>
 <p>Follow the instructions under the channel #info-check-here-first. You will need to buy an eshop code and donate it. There are links to where to buy codes under #support-nintendo. $5 cards work as well as 500 Yen cards</p>
 <p>If you donate a 500 yen card you can get access to the shop in as quickly as 10 minutes. You can also donate codes in USD, EUR, CAD, GBP &amp; AUD but it may take a day or two to get access. In the discord there are instructions on how to buy a 500 yen card for about $4 USD.</p>
+<p><details><summary><em>Descord help for noobs</em></summary>
+<ul>Discord can be extremely confusing and looks archaic if you are not used to it. When you open the turtle in the shop discord there should be a bunch of channels on the left side that all have # next to them. Find the one that says #bot-commands and open it. Now at the bottom there should be a way for you to send a message. Type /donate. You will then get a personal message from a bot named Donations. The bot will ask you questions about your donation. Once your donation is confirmed you can go back to the turtle in the shell server. This time open the #tits-pro-access channel and type ?request. You should now get a personal message from a bot named no spies who will give you the shop key. For more help read <a href="https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord">this</a></ul>
+</details></p>
 <ul>
 <li><p><em>Why would I get Titz Pro?</em></p>
 <ol>
