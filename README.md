@@ -313,7 +313,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <!-- Installing games on your Switch -->
 <h2 id="games"> :joystick: Installing games on your Switch</h2>
 
-<p>I will go over the 3 main ways to intall and play games on your Switch:</p>
+<p>I will go over the 3 main ways to intall and play games on your Switch. Only method 1 is recommended. Methods 2 and 3 are for informational purposes only as <b>I do not promote or encourage unlawful activities including piracy</b></p>
 <ul>
 <li><p>Method 1: Buying games through Nintendo and playing online</p>
 <ul>
@@ -389,9 +389,9 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <h5 class="atx" id="titz-pro-shop"><strong>Titz Pro shop</strong></h5>
 <p>One of the shops that Luffshop redirected you to is titz (turtle in the shop). There is also a premium shop called Titz Pro. The only way to access this shop is through the turtle in the shop discord server here: <a href="https://discord.com/channels/829394042025672704/874130275343401000">Discord</a></p>
 <p>Follow the instructions under the channel #info-check-here-first. You will need to buy an eshop code and donate it. There are links to where to buy codes under #support-nintendo. $5 cards work as well as 500 Yen cards</p>
-<p>I donated a 500 yen card and got access to the shop within 10 minutes. You can also donate codes in USD, EUR, CAD, GBP &amp; AUD but it may take a day or two to get access. In the discord there are instructions on how to buy a 500 yen card for about $4 USD.</p>
+<p>If you donate a 500 yen card you can get access to the shop in as quickly as 10 minutes. You can also donate codes in USD, EUR, CAD, GBP &amp; AUD but it may take a day or two to get access. In the discord there are instructions on how to buy a 500 yen card for about $4 USD.</p>
 <ul>
-<li><p><em>Why should I get Titz Pro?</em></p>
+<li><p><em>Why would I get Titz Pro?</em></p>
 <ol>
 <li><p>You are supporting the community as all donations go into expanding all the stores</p>
 </li>
@@ -441,8 +441,8 @@ laid out <a href="https://games.jits.cc/">here</a></p>
 <li>Note: For&nbsp;jitz share you may want to make a new google account. This is quick and easy, and will free up Drive space. The maximum free space is still 15GB so most games will download, but there are a few that are too large.</li>
 </ul>
 <h5 class="atx" id="rom-websites-and-torrents">ROM Websites and Torrents</h5>
-<p>There are many websites that offer pirated games. Unfortunately every one of them are completely filled with ads, hidden downloads, and viruses. <strong>Do not use this method unless you have no other option!</strong> It is the most time consuming and dangerous. An <strong>ad blocker is required</strong>, but even then it only does so much. I also recommend you <strong>scan for viruses</strong> before you install anything.</p>
-<p>Torrenting is another method of obtaining games, but this is highly risky without a paid VPN to hide your IP address. Without a VPN many people receive copyright infringement warnings from their internet service provider. You are unlikely to go to court over this, but after a few warnings the ISP will shutdown your internet access. <b>Don't torrent without VPN!</b></p>
+<p>There are many websites that offer pirated games. Unfortunately every one of them are completely filled with ads, hidden downloads, and viruses. This method is the most time consuming and dangerous. An <strong>ad blocker is required</strong>, but even then it only does so much. It's also recommend you <strong>scan for viruses</strong></p>
+<p>Torrenting is another method of obtaining games, but this is <b>highly risky without a paid VPN</b> to hide your IP address. Without a VPN many people receive copyright infringement warnings from their internet service provider. You are unlikely to go to court over this, but after a few warnings the ISP may shutdown your internet access.</b></p>
 
 
 	
