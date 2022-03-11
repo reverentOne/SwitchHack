@@ -362,7 +362,9 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 </li>
 <li><p>Now you fill out the information for the shop you want (see Luffshop and Titz Pro)</p>
 </li>
-<li><p>A new tab in Tinfoil should appear called New Games</p>
+<li><p><details><summary>:camera: A new tab in Tinfoil should appear called New Games</summary>
+<img src="images/tf3.jpg" alt="tf3" width="70%">
+</details></p>
 </li>
 <li><p>Great! Now you can search for any games or DLCs that your heart desires</p>
 </li>
@@ -395,7 +397,9 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 </li>
 <li><p>Because tits pro is private it gets less trafic and is less likely to shutdown compared to other shops</p>
 </li>
-<li><p>You gain access to Retroarch titles through Tinfoil. Nothing new, but this is a time saver</p>
+<li><p><details><summary>:camera: Gain access to Retroarch titles through Tinfoil. Nothing new, but this is a time saver. Just download the cores from Retroarch and the games will show up</summary>
+<img src="images/tf4.jpg" alt="tf4" width="70%">
+</details></p>
 </li>
 <li><p>You get early access to many titles. (Games get leaked, especially ones with physical releases. The most common reason is an employee of a store takes a copy home early from the stock that arrived. That is why leaks are usually 1-7 days before release.)</p>
 </li>
