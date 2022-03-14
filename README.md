@@ -24,7 +24,7 @@
       <ul>
         <li><a href="#why-did-i-make-this-guide"> ➤ :thinking: Why did I make this guide?</a></li>
     	<li><a href="#what-you-will-need"> ➤ :hammer_and_wrench: What you will need</a></li>
-    	<li><a href="#what-can-you-do"> ➤ :video_game: What you can do with a hacked switch?</a></li>
+    	<li><a href="#what-can-you-do"> ➤ :electron: What you can do with a hacked switch?</a></li>
     	<li><a href="#is-hacking-illegal"> ➤ :detective: Is hacking your switch illegal?</a></li>
     	<li><a href="#how-much"> ➤ :moneybag: How much will it cost? How long will it take?</a></li>
       </ul>
@@ -37,6 +37,8 @@
     <li><a href="#games"> ➤ :video_game: Installing games on your Switch</a></li>
     <li><a href="#overview"> ➤ :world_map: Overview of apps</a></li>
     <li><a href="#emulation"> ➤ :joystick: Multi-Console Retro Game Emulation</a></li>
+    <li><a href="#cheats"> ➤ :pirate_flag: Game Cheats and Mods</a></li>
+    <li><a href="#troubleshooting"> ➤ :monocle_face: Troubleshooting</a></li>
     <li><a href="#resources"> ➤ :toolbox: Useful Resources</a></li>
   </ol>
 </details>
@@ -146,7 +148,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- What you can do with a hacked switch? -->
-<h2 id="what-can-you-do"> :video_game: What you can do with a hacked switch?</h2>
+<h2 id="what-can-you-do"> :electron: What you can do with a hacked switch?</h2>
 
 <img align="right" src="images/hacked_switch_home.jpg" alt="hacked switch home" width="55%">
 
@@ -589,6 +591,19 @@ Now you will quickly come to realize that it takes some time to open your games.
 8. On your switch open the hbmenu and select Goldleaf then Explore content then SD card then NSP Files
   
 9. Install each nsp file and they should now show up on your Switch’s Home!
+	  
+	  
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- Game Mods and Cheats -->
+<h2 id="cheats"> :pirate_flag: Game Mods and Cheats</h2>
+<p>
+	
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- Troubleshooting -->
+<h2 id="troubleshooting"> :monocle_face: Troubleshooting</h2>
+<p>
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
