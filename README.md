@@ -18,34 +18,41 @@
 
 <details open="open">
   <summary>Table of Contents</summary>
-  <ol start="0">
-    <li>
-      <a href="#intro"> ➤ :checkered_flag: Before you Begin</a>
-      <ul>
-        <li><a href="#why-did-i-make-this-guide"> ➤ :thinking: Why did I make this guide?</a></li>
-    	<li><a href="#what-you-will-need"> ➤ :hammer_and_wrench: What you will need</a></li>
-    	<li><a href="#what-can-you-do"> ➤ :electron: What you can do with a hacked switch?</a></li>
-    	<li><a href="#is-hacking-illegal"> ➤ :detective: Is hacking your switch illegal?</a></li>
-    	<li><a href="#how-much"> ➤ :moneybag: How much will it cost? How long will it take?</a></li>
-      </ul>
-    </li>
-    <li><a href="#setup"> ➤ :floppy_disk: Step 1: Setup SD Card</a></li>
-    <li><a href="#enter_rcm"> ➤ :syringe: Step 2: Enter RCM and Inject Payload</a></li>
-    <li><a href="#safety"> ➤ :closed_lock_with_key: Step 3: Safety Precautions</a></li>
-    <li><a href="#applications"> ➤ :computer: Step 4: Installing Useful Applications</a></li>
-    <li><a href="#accessing"> ➤ :heavy_check_mark: Accessing your installed apps</a></li>
-    <li><a href="#games"> ➤ :video_game: Installing games on your Switch</a></li>
-    <li><a href="#overview"> ➤ :world_map: Overview of apps</a></li>
-    <li><a href="#emulation"> ➤ :joystick: Multi-Console Retro Game Emulation</a></li>
-    <li><a href="#cheats"> ➤ :pirate_flag: Game Cheats and Mods</a></li>
-    <li><a href="#troubleshooting"> ➤ :monocle_face: Troubleshooting</a></li>
-    <li><a href="#resources"> ➤ :toolbox: Useful Resources</a></li>
-  </ol>
+<ol >
+<li>
+  <a href="#intro"> ➤ :camping: Before you Begin</a>
+     <ul>
+       <li><a href="#why-did-i-make-this-guide"> ➤ :thinking: Why did I make this guide?</a></li>
+       <li><a href="#what-you-will-need"> ➤ :hammer_and_wrench: What you will need</a></li>
+       <li><a href="#what-can-you-do"> ➤ :electron: What you can do with a hacked switch?</a></li>
+       <li><a href="#is-hacking-illegal"> ➤ :detective: Is hacking your switch illegal?</a></li>
+       <li><a href="#how-much"> ➤ :moneybag: How much will it cost? How long will it take?</a></li>
+     </ul>
+<li>
+  <a href="begin"> ➤ :checkered_flag: Lets Begin!
+     <ul>
+	<li><a href="#setup"> ➤ :floppy_disk: Step 1: Setup SD Card</a></li>
+	<li><a href="#enter_rcm"> ➤ :syringe: Step 2: Enter RCM and Inject Payload</a></li>
+	<li><a href="#safety"> ➤ :closed_lock_with_key: Step 3: Safety Precautions</a></li>
+	<li><a href="#applications"> ➤ :computer: Step 4: Installing Useful Applications</a></li>
+     </ul>
+<li>
+  <a href="afterwards"> ➤ :crossed_flags: After Installation!
+     <ul>
+	<li><a href="#accessing"> ➤ :heavy_check_mark: Accessing your installed apps</a></li>
+	<li><a href="#games"> ➤ :video_game: Installing games on your Switch</a></li>
+	<li><a href="#overview"> ➤ :world_map: Overview of apps</a></li>
+	<li><a href="#emulation"> ➤ :joystick: Multi-Console Retro Game Emulation</a></li>
+	<li><a href="#cheats"> ➤ :pirate_flag: Game Cheats and Mods</a></li>
+     </ul>
+<li><a href="#troubleshooting"> ➤ :monocle_face: Troubleshooting</a></li>
+<li><a href="#resources"> ➤ :toolbox: Useful Resources</a></li>
+</ol>
 </details>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h1 id="intro" align="center"> Before You Begin! </h1>
+<h1 id="intro" align="center">:camping: Before You Begin! </h1>
 <p>
 
 <!-- Why did I make this guide -->
@@ -185,7 +192,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h1 align="center"> Lets Begin! </h1>
+<h1 align="center" id="#begin"> :checkered_flag: Lets Begin! </h1>
 <p>
   
 <!-- Step 1e: Setup SD Card -->
@@ -295,6 +302,9 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
+<h1 align="center" id="#afterwards"> :crossed_flags: After Installation! </h1>
+<p>
+	  
 <!-- Accessing your Installed apps -->
 <h2 id="accessing"> :heavy_check_mark: Accessing your Installed apps</h2>
 <p>
@@ -464,50 +474,33 @@ laid out <a href="https://games.jits.cc/">here</a></p>
 	
 Note: Skip to Tinfoil to start downloading games
 
-1. Breeze and Edizon SE
-2. Checkpoint
+1. **Breeze and Edizon SE**
+2. **Checkpoint**
    - Checkpoint is a fast simple save manager. With this tool you can backup or edit save files. For a while this app wasn’t compatible with the latest firmware. If that happens again check out JKSB which does essentially the exact same thing
-3. Daybreak and Reboot to Payload
-4. Fizeau
+3. **Daybreak and Reboot to Payload**
+4. **Fizeau** (<a href="https://github.com/averne/Fizeau/blob/master/README.md">Documentation</a>)
    - Fizeau allows you to adjust the color of your screen with corrections including gamma, luminance, and color range. I usually use this to filter out some blue light when playing at night. You can also use this to try and make games look more vibrant. I usually access this through the Tesla Menu. 
-	
-	(<a href="https://github.com/averne/Fizeau/blob/master/README.md">Documentation</a>)
-5. Ftpd pro
+5. **Ftpd pro** (<a href="https://github.com/mtheall/ftpd/blob/master/README.md">Documentation</a>)
    - This is one of my very favorite apps. This allows you to download onto your switch wirelessly through Wi-Fi.
    - On your PC file browser, enter the ip address with the ftp:// prefix. e.g. ftp://xxx.xxx.x.x:5000
    - The Switch SD files should now appear on your PC. This is extremely useful for small files, but not recommended for files larger than 100MB as the transfer speed is much slower than direct to SD card
-	
-	(<a href="https://github.com/mtheall/ftpd/blob/master/README.md">Documentation</a>)
-6. Goldleaf
+6. **Goldleaf** (<a href="https://github.com/XorTroll/Goldleaf/blob/master/README.md">Documentation</a>)
    - This is a multipurpose app that acts as a filesystem browser, NRO installer, web browser, and more
    - If for whatever reason all the Tinfoil app stores are down you can use this app to install NRO game files
-	
-	(<a href="https://github.com/XorTroll/Goldleaf/blob/master/README.md">Documentation</a>)
-7. HB App Store
+7. **HB App Store** (<a href="https://github.com/fortheusers/hb-appstore/blob/master/README.md">Documentation</a>)
    - This is a store for homebrew apps. Feel free to browse this and download any apps that seem interesting. Personally, I don’t like using this, but others may really appreciate it. There are many outdated or useless apps on the store so be careful. Most of the documentation for the apps are going to be on GitHub so I recommend you check that out before installing
    - Start by checking out nxmp if you want a video player, ppsspp if you want to emulate psp games, amuiibo for virtual amiibos, sysDVR if you want to stream switch games to your PC
-	
-	(<a href="https://github.com/fortheusers/hb-appstore/blob/master/README.md">Documentation</a>)
-8. NX Activity Log
+8. **NX Activity Log** (<a href="https://github.com/tallbl0nde/NX-Activity-Log/blob/master/README.md">Documentation</a>)
    - Because you can no longer connect to Nintendo servers you wouldn’t be able to see your activity and game play times without this app.
    - I recommend you replace your User Page with this app. To do that go to settings, scroll down to the bottom, and select Replace User Page to Enable it
-	
-	(<a href="https://github.com/tallbl0nde/NX-Activity-Log/blob/master/README.md">Documentation</a>)
-9. nxdumptool
-	
-	(<a href="https://github.com/DarkMatterCore/nxdumptool/blob/main/README.md">Documentation</a>)
-10. NXThemes Installer
-	<a href="https://github.com/exelix11/SwitchThemeInjector/blob/master/readme.md">Documentation</a>
-11. Sys-clk manager
+9. **nxdumptool** (<a href="https://github.com/DarkMatterCore/nxdumptool/blob/main/README.md">Documentation</a>)
+10. **NXThemes Installer** (<a href="https://github.com/exelix11/SwitchThemeInjector/blob/master/readme.md">Documentation</a>)
+11. **Sys-clk manager** (<a href="https://github.com/retronx-team/sys-clk/blob/develop/README.md">Documentation</a>)
     - Sys-clk is a system-wide underclock and overclock sysmodule that allows you to overclock the Switch. It includes automatic underclocking and overclocking depending on if you are docked and what games you are playing
-	
-	(<a href="https://github.com/retronx-team/sys-clk/blob/develop/README.md">Documentation</a>)
-12. Retroarch</b>
-    - RetroArch is a frontend for many different emulators. This is the Multipurpose tool you will use to emulate most consoles. see <a href="#retroarch">Retroarch</a>
-
-13. Tinfoil Installer
-    - Used to install Tinfoil for the first time
-    - see <a href="#games">Installing games on your Switch</a>
+12. **Retroarch**
+    - RetroArch is a frontend for many different emulators. This is the Multipurpose tool you will use to emulate most consoles. See <a href="#retroarch">Retroarch</a>
+13. **Tinfoil Installer**
+    - Used to install Tinfoil for the first time. See <a href="#games">Installing games on your Switch</a>
 
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
