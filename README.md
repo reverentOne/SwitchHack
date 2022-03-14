@@ -34,8 +34,9 @@
     <li><a href="#safety"> ➤ :closed_lock_with_key: Step 3: Safety Precautions</a></li>
     <li><a href="#applications"> ➤ :computer: Step 4: Installing Useful Applications</a></li>
     <li><a href="#accessing"> ➤ :heavy_check_mark: Accessing your installed apps</a></li>
-    <li><a href="#games"> ➤ :joystick: Installing games on your Switch</a></li>
+    <li><a href="#games"> ➤ :video_game: Installing games on your Switch</a></li>
     <li><a href="#overview"> ➤ :world_map: Overview of apps</a></li>
+    <li><a href="#emulation"> ➤ :joystick: Multi-Console Retro Game Emulation</a></li>
     <li><a href="#resources"> ➤ :toolbox: Useful Resources</a></li>
   </ol>
 </details>
@@ -311,7 +312,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- Installing games on your Switch -->
-<h2 id="games"> :joystick: Installing games on your Switch</h2>
+<h2 id="games"> :video_game: Installing games on your Switch</h2>
 
 <p>I will go over the 3 main ways to intall and play games on your Switch. Only method 1 is recommended. Methods 2 and 3 are for informational purposes only as <b>I do not promote or encourage unlawful activities including piracy</b></p>
 <ul>
@@ -349,7 +350,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <li><strong>Regional eshops</strong>
  There is a completely legitamate way to get many games super cheap! This is, by buying games from a different region's eshop. Some games are significantly cheaper. For example, as of this writing in the USA eshop the game Overlanders costs $24.99 while that same game cost about $0.92 in Poland. You can find the region with the cheapest prices for each game <a href="https://eShop-Prices.com">here</a>. If the eshop does not accept your method of payment, then you may have to buy an eshop card for the region and use that.</li>
 </ul>
-<h3 class="atx" id="Method 2: tinfoil-shops"><strong>Method 2: Tinfoil Shops</strong></h3>
+<h3 id="#tinfoils"><strong>Method 2: Tinfoil Shops</strong></h3>
 <p>Tinfoil is by far the easiest fastest and best way to access pirated games!</p>
 <ol>
 <li><p>Boot into your switch using fusee and make sure you are connected to the internet</p>
@@ -445,7 +446,7 @@ laid out <a href="https://games.jits.cc/">here</a></p>
 </ul>
 <h5 class="atx" id="rom-websites-and-torrents">ROM Websites and Torrents</h5>
 <p>There are many websites that offer pirated games. Unfortunately every one of them are completely filled with ads, hidden downloads, and viruses. This method is the most time consuming and dangerous. An <strong>ad blocker is required</strong>, but even then it only does so much. It's also recommend you <strong>scan for viruses</strong></p>
-<p>Torrenting is another method of obtaining games, but this is <b>highly risky without a paid VPN</b> to hide your IP address. Without a VPN many people receive copyright infringement warnings from their internet service provider. You are unlikely to go to court over this, but after a few warnings the ISP may shutdown your internet access.</b></p>
+<p>Torrenting is another method of obtaining games, but this is <b>highly risky without a paid VPN</b> to hide your IP address. Without a VPN many people receive copyright infringement warnings from their internet service provider. You are unlikely to go to court over this, but after a few warnings the ISP may shutdown your internet access. The best client is <a href="https://www.qbittorrent.org/download.php">qbittorrent</a></p>
 
 
 	
@@ -461,133 +462,133 @@ laid out <a href="https://games.jits.cc/">here</a></p>
 	
 Note: Skip to Tinfoil to start downloading games
 
-1.  <details><summary>Breeze and Edizon SE</summary
-	</details>
-2. <details><summary>Checkpoint</summary>
+1. Breeze and Edizon SE
+2. Checkpoint
    - Checkpoint is a fast simple save manager. With this tool you can backup or edit save files. For a while this app wasn’t compatible with the latest firmware. If that happens again check out JKSB which does essentially the exact same thing
-	</details>
-3. <details><summary>Daybreak and Reboot to Payload</summary>
-	</details>
-4. <details><summary>Fizeau</summary>
+3. Daybreak and Reboot to Payload
+4. Fizeau
    - Fizeau allows you to adjust the color of your screen with corrections including gamma, luminance, and color range. I usually use this to filter out some blue light when playing at night. You can also use this to try and make games look more vibrant. I usually access this through the Tesla Menu. 
 	
 	(<a href="https://github.com/averne/Fizeau/blob/master/README.md">Documentation</a>)
-	</details>
-5. <details><summary>Ftpd pro</summary>
+5. Ftpd pro
    - This is one of my very favorite apps. This allows you to download onto your switch wirelessly through wifi.
    - On your PC file browser, enter the ip address with the ftp:// prefix. e.g. ftp://xxx.xxx.x.x:5000
    - The Switch SD files should now appear on your PC. This is extremely useful for small files, but not recommended for files larger than 100MB as the transfer speed is much slower than direct to SD card
 	
 	(<a href="https://github.com/mtheall/ftpd/blob/master/README.md">Documentation</a>)
-	</details>
-6. <details><summary>Goldleaf</summary>
+6. Goldleaf
    - This is a multipurpose app that acts as a filesystem browser, NRO installer, web browser, and more
    - If for whatever reason all the Tinfoil app stores are down you can use this app to install NRO game files
 	
 	(<a href="https://github.com/XorTroll/Goldleaf/blob/master/README.md">Documentation</a>)
-	</details>
-7. <details><summary>HB App Store</summary>
+7. HB App Store
    - This is a store for homebrew apps. Feel free to browse this and download any apps that seem interesting. Personally, I don’t like using this, but others may really appreciate it. There are many outdated or useless apps on the store so be careful. Most of the documentation for the apps are going to be on github so I recommend you check that out before installing
    - Start by checking out nxmp if you want a video player, ppsspp if you want to emulate psp games, amuiibo for virtual amiibos, sysDVR if you want to stream switch games to your PC
 	
 	(<a href="https://github.com/fortheusers/hb-appstore/blob/master/README.md">Documentation</a>)
-	</details>
-8. <details><summary>NX Activity Log</summary>
+8. NX Activity Log
    - Because you can no longer connect to Nintendo servers you wouldn’t be able to see your activity and game play times without this app.
    - I recommend you replace your User Page with this app. To do that go to settings, scroll down to the bottom, and select Replace User Page to Enable it
 	
 	(<a href="https://github.com/tallbl0nde/NX-Activity-Log/blob/master/README.md">Documentation</a>)
-	</details>
-9. <details><summary>nxdumptool</summary>
+9. nxdumptool
 	
 	(<a href="https://github.com/DarkMatterCore/nxdumptool/blob/main/README.md">Documentation</a>)
-	</details>
-10. <details><summary>NXThemes Installer</summary>
+10. NXThemes Installer
 	<a href="https://github.com/exelix11/SwitchThemeInjector/blob/master/readme.md">Documentation</a>
-	</details>
-11. <details><summary>Sys-clk manager</summary>
+11. Sys-clk manager
     - Sys-clk is a system-wide underclock and overclock sysmodule that allows you to overclock the Switch. It includes automatic underclocking and overclocking depending on if you are docked and what games you are playing
 	
 	(<a href="https://github.com/retronx-team/sys-clk/blob/develop/README.md">Documentation</a>)
-	</details>
-12. <details><summary><b>Retroarch</b></summary>
+12. Retroarch</b>
+    - RetroArch is a frontend for many different emulators. This is the Multipurpose tool you will use to emulate most consoles. see <a href="#retroarch">Retroarch</a>
 
-	Retroarch is one of the coolest features of the hacked Switch! You can easily play retro games from many consoles including but not limited to NES, SNES, N64, GB, GBC, and GBA. On these older consoles games will run perfectly. Many other consoles are supported, but even ones as recent as the DS may lag or crash so they are not recommended.
-	Playing games is very simple. These are the steps:
+13. Tinfoil Installer
+    - Used to install Tinfoil for the first time
+    - see <a href="#games">Installing games on your Switch</a>
 
-	* 1)&nbsp;Find games you want to play and download the roms. I recommend <a href="https://www.romsgames.net/">this</a> website
-	* 2)&nbsp;Create a ROMS folder in the root of your switch. Now create a fold inside this ROMS folder for each console you want to emulate. For example name one ‘NES’ and another ‘GBA’, etc.
-	* 3)&nbsp;Transfer your downloaded games into their game folders you just created on the Switch
-	* 4)&nbsp;On your switch open the hbmenu and select Retroarch
-	* 5)&nbsp;Under Main Menu select Load Core then Download a Core. A list will appear and you can download the core for each console you plan to emulate
-	* 6)&nbsp;Under Main Menu select Load Content then Start Directory then locate the ROMS folder 
-	* 7)&nbsp;Select which game you wish to play and start playing!
 	
-	(<a href="https://www.retroarch.com/">Retroarch Documentation</a>)
-
-	<details><summary><b>NSP Forwarder</b></summary>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 	
-	        Now you will quickly come to realize that it takes some time to open your games. I just tested and it took me 17 clicks to open a game starting from the switches home. I will show you a way to have games on your Switch home so you can start playing in as little as one click.
+<!-- Multi-Console Retro Game Emulation -->
+<h2 id="emulation"> :joystick: Multi-Console Retro Game Emulation</h2>
+<p>
 
-		* 1)&nbsp;Follow <a href="https://gbatemp.net/threads/gui-for-nsp-forwarder-tool-for-12.588018/">this</a> link and download the zip file. It is a GUI for an NSP Forwarder
-		* 2)&nbsp;Unzip the file and transfer it to a safe place on your PC.
-		* 3)&nbsp;Open it and run the menu executable and follow the next steps for each game
-		* <details><summary>4)&nbsp;:camera: Fill out each box in the GUI before clicking Create Forwarder</summary>
-		
-			<img src="images/Forwarder.png" alt="forwarder" width="70%">
-			</details>
+The Switch is great at emulating some consoles and not so great at emulating others. Here is breakdown:
 
-			* Application Name: Name of the game you want displayed
-			* Author Name: You or whoever/whatever you want here
-			* Title ID: Hit the random key to generate an ID
-			* Icon Path: Where you have the icon you want used when you select the game
-			* Logo Path: Small logo you see when you boot the game. I keep this blank
-			* (Your images must be 256x256 for icons, 160x40 for logos)
-			* Custom prod.keys location: I like keeping a copy of my prod.keys in the root folder of the app. You should have a copy of your prod.keys in your Switch folder as well as a backup on your PC.
-			* Forwarder Options: Check the Retroarch Rom Forwarder
-			* Core Path: This is the path on your SD card from the root to the core you want to use for the rom.
-			* Rom Path: This is the location of your rom you want to use with the core you selected in the previous step.
-		* 5)&nbsp;The Forwarder should have created nsp files in the NSP folder on the root of the app
-		* 6)&nbsp;Now create a folder on the root of your SD card called NSP Files or whatever
-		* 7)&nbsp;Transfer the files in the NSP folder on the root of the app to the NSP Files folder on the root of your SD card
-		* 8)&nbsp;On your switch open the hbmenu and select Goldleaf then Explore content then SD card then NSP Files
-		* 9)&nbsp;Install each nsp file and they should now show up on your Switch’s Home!
-		</details>
-	
-	</details>
+- Perfect Emulation: N64, GBA, and all previous Nintendo systems, many 4th generation or ealier consoles
+  
+  - Retroarch will be used for almost all emulation
+    
+  - Use Nintendo Switch Online for N64 games. This can be found using Tinfoil shops. This may require you to Link a Fake Nintendo Online Account which can be done through Options in Tinfoil
+    
+- OK Emulation with Overclocking: DS, 3DS, PSP, PS1, Dreamcast
+  
+  - The Switch is not the optimal way to emulate these systems. I recommend an Android phone or PC, but many games do work OK
+    
+  - Depending on your game you may be able to play with minimal lag
+    
+  - Use the Citra core for 3DS games (Access after donating \$1 to <a href="https://www.patreon.com/citraemu">this</a> patreon)
+    
+  - Use PPSSPP for PSP games
+    
+  - Overclock to 1785 MHz for best performance
+    
+- Hit-or-miss Emulation with Android OS: Game Cube, Wii
+  
+  - Technically if you get the Android OS on Switch you can get more emulators like Dolphin to run Wii and GameCube games. I do not recommend this as there are much better ways to Emulate these systems.
+    
+  
 
-13. <details><summary>Tinfoil</summary>
+<h3 id="#retroarch">Retroarch</h3>
 
-	There are basically 3 unconventional ways to get games onto your switch. Firstly, you can download from a cartridge that you own. If your goal is to avoid pirating than this is the best method for you. Secondly, you can go to any number of sketchy websites filled with adds and links to malware to download the game file onto your switch. Using an app like Goldleaf you can install and play them. Thirdly, you can use a game store through Tinfoil. This is far easier, quicker, and safer than the second method. I will now walk you through how to get games from Tinfoil.
+RetroArch is a frontend for many different emulators. This is the Multipurpose tool you will use to emulate most consoles. There is also built in Overclocking.
 
-	1. Boot into your switch using fusee and make sure you are connected to the internet
-	2. On your switch open the hbmenu and select Tinfoil installer
-	3. After installation Tinfoil should show up as an app on the Switch home
-	4. Open Tinfoil if not already open, select File Browser, and press (-)
-	5. Fill out:
-	   * Protocol: https
-	   * Host: raw.githubusercontent.com
-	   * Path: carcaschoi/tinfoil-json/master/tinfoilshop.json
-	   * Titles: Luffshop
-	6. The details, if needed, to install Luffshop can be found here: https://github.com/carcaschoi/tinfoil-json
-	7. Save and wait a minute or so for the shop to load
-	8. A new tab in Tinfoil should appear called New Games
-	9. Great! Now you can search for any games or DLCs that your heart desires
-	*To install via USB on Windows read: https://discord.com/channels/679180031854903316/703531443267043409/745781154757476373 
-	**If you want to explore more ways to access games check out: https://games.jits.cc/ 
+Playing games is very simple. These are the steps:
 
-	Titz Pro shop
+1. Find games you want to play and download the roms. I recommend [this](https://www.romsgames.net/) website
+2. Create a ROMS folder in the root of your switch. Now create a folder inside this ROMS folder for each console you want to emulate. For example name one ‘NES’ and another ‘GBA’, etc.
+3. Transfer your downloaded games into their game folders you just created on the Switch
+4. On your switch open the hbmenu and select Retroarch
+5. Under Main Menu select Load Core then Download a Core. A list will appear and you can download the core for each console you plan to emulate
+6. Under Main Menu select Load Content then Start Directory then locate the ROMS folder
+7. Select which game you wish to play and start playing!
 
-	Luffshop is not actually a shop but a redirect to many other shops. Sometimes shops go down, but with Luffshop you will have your best bet of having access to games. One of these shops that you are redirected to is titz (turtle in the shop). There is also a premium shop called Titz Pro. The only way to access this shop is through the turtle in the shop discord channel here: https://discord.com/channels/829394042025672704/874130275343401000 
-	Follow the instructions under #info-check-here-first. You will need to buy an eshop code and donate it. There are links to where to buy codes under #support-nintendo. $5 cards work as well as 500 Yen cards
+([Retroarch Documentation](https://www.retroarch.com/))
 
-	Why should I get Titz Pro?
+<h3>NSP Forwarder</h3>
 
-	First, you are supporting the community as all donations go to expanding the shop. Second you will have early access to many titles often before they are officially released. Third, You will have access to Retroarch games.
+Now you will quickly come to realize that it takes some time to open your games. I just tested and it took me 17 clicks to open a game starting from the switches home. I will show you a way to have games on your Switch home so you can start playing in as little as one click.
 
-	(<a href="https://tinfoil.io/">Tinfoil Documentation</a>)
-</details>
-
+1. Follow <a href="https://gbatemp.net/threads/gui-for-nsp-forwarder-tool-for-12.588018/">this</a> link and download the zip file. It is a GUI for an NSP Forwarder (an alternative Forwarder can be found <a href="https://github.com/dezem/SAK/releases">here</a>)
+  
+2. Unzip the file and transfer it to a safe place on your PC.
+  
+3. Open it and run the menu executable and follow the next steps for each game
+  
+4. <details><summary>:camera: Fill out each box in the GUI before clicking Create Forwarder</summary>
+  	<img src="images/Forwarder.png" alt="forwarder" width="70%">
+    	</details>
+  
+  	- Application Name: Name of the game you want displayed
+  	- Author Name: You or whoever/whatever you want here
+  	- Title ID: Hit the random key to generate an ID
+  	- Icon Path: Where you have the icon you want used when you select the game
+  	- Logo Path: Small logo you see when you boot the game. I keep this blank
+  	- (Your images must be 256x256 for icons, 160x40 for logos)
+  	- Custom prod.keys location: I like keeping a copy of my prod.keys in the root folder of the app. You should have a copy of your prod.keys in your Switch folder as well as a backup on your PC.
+  	- Forwarder Options: Check the Retroarch Rom Forwarder
+  	- Core Path: This is the path on your SD card from the root to the core you want to use for the rom.
+  	- Rom Path: This is the location of your rom you want to use with the core you selected in the previous step.
+5. The Forwarder should have created nsp files in the NSP folder on the root of the app
+  
+6. Now create a folder on the root of your SD card called NSP Files or whatever
+  
+7. Transfer the files in the NSP folder on the root of the app to the NSP Files folder on the root of your SD card
+  
+8. On your switch open the hbmenu and select Goldleaf then Explore content then SD card then NSP Files
+  
+9. Install each nsp file and they should now show up on your Switch’s Home!
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
