@@ -135,11 +135,11 @@ There are many homebrew guides out there. Some are better than others, but all w
 		</table>
 		</details>
 * Micro SD card (256GB or 512GB Recommended, 64GB Minimum)
-  - Keep in mind that games are on average 5GB but the largest ones are over 15GB
+  - Keep in mind that games are on average 5GB, but the largest ones are over 15GB
   - Quality is important as this will help with boot and load times
 * RCM jig (highly recommended) <a href="https://www.amazon.com/s?k=rcm+jig&crid=2WTYTM5F11KRR&sprefix=rcm+jig%2Caps%2C145&ref=nb_sb_noss_1">Find on Amazon</a>
 * A device to send a payload
-  - PC recommended, but android phones or jailbroken ios devises also work
+  - PC recommended, but android phones or jailbroken IOS devises also work
 * Some kind of USB cable to connect your Switch to your PC or other payload sender of choice
 
 
@@ -169,7 +169,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 *	The short answer is No
 *	Hacking your switch is against Nintendo terms of service and puts your device at risk of getting banned. That is all.
 *	Pirating games is illegal but…
-*	Nobody has EVER been arrested or charged for downloading pirated games. Distributing games is punishable, but again nobody as far as I know has EVER been arrested or charged for pirating games. The reason being that procecuting <a href="https://en.m.wikipedia.org/wiki/Criminal_copyright_law_in_the_United_States#Legal_definition">criminal copyright infringement</a> requires that the infringer acted "for the purpose of commercial advantage or private financial gain."
+*	Nobody has EVER been arrested or charged for downloading pirated games. Distributing games is punishable, but again nobody as far as I know has EVER been arrested or charged for pirating games. The reason being that prosecuting <a href="https://en.m.wikipedia.org/wiki/Criminal_copyright_law_in_the_United_States#Legal_definition">criminal copyright infringement</a> requires that the infringer acted "for the purpose of commercial advantage or private financial gain."
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -179,7 +179,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 
 *	~$250-350 USD
 *	I bought my switch from an online local marketplace for $230, 256GB SD card for $28 on Amazon, and RCM jig for $7 on Amazon.
-*	Using this guide it should take about 1-2 hours depending on your download speed
+*	Using this guide, it should take about 1-2 hours depending on your download speed
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -228,9 +228,9 @@ There are many homebrew guides out there. Some are better than others, but all w
 	- There are many other methods but this one is highly highly recommended. I used an LED light with bent wires before I got the jig which worked but was very annoying.
 	- For a list of alternate methods see <a href="https://gbatemp.net/threads/the-ultimate-list-of-mods-to-enter-rcm.502145/">here</a>)
 4. Hold down the <b>Volume Up</b> button and press the <b>Power</b> button
-	- If the screen stays black that means you are in, YAH! If the switch logo appears, something went wrong and you need to try again
+	- If the screen stays black that means you are in, YAH! If the switch logo appears, something went wrong, and you need to try again
 5. Now you can take out the RCM jig and connect your Switch to your PC
-	- For other devices follow the instruction in the README.md file on their individual github pages)
+	- For other devices follow the instruction in the README.md file on their individual GitHub pages)
 6. Time to open up TegraRcmGUI on your PC
 7. Open the settings tab and select Install drivers (First time only)
 8. <details><summary>:camera: If your Switch is in RCM mode and connected correctly the red image should turn green and say RCM OK</summary>
@@ -306,7 +306,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 4. Mission Control
    - with MissionControl, you can use other consoles’ controllers on your Switch through Bluetooth. This is a background process 
    - For a list of compatible controllers look <a href="https://github.com/ndeadly/MissionControl">here</a>. I use the DualShock 4 PlayStation controller
-   - To pair a controller go to the Switch Home screen, then Controllers, then Change Grip/Order. While on this screen, place your controller in pairing mode and wait for it to connect to the switch. That is all!
+   - To pair a controller, go to the Switch Home screen, then Controllers, then Change Grip/Order. While on this screen, place your controller in pairing mode and wait for it to connect to the switch. That is all!
 	
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -314,7 +314,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <!-- Installing games on your Switch -->
 <h2 id="games"> :video_game: Installing games on your Switch</h2>
 
-<p>I will go over the 3 main ways to intall and play games on your Switch. Only method 1 is recommended. Methods 2 and 3 are for informational purposes only as <b>I do not promote or encourage unlawful activities including piracy</b></p>
+<p>I will go over the 3 main ways to install and play games on your Switch. Only method 1 is recommended. Methods 2 and 3 are for informational purposes only as <b>I do not promote or encourage unlawful activities including piracy</b></p>
 <ul>
 <li><p>Method 1: Buying games through Nintendo and playing online</p>
 <ul>
@@ -348,7 +348,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <p>The only way to play online games is to buy the game from Nintendo's eshop or the cartridge from a distributor. In order to play online you will need to boot using sysNAND. To do this: inject hetake like normal, select launch, then sysNAND. WARRNING: Make sure you do not break any of Nintendo's terms of service while in sysNAND or you will get banned! Banned means you will no longer be able to access any Nintendo features on your device including the eshop and online play. If you cheat in online games, your Switch will be banned as well as your Nintendo account will be banned.</p>
 <ul>
 <li><strong>Regional eshops</strong>
- There is a completely legitamate way to get many games super cheap! This is, by buying games from a different region's eshop. Some games are significantly cheaper. For example, as of this writing in the USA eshop the game Overlanders costs $24.99 while that same game cost about $0.92 in Poland. You can find the region with the cheapest prices for each game <a href="https://eShop-Prices.com">here</a>. If the eshop does not accept your method of payment, then you may have to buy an eshop card for the region and use that.</li>
+ There is a completely legitimate way to get many games super cheap! This is, by buying games from a different region's eshop. Some games are significantly cheaper. For example, as of this writing in the USA eshop the game Overlanders costs $24.99 while that same game cost about $0.92 in Poland. You can find the region with the cheapest prices for each game <a href="https://eShop-Prices.com">here</a>. If the eshop does not accept your method of payment, then you may have to buy an eshop card for the region and use that.</li>
 </ul>
 <h3 id="#tinfoils"><strong>Method 2: Tinfoil Shops</strong></h3>
 <p>Tinfoil is by far the easiest fastest and best way to access pirated games!</p>
@@ -399,7 +399,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <ol>
 <li><p>You are supporting the community as all donations go into expanding all the stores</p>
 </li>
-<li><p>Because tits pro is private it gets less trafic and is less likely to shutdown compared to other shops</p>
+<li><p>Because tits pro is private it gets less traffic and is less likely to shutdown compared to other shops</p>
 </li>
 <li><p><details><summary>:camera: Gain access to Retroarch titles through Tinfoil. Nothing new, but this is a time saver. Just download the cores from Retroarch and the games will show up</summary>
 <img src="images/tf4.jpg" alt="tf4" width="70%">
@@ -445,7 +445,7 @@ laid out <a href="https://games.jits.cc/">here</a></p>
 <li>Note: For&nbsp;jitz share you may want to make a new google account. This is quick and easy, and will free up Drive space. The maximum free space is still 15GB so most games will download, but there are a few that are too large.</li>
 </ul>
 <h5 class="atx" id="rom-websites-and-torrents">ROM Websites and Torrents</h5>
-<p>There are many websites that offer pirated games. Unfortunately every one of them are completely filled with ads, hidden downloads, and viruses. This method is the most time consuming and dangerous. An <strong>ad blocker is required</strong>, but even then it only does so much. It's also recommend you <strong>scan for viruses</strong></p>
+<p>There are many websites that offer pirated games. Unfortunately, every one of them are completely filled with ads, hidden downloads, and viruses. This method is the most time consuming and dangerous. An <strong>ad blocker is required</strong>, but even then it only does so much. It's also recommended you <strong>scan for viruses</strong></p>
 <p>Torrenting is another method of obtaining games, but this is <b>highly risky without a paid VPN</b> to hide your IP address. Without a VPN many people receive copyright infringement warnings from their internet service provider. You are unlikely to go to court over this, but after a few warnings the ISP may shutdown your internet access. The best client is <a href="https://www.qbittorrent.org/download.php">qbittorrent</a></p>
 
 
@@ -471,7 +471,7 @@ Note: Skip to Tinfoil to start downloading games
 	
 	(<a href="https://github.com/averne/Fizeau/blob/master/README.md">Documentation</a>)
 5. Ftpd pro
-   - This is one of my very favorite apps. This allows you to download onto your switch wirelessly through wifi.
+   - This is one of my very favorite apps. This allows you to download onto your switch wirelessly through Wi-Fi.
    - On your PC file browser, enter the ip address with the ftp:// prefix. e.g. ftp://xxx.xxx.x.x:5000
    - The Switch SD files should now appear on your PC. This is extremely useful for small files, but not recommended for files larger than 100MB as the transfer speed is much slower than direct to SD card
 	
@@ -482,7 +482,7 @@ Note: Skip to Tinfoil to start downloading games
 	
 	(<a href="https://github.com/XorTroll/Goldleaf/blob/master/README.md">Documentation</a>)
 7. HB App Store
-   - This is a store for homebrew apps. Feel free to browse this and download any apps that seem interesting. Personally, I don’t like using this, but others may really appreciate it. There are many outdated or useless apps on the store so be careful. Most of the documentation for the apps are going to be on github so I recommend you check that out before installing
+   - This is a store for homebrew apps. Feel free to browse this and download any apps that seem interesting. Personally, I don’t like using this, but others may really appreciate it. There are many outdated or useless apps on the store so be careful. Most of the documentation for the apps are going to be on GitHub so I recommend you check that out before installing
    - Start by checking out nxmp if you want a video player, ppsspp if you want to emulate psp games, amuiibo for virtual amiibos, sysDVR if you want to stream switch games to your PC
 	
 	(<a href="https://github.com/fortheusers/hb-appstore/blob/master/README.md">Documentation</a>)
@@ -516,7 +516,7 @@ Note: Skip to Tinfoil to start downloading games
 
 The Switch is great at emulating some consoles and not so great at emulating others. Here is breakdown:
 
-- Perfect Emulation: N64, GBA, and all previous Nintendo systems, many 4th generation or ealier consoles
+- Perfect Emulation: N64, GBA, and all previous Nintendo systems, many 4th generation or earlier consoles
   
   - Retroarch will be used for almost all emulation
     
@@ -536,7 +536,7 @@ The Switch is great at emulating some consoles and not so great at emulating oth
     
 - Hit-or-miss Emulation with Android OS: Game Cube, Wii
   
-  - Technically if you get the Android OS on Switch you can get more emulators like Dolphin to run Wii and GameCube games. I do not recommend this as there are much better ways to Emulate these systems.
+  - Technically, if you get the Android OS on Switch, you can get more emulators like Dolphin to run Wii and GameCube games. I do not recommend this as there are much better ways to Emulate these systems.
     
   
 
@@ -546,11 +546,11 @@ RetroArch is a frontend for many different emulators. This is the Multipurpose t
 
 Playing games is very simple. These are the steps:
 
-1. Find games you want to play and download the roms. I recommend [this](https://www.romsgames.net/) website
-2. Create a ROMS folder in the root of your switch. Now create a folder inside this ROMS folder for each console you want to emulate. For example name one ‘NES’ and another ‘GBA’, etc.
+1. Find games you want to play and download the ROMs. I recommend [this](https://www.romsgames.net/) website
+2. Create a ROMS folder in the root of your switch. Now create a folder inside this ROMS folder for each console you want to emulate. For example, name one ‘NES’ and another ‘GBA’, etc.
 3. Transfer your downloaded games into their game folders you just created on the Switch
 4. On your switch open the hbmenu and select Retroarch
-5. Under Main Menu select Load Core then Download a Core. A list will appear and you can download the core for each console you plan to emulate
+5. Under Main Menu select Load Core then Download a Core. A list will appear, and you can download the core for each console you plan to emulate
 6. Under Main Menu select Load Content then Start Directory then locate the ROMS folder
 7. Select which game you wish to play and start playing!
 
@@ -596,7 +596,7 @@ Now you will quickly come to realize that it takes some time to open your games.
 <h2 id="resources"> :toolbox: Useful Resources</h2>
 <p>
 	
-Switch acking communities:
+Switch hacking communities:
 * GBATEMP: https://gbatemp.net/forums/nintendo-switch.283/
 * Reddit: https://www.reddit.com/r/SwitchPirates/
 * Discord: https://discord.gg/C29hYvh
