@@ -40,8 +40,8 @@
   <a href="afterwards"> ➤ :crossed_flags: After Installation!
      <ul>
 	<li><a href="#accessing"> ➤ :heavy_check_mark: Accessing your installed apps</a></li>
-	<li><a href="#games"> ➤ :video_game: Installing games on your Switch</a></li>
 	<li><a href="#overview"> ➤ :world_map: Overview of apps</a></li>
+	<li><a href="#games"> ➤ :video_game: Installing games on your Switch</a></li>
 	<li><a href="#emulation"> ➤ :joystick: Multi-Console Retro Game Emulation</a></li>
 	<li><a href="#cheats"> ➤ :pirate_flag: Game Cheats and Mods</a></li>
 	<li><a href="#themes"> ➤ :art: Custom Themes</a></li>
@@ -323,6 +323,49 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 	
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+	
+<!-- Overview of apps -->
+<h2 id="overview"> :world_map: Overview of apps</h2>
+<p>
+
+<img src="images/6.jpg" alt="6" width="70%" align="left">
+<img src="images/7.png" alt="7" width="70%" align="center">
+<p>
+	
+Note: Skip to Tinfoil to start downloading games
+
+1. **Breeze and Edizon SE**
+2. **Checkpoint**
+   - Checkpoint is a fast simple save manager. With this tool you can backup or edit save files. For a while this app wasn’t compatible with the latest firmware. If that happens again check out JKSB which does essentially the exact same thing
+3. **Daybreak and Reboot to Payload**
+4. **Fizeau** (<a href="https://github.com/averne/Fizeau/blob/master/README.md">Documentation</a>)
+   - Fizeau allows you to adjust the color of your screen with corrections including gamma, luminance, and color range. I usually use this to filter out some blue light when playing at night. You can also use this to try and make games look more vibrant. I usually access this through the Tesla Menu. 
+5. **Ftpd pro** (<a href="https://github.com/mtheall/ftpd/blob/master/README.md">Documentation</a>)
+   - This is one of my very favorite apps. This allows you to download onto your switch wirelessly through Wi-Fi.
+   - On your PC file browser, enter the ip address with the ftp:// prefix. e.g. ftp://xxx.xxx.x.x:5000
+   - The Switch SD files should now appear on your PC. This is extremely useful for small files, but not recommended for files larger than 100MB as the transfer speed is much slower than direct to SD card
+6. **Goldleaf** (<a href="https://github.com/XorTroll/Goldleaf/blob/master/README.md">Documentation</a>)
+   - This is a multipurpose app that acts as a filesystem browser, NRO installer, web browser, and more
+   - If for whatever reason all the Tinfoil app stores are down you can use this app to install NRO game files
+7. **HB App Store** (<a href="https://github.com/fortheusers/hb-appstore/blob/master/README.md">Documentation</a>)
+   - This is a store for homebrew apps. Feel free to browse this and download any apps that seem interesting. Personally, I don’t like using this, but others may really appreciate it. There are many outdated or useless apps on the store so be careful. Most of the documentation for the apps are going to be on GitHub so I recommend you check that out before installing
+   - Start by checking out nxmp if you want a video player, ppsspp if you want to emulate psp games, amuiibo for virtual amiibos, sysDVR if you want to stream switch games to your PC
+8. **NX Activity Log** (<a href="https://github.com/tallbl0nde/NX-Activity-Log/blob/master/README.md">Documentation</a>)
+   - Because you can no longer connect to Nintendo servers you wouldn’t be able to see your activity and game play times without this app.
+   - I recommend you replace your User Page with this app. To do that go to settings, scroll down to the bottom, and select Replace User Page to Enable it
+9. **nxdumptool** (<a href="https://github.com/DarkMatterCore/nxdumptool/blob/main/README.md">Documentation</a>)
+10. **NXThemes Installer** (<a href="https://github.com/exelix11/SwitchThemeInjector/blob/master/readme.md">Documentation</a>)
+11. **Sys-clk manager** (<a href="https://github.com/retronx-team/sys-clk/blob/develop/README.md">Documentation</a>)
+    - Sys-clk is a system-wide underclock and overclock sysmodule that allows you to overclock the Switch. It includes automatic underclocking and overclocking depending on if you are docked and what games you are playing
+12. **Retroarch**
+    - RetroArch is a frontend for many different emulators. This is the Multipurpose tool you will use to emulate most consoles. See <a href="#retroarch">Retroarch</a>
+13. **Tinfoil Installer**
+    - Used to install Tinfoil for the first time. See <a href="#games">Installing games on your Switch</a>
+14. **TriPlayer**
+    - See <a href="https://github.com/tallbl0nde/TriPlayer/wiki">TriPlayer wiki</a>
+
+	
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- Installing games on your Switch -->
 <h2 id="games"> :video_game: Installing games on your Switch</h2>
@@ -460,51 +503,6 @@ laid out <a href="https://games.jits.cc/">here</a></p>
 <h5 class="atx" id="rom-websites-and-torrents">ROM Websites and Torrents</h5>
 <p>There are many websites that offer pirated games. Unfortunately, every one of them are completely filled with ads, hidden downloads, and viruses. This method is the most time consuming and dangerous. An <strong>ad blocker is required</strong>, but even then it only does so much. It's also recommended you <strong>scan for viruses</strong></p>
 <p>Torrenting is another method of obtaining games, but this is <b>highly risky without a paid VPN</b> to hide your IP address. Without a VPN many people receive copyright infringement warnings from their internet service provider. You are unlikely to go to court over this, but after a few warnings the ISP may shutdown your internet access. The best client is <a href="https://www.qbittorrent.org/download.php">qbittorrent</a></p>
-
-
-	
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-
-<!-- Overview of apps -->
-<h2 id="overview"> :world_map: Overview of apps</h2>
-<p>
-
-<img src="images/6.jpg" alt="6" width="70%" align="left">
-<img src="images/7.png" alt="7" width="70%" align="center">
-<p>
-	
-Note: Skip to Tinfoil to start downloading games
-
-1. **Breeze and Edizon SE**
-2. **Checkpoint**
-   - Checkpoint is a fast simple save manager. With this tool you can backup or edit save files. For a while this app wasn’t compatible with the latest firmware. If that happens again check out JKSB which does essentially the exact same thing
-3. **Daybreak and Reboot to Payload**
-4. **Fizeau** (<a href="https://github.com/averne/Fizeau/blob/master/README.md">Documentation</a>)
-   - Fizeau allows you to adjust the color of your screen with corrections including gamma, luminance, and color range. I usually use this to filter out some blue light when playing at night. You can also use this to try and make games look more vibrant. I usually access this through the Tesla Menu. 
-5. **Ftpd pro** (<a href="https://github.com/mtheall/ftpd/blob/master/README.md">Documentation</a>)
-   - This is one of my very favorite apps. This allows you to download onto your switch wirelessly through Wi-Fi.
-   - On your PC file browser, enter the ip address with the ftp:// prefix. e.g. ftp://xxx.xxx.x.x:5000
-   - The Switch SD files should now appear on your PC. This is extremely useful for small files, but not recommended for files larger than 100MB as the transfer speed is much slower than direct to SD card
-6. **Goldleaf** (<a href="https://github.com/XorTroll/Goldleaf/blob/master/README.md">Documentation</a>)
-   - This is a multipurpose app that acts as a filesystem browser, NRO installer, web browser, and more
-   - If for whatever reason all the Tinfoil app stores are down you can use this app to install NRO game files
-7. **HB App Store** (<a href="https://github.com/fortheusers/hb-appstore/blob/master/README.md">Documentation</a>)
-   - This is a store for homebrew apps. Feel free to browse this and download any apps that seem interesting. Personally, I don’t like using this, but others may really appreciate it. There are many outdated or useless apps on the store so be careful. Most of the documentation for the apps are going to be on GitHub so I recommend you check that out before installing
-   - Start by checking out nxmp if you want a video player, ppsspp if you want to emulate psp games, amuiibo for virtual amiibos, sysDVR if you want to stream switch games to your PC
-8. **NX Activity Log** (<a href="https://github.com/tallbl0nde/NX-Activity-Log/blob/master/README.md">Documentation</a>)
-   - Because you can no longer connect to Nintendo servers you wouldn’t be able to see your activity and game play times without this app.
-   - I recommend you replace your User Page with this app. To do that go to settings, scroll down to the bottom, and select Replace User Page to Enable it
-9. **nxdumptool** (<a href="https://github.com/DarkMatterCore/nxdumptool/blob/main/README.md">Documentation</a>)
-10. **NXThemes Installer** (<a href="https://github.com/exelix11/SwitchThemeInjector/blob/master/readme.md">Documentation</a>)
-11. **Sys-clk manager** (<a href="https://github.com/retronx-team/sys-clk/blob/develop/README.md">Documentation</a>)
-    - Sys-clk is a system-wide underclock and overclock sysmodule that allows you to overclock the Switch. It includes automatic underclocking and overclocking depending on if you are docked and what games you are playing
-12. **Retroarch**
-    - RetroArch is a frontend for many different emulators. This is the Multipurpose tool you will use to emulate most consoles. See <a href="#retroarch">Retroarch</a>
-13. **Tinfoil Installer**
-    - Used to install Tinfoil for the first time. See <a href="#games">Installing games on your Switch</a>
-14. **TriPlayer**
-    - See <a href="https://github.com/tallbl0nde/TriPlayer/wiki">TriPlayer wiki</a>
-
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 	
@@ -773,7 +771,7 @@ If you replaced your user page with NX-Activity-Log then you will have to make a
 <ul>
 <li><p>Turn down your brightness, and go into airplane mode</p>
 </li>
-<li><p>Replace your battery for for about $19</p>
+<li><p>Replace your battery for about $19</p>
 </li>
 </ul>
 <h3 class="atx" id="games-arent-working">Games aren’t working?</h3>
