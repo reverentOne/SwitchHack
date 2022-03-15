@@ -692,7 +692,7 @@ Creating your own theme pack is one of the most fun and creative aspects of hack
 
 ### Install a Custom Tinfoil theme
 
-1. Find a theme <a href="https://gbatemp.net/threads/blawar-tinfoil-themes.533692/">here</a> or make your own theme.
+1. You can use my custom theme found <a href="themes/Tinfoil/League_of_Legends/League_of_Legends.zip">here</a> or find a theme <a href="https://gbatemp.net/threads/blawar-tinfoil-themes.533692/">here</a> or make your own theme.
   
 2. Copy the theme's folder to /switch/tinfoil/themes
   
