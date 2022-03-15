@@ -725,6 +725,49 @@ Creating your own theme pack is one of the most fun and creative aspects of hack
 <h2 id="troubleshooting"> :monocle_face: Troubleshooting</h2>
 <p>
 	
+<h3>Do you have errors running hetake or Atmosphere or another App?</h3>
+<ul>
+<li>The fix that works in 90% of cases is to delete the file and reinstall while following the guide exactly. For example, say Retroarch is giving you an error message. The best and easiest solution is to delete the Retroarch folder from the root of SD and then reinstall it.</li>
+</ul>
+<h3 class="atx" id="a-homebrew-app-isnt-working">A Homebrew App isn’t working?</h3>
+<ul>
+<li>Make sure you opened the hub menu using the game + R method not the album method.</li>
+</ul>
+<h3 class="atx" id="tinfoil-isnt-working">Tinfoil isn’t working?</h3>
+<ul>
+<li>Make sure your sigpatches are up to date</li>
+</ul>
+<h3 class="atx" id="having-issues-updating-my-switch">Having issues updating my switch?</h3>
+<ul>
+<li>Make sure you have themes turned off</li>
+</ul>
+<h3 class="atx" id="i-ran-out-of-storage-when-i-shouldnt-have">I ran out of storage when I shouldn’t have?</h3>
+<ul>
+<li>You have a fake SD card</li>
+</ul>
+<h3 class="atx" id="tinfoil-shops-arent-working">Tinfoil shops aren’t working?</h3>
+<ul>
+<li><p>If this is your first time using the shop, make sure you are connected to the internet and you booted using fusee</p>
+</li>
+<li><p>If you have gotten shop to work before but now it’s not working: the shops go down all the time. This is normal. Check their discords for status updates. Often tits pro is the only shop working, but even it sometimes goes down.</p>
+</li>
+</ul>
+<h3 class="atx" id="my-battery-life-is-really-bad">My battery life is really bad?</h3>
+<ul>
+<li><p>Turn down your brightness, and go into airplane mode</p>
+</li>
+<li><p>Replace your battery for for about $19</p>
+</li>
+</ul>
+<h3 class="atx" id="games-arent-working">Games aren’t working?</h3>
+<ul>
+<li>Make sure you have the latest firmware and version of atmosphere</li>
+</ul>
+<h3 class="atx" id="how-do-i-un-hack-my-switch">How do I un-hack my switch?</h3>
+<ul>
+<li>Simply don't boot into recovery mode. Evrything Homebrew is on your emuNAND on your SD card.</li>
+</ul>
+	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- Useful Resources -->
@@ -737,8 +780,4 @@ Switch hacking communities:
 * Discord: https://discord.gg/C29hYvh
 <p>
 	
-Useful but incomplete guides:
-* https://rentry.org/SwitchHackingIsEasy
-* https://nh-server.github.io/switch-guide/
-* https://switch.homebrew.guide/index.html
-* https://www.cfwaifu.com/switch/
+Contact me through <a href="https://www.reddit.com/user/reverent-girl">Reddit</a> or <a href="https://discordapp.com/users/698387044509941821">Discord</a>
