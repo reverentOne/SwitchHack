@@ -649,7 +649,7 @@ Creating your own theme pack is one of the most fun and creative aspects of hack
 4. Reboot your Switch
   
 
-#### Install a Custom Users Icon/Avatar
+### Install a Custom Users Icon/Avatar
 
 1. Find or Create (using an image editor such as paint) a JPEG with 256x256 dementions
   
