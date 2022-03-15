@@ -4,7 +4,7 @@
 </br> 
 
 <p align="center"> 
-  <img src="images/emulators.gif" alt="emulator gif" width="40%">
+  <img src="images/SwitchHack.gif" alt="sh gif" width="60%">
 </p>
 
 
@@ -510,7 +510,10 @@ Note: Skip to Tinfoil to start downloading games
 	
 <!-- Multi-Console Retro Game Emulation -->
 <h2 id="emulation"> :joystick: Multi-Console Retro Game Emulation</h2>
-<p>
+
+<p align="center"> 
+  <img src="images/emulators.gif" alt="emulators gif" width="60%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
 The Switch is great at emulating some consoles and not so great at emulating others. Here is breakdown:
 
@@ -603,7 +606,7 @@ Now you will quickly come to realize that it takes some time to open your games.
 	
 Creating your own theme pack is one of the most fun and creative aspects of hacking your Switch! If you want the quick and easy way, there there are many premade packs available that you can use. If you are feeling abitious, then you can go all the way and even customize your game icons.
 	
-<p align="center"><img src="images/ct.jpg" alt="ct" width="80%"></p>
+<p align="center"><img src="images/ct.jpg" alt="ct" width="70%"></p>
 
 ### Install a Custom Theme
 
@@ -692,7 +695,7 @@ Creating your own theme pack is one of the most fun and creative aspects of hack
 12. After you have added all your prefered icons to the output you can Transfer it to your Switch using FTPD
 <br />
 <br />
-<p align="center"><img src="images/TfTheme.jpg" alt="ct" width="80%"></p>	
+<p align="center"><img src="images/TfTheme.jpg" alt="ct" width="70%"></p>	
 
 ### Install a Custom Tinfoil theme
 
