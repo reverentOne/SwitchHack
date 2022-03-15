@@ -719,6 +719,18 @@ Creating your own theme pack is one of the most fun and creative aspects of hack
   
 8. Save the file as <code>settings.json</code> and copy it to your new folder
 	
+### Custom NX-Activity-Log Theme
+
+If you replaced your user page with NX-Activity-Log then you will have to make a separate theme for it. Simply:
+
+1. Find and save a 1280x720 PNG as <code>background.png</code>
+  
+2. Copy it to your SD card at /config/NX-Activity-Log/background.png
+  
+3. Open your user page, select Settings, and change Theme to Custom
+  
+4. Now select Customize Theme, Customize by selecting your RGBA values, and apply with [x]
+	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- Troubleshooting -->
