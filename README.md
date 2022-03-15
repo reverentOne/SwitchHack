@@ -692,7 +692,7 @@ Creating your own theme pack is one of the most fun and creative aspects of hack
 
 ### Install a Custom Tinfoil theme
 
-1. You can use my custom theme found <a href="themes/Tinfoil/League_of_Legends/League_of_Legends.zip">here</a> or find a theme <a href="https://gbatemp.net/threads/blawar-tinfoil-themes.533692/">here</a> or make your own theme.
+1. You can use my custom theme found <a href="Themes/Tinfoil/SwitchHack/SwitchHack.zip">here</a> or find a theme <a href="https://gbatemp.net/threads/blawar-tinfoil-themes.533692/">here</a> or make your own theme.
   
 2. Copy the theme's folder to /switch/tinfoil/themes
   
@@ -709,7 +709,7 @@ Creating your own theme pack is one of the most fun and creative aspects of hack
   
 4. Find an MP3 file, reduce it to 128kbps using <a href="https://www.mp3smaller.com/">this</a> tool, and copy it to your new folder
   
-5. Open <a href="Themes/Tinfoil/League_of_Legends/settings.json">settings.json</a> in a text or code editor such as <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+5. Open <a href="Themes/Tinfoil/SwitchHack/settings.json">settings.json</a> in a text or code editor such as <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
   
 6. Edit each of the colors to your prefered hex value with the help of <a href="https://www.color-hex.com/">this</a> tool
   
