@@ -44,6 +44,7 @@
 	<li><a href="#overview"> ➤ :world_map: Overview of apps</a></li>
 	<li><a href="#emulation"> ➤ :joystick: Multi-Console Retro Game Emulation</a></li>
 	<li><a href="#cheats"> ➤ :pirate_flag: Game Cheats and Mods</a></li>
+	<li><a href="#themes"> ➤ :art: Custom Themes</a></li>
      </ul>
 <li><a href="#troubleshooting"> ➤ :monocle_face: Troubleshooting</a></li>
 <li><a href="#resources"> ➤ :toolbox: Useful Resources</a></li>
@@ -591,6 +592,130 @@ Now you will quickly come to realize that it takes some time to open your games.
 <!-- Game Mods and Cheats -->
 <h2 id="cheats"> :pirate_flag: Game Mods and Cheats</h2>
 <p>
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- Custom Themes -->
+<h2 id="themes"> :art: Custom Themes</h2>
+<p>
+	
+Creating your own theme pack is one of the most fun and creative aspects of hacking your Switch! If you want the quick and easy way, there there are many premade packs available that you can use. If you are feeling abitious, then you can go all the way and even customize your game icons.
+	
+<p align="center"><img src="images/ct.jpg" alt="ct" width="80%"></p>
+
+### Install a Custom Theme
+
+1. Create a <code>themes</code> folder on the root of your SD card
+  
+2. Copy the <code>.nxtheme</code> files to the <code>themes</code> folder on your SD card
+  
+3. Launch the Homebrew Menu and launch <code>NXThemes Installer</code>
+  
+4. Select and Install each of your themes one by one
+  
+5. Reboot your Switch
+  
+
+### Finding premade theme packs
+
+- The best place to find theme packs is [Themezer](https://themezer.net/packs)
+  
+- Other places to find packs include [reddit](https://www.reddit.com/r/NXThemes/) and [gbatemp](https://gbatemp.net/download/categories/themes.1671/)
+  
+- Cool selection of Custom Vertical themes [here](https://github.com/sodasoba1/nx-vertical-themes) (you probably want to use custom vertical game icons in conjuction with these themes)
+  
+
+### Make a Custom Theme Pack
+
+1. Download the [Switch Theme Injector](https://github.com/exelix11/SwitchThemeInjector/releases/latest "switch theme injector") application (the <code>Releasex.x.x.zip</code> file)
+  
+2. Open up the <code>SwitchThemes.exe</code> app and navigate to NXTheme Builder
+  
+3. Select a Home menu part, a 1280x720p image and a Layout patch. Click on Build NXTheme
+  
+4. Fill out the Author name and Theme name in the window that pops up.
+  
+5. Repeat step 3 and 4 for every Home Menu part of the Switch you want to modify.
+  
+
+### Install a Custom Font
+
+1. Copy the <code>.ttf</code> file to the <code>themes</code> folder on your SD card
+  
+2. Launch the Homebrew Menu and launch <code>NXThemes Installer</code>
+  
+3. Select and Install your font
+  
+4. Reboot your Switch
+  
+
+#### Install a Custom Users Icon/Avatar
+
+1. Find or Create (using an image editor such as paint) a JPEG with 256x256 dementions
+  
+2. Copy the <code>.jpeg</code> file to your SD card. (I recommend you create an <code>icons</code> folder inside your <code>themes</code> folder to keep everything organized)
+  
+3. Launch the Homebrew Menu and launch <code>Godleaf</code>
+  
+4. Locate your image and select Replace user icon
+  
+
+### Install Custom Game Icons
+
+- This is done most often in conjunction with a Vertical or horizontal theme pack
+  
+
+1. download sys-tweak <a href="https://gbatemp.net/threads/custom-game-icons-tutorial-and-sharing-hub.574675/post-9738297">here</a> (or <a href="https://github.com/p-sam/switch-sys-tweak/actions">here</a>) using <a href="https://gbatemp.net/threads/custom-game-icons-tutorial-and-sharing-hub.574675/">these</a> instructions
+  
+2. You can confirm sys-tweak is set by checking your sysmodules through the Tesla menu
+  
+3. Download nx-titles-list-dumper.nro and copy to your /switch folder
+  
+4. Launch the Homebrew Menu and launch nx-titles-list-dumper
+  
+5. press [A] to dump your installed title IDs to the root of your SD card in a CSV file
+  
+6. Copy the titles.csv file from the root of your SD to your PC
+  
+7. Download <a href="https://github.com/hotshotz79/NX-Game-Icon-Customizer/releases">NX-Game-Icon-Customizer</a> and open NX-Game Icon Customizer.exe
+  
+8. Select Scan and wait for it to say Ready at the bottom of the window
+  
+9. Under Title IDs select show Icons for installed games only, now select your Style and find your games alphabetically
+  
+10. To automatically install all available icons select Auto GIC, select your style, then Add All to Output
+  
+11. To create your own icons select Add New, fill out the options, then select Add
+  
+12. After you have added all your prefered icons to the output you can Transfer it to your Switch using FTPD
+  
+
+### Install a Custom Tinfoil theme
+
+1. Find a theme <a href="https://gbatemp.net/threads/blawar-tinfoil-themes.533692/">here</a> or make your own theme.
+  
+2. Copy the theme's folder to /switch/tinfoil/themes
+  
+3. Open Tinfoil, Scroll down to Options, and select your theme
+  
+
+#### Make a Custom tinfoil theme
+
+1. Create a new folder located in the /switch/tinfoil/themes folder on your SD card
+  
+2. Find or Create (using an image editor such as paint, gimp, or photoshop) a PNG or JPEG that has 1280x720 dementions and copy it to your new folder
+  
+3. Find or Create (using an image editor such as paint, gimp, or photoshop) a PNG or JPEG that has 165x52 dementions and copy it to your new folder
+  
+4. Find an MP3 file, reduce it to 128kbps using <a href="https://www.mp3smaller.com/">this</a> tool, and copy it to your new folder
+  
+5. Open <a href="Themes/Tinfoil/League_of_Legends/settings.json">settings.json</a> in a text or code editor such as <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
+  
+6. Edit each of the colors to your prefered hex value with the help of <a href="https://www.color-hex.com/">this</a> tool
+  
+7. Edit the file locations to match your file and folder names under "logo", "image", and "url"
+  
+8. Save the file as <code>settings.json</code> and copy it to your new folder
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
