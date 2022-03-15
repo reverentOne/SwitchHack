@@ -12,7 +12,7 @@
   <img src="images/Switch_HD_Photo.png" alt="Switch_HD_Photo" width="40%">
 </p>--->
 
-
+<img title="repo views" align="right" src="https://switchhack-view-counter.herokuapp.com/">
 <!-- TABLE OF CONTENTS -->
 <h2 id="table-of-contents"> :book: Table of Contents</h2>
 
