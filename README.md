@@ -291,7 +291,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 		    <li><a href="https://www.retroarch.com/index.php?page=platforms">RetroArch for Switch</a> (RetroArch is a large file and will take longer than the rest so be patient)</li>
 		    <li><a href="https://tinfoil.io/Download">Tinfoil nro Self Installer</a></li>
 		    <li><a href="https://github.com/averne/Fizeau/releases">Fizeau</a></li>
-		    <li><a href="https://github.com/HookedBehemoth/sys-tune/releases">SysTune</a></li>
+		    <li><a href="https://github.com/tallbl0nde/TriPlayer/releases">TriPlayer</a></li>
 		    <li><a href="https://github.com/ndeadly/MissionControl/releases">MissionControl</a></li>
 		</ul>
 </ol>
@@ -502,6 +502,8 @@ Note: Skip to Tinfoil to start downloading games
     - RetroArch is a frontend for many different emulators. This is the Multipurpose tool you will use to emulate most consoles. See <a href="#retroarch">Retroarch</a>
 13. **Tinfoil Installer**
     - Used to install Tinfoil for the first time. See <a href="#games">Installing games on your Switch</a>
+14. **TriPlayer**
+    - See <a href="https://github.com/tallbl0nde/TriPlayer/wiki">TriPlayer</a>
 
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
