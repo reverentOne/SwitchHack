@@ -503,7 +503,7 @@ Note: Skip to Tinfoil to start downloading games
 13. **Tinfoil Installer**
     - Used to install Tinfoil for the first time. See <a href="#games">Installing games on your Switch</a>
 14. **TriPlayer**
-    - See <a href="https://github.com/tallbl0nde/TriPlayer/wiki">TriPlayer</a>
+    - See <a href="https://github.com/tallbl0nde/TriPlayer/wiki">TriPlayer wiki</a>
 
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
