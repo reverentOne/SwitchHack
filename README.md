@@ -688,7 +688,9 @@ Creating your own theme pack is one of the most fun and creative aspects of hack
 11. To create your own icons select Add New, fill out the options, then select Add
   
 12. After you have added all your prefered icons to the output you can Transfer it to your Switch using FTPD
-  
+<br />
+<br />
+<p align="center"><img src="images/TfTheme.jpg" alt="ct" width="80%"></p>	
 
 ### Install a Custom Tinfoil theme
 
@@ -698,7 +700,7 @@ Creating your own theme pack is one of the most fun and creative aspects of hack
   
 3. Open Tinfoil, Scroll down to Options, and select your theme
   
-
+	
 ### Make a Custom tinfoil theme
 
 1. Create a new folder located in the /switch/tinfoil/themes folder on your SD card
