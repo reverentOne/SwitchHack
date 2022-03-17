@@ -147,7 +147,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 	- <details><summary>What are my options if my Switch is patched? ➤</summary>
 		<br>
 		- The scope of this guide only covers unpatched Switches, as the only way to hack a Patched/Lite/OLED is to install a Mod Chip. To learn more about this see <a href="https://wololo.net/2022/02/17/how-to-hack-your-nintendo-switch-2022-edition-hwfly-and-sx-clones-rcm-oled-unpatched-vs-patched-trying-to-clear-it-up-for-you/">here</a>. Mod chips cost ~$130 and can ony be purched through chinese distributors. This is because Nintendo has <a href="https://www.justice.gov/usao-wdwa/pr/public-voice-and-principal-salesperson-notorious-videogame-piracy-group-sentenced-3">cracked down hard</a> on Mod Chip production. Currently the only reliable place to buy a mod chip is <a href="https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20220317124818&SearchText=HWFLY">Aliexpress</a>
-		<a href="https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20220317124818&SearchText=HWFLY"><img src="images/hwfly_oled.png" alt="mod chip" width="40%"></a>
+		<p align="left"><a href="https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20220317124818&SearchText=HWFLY"><img src="images/hwfly_oled.png" alt="mod chip" width="40%"></a></p>
 	</details>
 * Micro SD card (256GB or 512GB Recommended, 64GB Minimum)
   - Keep in mind that games are on average 5GB, but the largest ones are over 15GB
