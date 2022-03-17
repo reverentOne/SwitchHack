@@ -68,7 +68,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 <h2 id="what-you-will-need"> :hammer_and_wrench: What You Will Need</h2>
 
 * Unpatched Switch
- 	- You can check your switch serial number <a href="https://ismyswitchpatched.com/">here</a>
+ 	- You can find out if your Switch is patched or not by checking the serial number <a href="https://ismyswitchpatched.com/">here</a>
 	- <details><summary>Alternatively, for compatable devices see this chart ➤</summary>
 		<table>
 		<thead>
@@ -155,7 +155,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 * RCM jig (highly recommended) <a href="https://www.amazon.com/s?k=rcm+jig&crid=2WTYTM5F11KRR&sprefix=rcm+jig%2Caps%2C145&ref=nb_sb_noss_1">Find on Amazon</a>
 * A device to send a payload
   - PC recommended, but android phones or jailbroken IOS devises also work
-* Some kind of USB cable to connect your Switch to your PC or other payload sender of choice
+* Some kind of USB cable to connect your Switch to your PC (or other payload sender of choice)
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -167,7 +167,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 
 <br>
 
-*	Easily edit, backup and manage save files
+*	Easily edit, backup and manage game save files
 *	Customize your menu pages including home, lockscreen, settings, etc. 
 *	Emulate older Console games
 *	Download games from a cartridge to your switch
@@ -289,7 +289,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
     <li>Transfer these nro files into your switch folder:</li> 
 	    <ul>
 				<li><a href="https://github.com/mtheall/ftpd/releases">ftpd pro</a> (download <code>ftpd.nro</code> )</li>
-				<li><a href="https://github.com/tallbl0nde/NX-Activity-Log/releases">Activity Log</a> (Create a folder called NX-Activity-Log inside the Switch folder and place <code>NX-Activity-Log.nro</code> inside of it)</li>
+				<li><a href="https://github.com/tallbl0nde/NX-Activity-Log/releases">Activity Log</a> (Create a folder called <code>NX-Activity-Log</code> inside the Switch folder and place <code>NX-Activity-Log.nro</code> inside of it)</li>
 		</ul>
     <li>Unzip and Transfer these to the root of your SD card:</li>
 	    <ul>
@@ -481,7 +481,7 @@ Note: Skip to Tinfoil to start downloading games
 </li>
 <li><p>Run the driver installer so that nut reports the device as connected in the top right</p>
 </li>
-<li><p>To install games either scan the folder they are located in with nut to make them appear in the usb section of file browser, or using usbfs in file browser browse to the folder they are in</p>
+<li><p>To install games either scan the folder they are located in with nut to make them appear in the usb section of file browser, or using usbfs in file browser and browse to the folder they are in</p>
 </li>
 </ol>
 <h3 class="atx" id="methods-for-pc-download">Method 3: PC Download and Transfer</h3>
@@ -763,18 +763,18 @@ If you replaced your user page with NX-Activity-Log then you will have to make a
 </ul>
 <h3 class="atx" id="i-ran-out-of-storage-when-i-shouldnt-have">I ran out of storage when I shouldn’t have?</h3>
 <ul>
-<li>You have a fake SD card</li>
+<li>You might have a fake SD card. Use this&nbsp;free <a href="https://3ds.hacks.guide/h2testw-(windows).html">H2Testw tool</a> to test if your SD card is fake. Use <a href="https://crystalmark.info/en/">CrystalDiskMark</a> to test read / write speeds.</li>
 </ul>
 <h3 class="atx" id="tinfoil-shops-arent-working">Tinfoil shops aren’t working?</h3>
 <ul>
 <li><p>If this is your first time using the shop, make sure you are connected to the internet and you booted using fusee</p>
 </li>
-<li><p>If you have gotten shop to work before but now it’s not working: the shops go down all the time. This is normal. Check their discords for status updates. Often tits pro is the only shop working, but even it sometimes goes down.</p>
+<li><p>If you have gotten shops to work before but now they are not working, know that shops go down all the time. This is normal. Check their discords for status updates. Often tits pro is the only shop working, but even it sometimes goes down.</p>
 </li>
 </ul>
 <h3 class="atx" id="my-battery-life-is-really-bad">My battery life is really bad?</h3>
 <ul>
-<li><p>Turn down your brightness, and go into airplane mode</p>
+<li><p>Turn down your brightness, and go into airplane mode to decrease your power usage</p>
 </li>
 <li><p>Replace your battery for about $19</p>
 </li>
