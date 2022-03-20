@@ -520,7 +520,7 @@ laid out <a href="https://games.jits.cc/">here</a></p>
 
 The Switch is great at emulating some consoles and not so great at emulating others. Here is breakdown:
 
-- Perfect Emulation: N64, GBA, and all previous Nintendo systems, many 4th generation or earlier consoles
+- Great Emulation: N64, GBA, and all previous Nintendo systems, many 4th generation or earlier consoles
   
   - Retroarch will be used for almost all emulation
     
@@ -550,7 +550,7 @@ RetroArch is a frontend for many different emulators. This is the Multipurpose t
 
 Playing games is very simple. These are the steps:
 
-1. Find games you want to play and download the ROMs. I recommend [this](https://www.romsgames.net/) website
+1. Find games you want to play and download the ROMs. I recommend [this](https://www.romsgames.net/) website (Ad blocker recommended)
 2. Create a ROMS folder in the root of your switch. Now create a folder inside this ROMS folder for each console you want to emulate. For example, name one ‘NES’ and another ‘GBA’, etc.
 3. Transfer your downloaded games into their game folders you just created on the Switch
 4. On your switch open the hbmenu and select Retroarch
