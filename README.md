@@ -1,14 +1,12 @@
 <h1 align="center"><img src="images/Switch_HD_Photo.png" alt="Switch_HD_Photo" width="4.5%"> SwitchHack <img src="images/Switch_HD_Photo.png" alt="Switch_HD_Photo" width="4.5%"></h1>
 <h3 align="center"> All-in-One Guide to Hacking your Nintendo Switch </h3>  
-
 </br> 
-
-[![HitCount](https://hits.dwyl.com/reverentOne/SwitchHack.svg?style=flat-square)](http://hits.dwyl.com/reverentOne/SwitchHack)
 	
 <p align="center"> 
   <img src="images/SwitchHack.gif" alt="sh gif" width="60%">
 </p>
 
+[![HitCount](https://hits.dwyl.com/reverentOne/SwitchHack.svg?style=flat-square)](http://hits.dwyl.com/reverentOne/SwitchHack)
 
 <!---<p align="center"> 
   <img src="images/Switch_HD_Photo.png" alt="Switch_HD_Photo" width="40%">
