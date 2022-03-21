@@ -3,6 +3,8 @@
 
 </br> 
 
+[![HitCount](https://hits.dwyl.com/reverentOne/SwitchHack.svg?style=flat-square)](http://hits.dwyl.com/reverentOne/SwitchHack)
+	
 <p align="center"> 
   <img src="images/SwitchHack.gif" alt="sh gif" width="60%">
 </p>
