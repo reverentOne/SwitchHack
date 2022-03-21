@@ -751,7 +751,7 @@ If you replaced your user page with NX-Activity-Log then you will have to make a
 </ul>
 <h3 class="atx" id="a-homebrew-app-isnt-working">A Homebrew App isn’t working?</h3>
 <ul>
-<li>Make sure you opened the hub menu using the game + R method not the album method.</li>
+<li>Make sure you opened the hb menu using the game + R method not the album method.</li>
 </ul>
 <h3 class="atx" id="tinfoil-isnt-working">Tinfoil isn’t working?</h3>
 <ul>
@@ -763,7 +763,7 @@ If you replaced your user page with NX-Activity-Log then you will have to make a
 </ul>
 <h3 class="atx" id="i-ran-out-of-storage-when-i-shouldnt-have">I ran out of storage when I shouldn’t have?</h3>
 <ul>
-<li>You might have a fake SD card. Use this&nbsp;free <a href="https://3ds.hacks.guide/h2testw-(windows).html">H2Testw tool</a> to test if your SD card is fake. Use <a href="https://crystalmark.info/en/">CrystalDiskMark</a> to test read / write speeds.</li>
+<li>You might have a fake SD card. Use this&nbsp;free <a href="https://3ds.hacks.guide/h2testw-(windows).html">H2Testw</a> tool to test if your SD card is fake. Use <a href="https://crystalmark.info/en/">CrystalDiskMark</a> to test read / write speeds.</li>
 </ul>
 <h3 class="atx" id="tinfoil-shops-arent-working">Tinfoil shops aren’t working?</h3>
 <ul>
@@ -782,6 +782,7 @@ If you replaced your user page with NX-Activity-Log then you will have to make a
 <h3 class="atx" id="games-arent-working">Games aren’t working?</h3>
 <ul>
 <li>Make sure you have the latest firmware and version of atmosphere</li>
+<li>Try turning off TryPlayer or other music players as they crash games that already use 2 audio sessions</li>
 </ul>
 <h3 class="atx" id="how-do-i-un-hack-my-switch">How do I un-hack my switch?</h3>
 <ul>
