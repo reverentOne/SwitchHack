@@ -196,7 +196,8 @@ There are many homebrew guides out there. Some are better than others, but all w
 *	I bought my switch from an online local marketplace for $230, 256GB SD card for $28 on Amazon, and RCM jig for $7 on Amazon.
 *	Using this guide, it should take about 1-2 hours depending on your download speed
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
 
 <h1 align="center" id="begin"> :checkered_flag: Lets Begin! </h1>
 <p>
@@ -396,7 +397,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 	<img src="images/5.png" alt="5" width="40%">
 	</details>
 	
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
 
 <h1 align="center" id="afterwards"> :crossed_flags: After Installation! </h1>
 <p>
@@ -501,7 +502,7 @@ Note: Skip to Tinfoil to start downloading games
     - See <a href="https://github.com/tallbl0nde/TriPlayer/wiki">TriPlayer wiki</a>
 
 	
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
 
 <!-- Installing games on your Switch -->
 <h2 id="games"> :video_game: Installing games on your Switch</h2>
@@ -640,7 +641,7 @@ laid out <a href="https://games.jits.cc/">here</a></p>
 <p>There are many websites that offer pirated games. Unfortunately, every one of them are completely filled with ads, hidden downloads, and viruses. This method is the most time consuming and dangerous. An <strong>ad blocker is required</strong>, but even then it only does so much. It's also recommended you <strong>scan for viruses</strong></p>
 <p>Torrenting is another method of obtaining games, but this is <b>highly risky without a paid VPN</b> to hide your IP address. Without a VPN many people receive copyright infringement warnings from their internet service provider. You are unlikely to go to court over this, but after a few warnings the ISP may shutdown your internet access. The best client is <a href="https://www.qbittorrent.org/download.php">qbittorrent</a></p>
 	
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
 	
 <!-- Multi-Console Retro Game Emulation -->
 <h2 id="emulation"> :joystick: Multi-Console Retro Game Emulation</h2>
@@ -726,13 +727,13 @@ Now you will quickly come to realize that it takes some time to open your games.
 9. Install each nsp file and they should now show up on your Switch’s Home!
 	  
 	  
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
 
 <!-- Game Mods and Cheats -->
 <h2 id="cheats"> :pirate_flag: Game Mods and Cheats</h2>
 <p>
 
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
 
 <!-- Custom Themes -->
 <h2 id="themes"> :art: Custom Themes</h2>
@@ -870,7 +871,7 @@ If you replaced your user page with NX-Activity-Log then you will have to make a
   
 4. Now select Customize Theme, Customize by selecting your RGBA values, and apply with [x]
 	
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) <div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
 
 <!-- Troubleshooting -->
 <h2 id="troubleshooting"> :monocle_face: Troubleshooting</h2>
@@ -932,4 +933,5 @@ Switch hacking communities:
 * Discord: https://discord.gg/C29hYvh
 <p>
 	
-Contact me through <a href="https://www.reddit.com/user/reverent-girl">Reddit</a> or <a href="https://discordapp.com/users/698387044509941821">Discord</a>
+Contact me through <a href="https://www.reddit.com/user/reverent-girl">Reddit</a> or <a href="https://discordapp.com/users/698387044509941821">Discord</a>	
+<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
