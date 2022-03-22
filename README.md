@@ -243,7 +243,10 @@ There are many homebrew guides out there. Some are better than others, but all w
 3. Take off the right joycon and completely insert the RCM jig 
 	- There are many other methods but this one is highly highly recommended. I used an LED light with bent wires before I got the jig which worked but was very annoying.
 	- For a list of alternate methods see <a href="https://gbatemp.net/threads/the-ultimate-list-of-mods-to-enter-rcm.502145/">here</a>)
-4. Hold down the <b>Volume Up</b> button and press the <b>Power</b> button
+4. <details><summary>:camera: Hold down the <b>Volume Up</b> button and press the <b>Power</b> button</summary>
+	<img src="images/hekate_0.jpg" alt="jig" width="50%">
+	</details>
+	
 	- If the screen stays black that means you are in, YAH! If the switch logo appears, something went wrong, and you need to try again
 5. Now you can take out the RCM jig and connect your Switch to your PC
 	- For other devices follow the instruction in the README.md file on their individual GitHub pages)
@@ -269,17 +272,27 @@ These steps will prevent your switch from getting permanently bricked or banned
 <li>This is a crucial step to help prevent your device from getting banned</li>
 </ul>
 <ol>
-<li><p>Now you have entered Hetake and your screen should look like this</p>
+<li><details><summary>:camera: Now you have entered Hetake and your screen should look like this ➤</summary>
+	<img src="images/safety_9.bmp" alt="s:9" width="73%">
+	</details>
 </li>
-<li><p>Select <strong>tools</strong>, then select <strong>Partition SD Card</strong>, then after a while press <strong>OK</strong></p>
+<li><details><summary>:camera: Select <strong>tools</strong>, then select <strong>Partition SD Card</strong>, then after a while press <strong>OK</strong> ➤</summary>
+	<img src="images/safety_1.bmp" alt="s:1" width="73%">
+	</details>
 </li>
-<li><p>Drag the&nbsp;<strong>emuMMC (RAW)</strong>&nbsp;slider to 29GiB</p>
+<li><details><summary>:camera: Drag the&nbsp;<strong>emuMMC (RAW)</strong>&nbsp;slider to 29GiB ➤</summary>
+	<img src="images/safety_4.bmp" alt="s:4" width="73%">
+	</details>
 </li>
 <li><p>Select&nbsp;<strong>Next Step</strong>,&nbsp;<strong>Start</strong>&nbsp;and wait for it to finish</p>
 </li>
-<li><p>Return to the home menu and select&nbsp;<strong>emuMMC</strong></p>
+<li><details><summary>:camera: Return to the home menu and select&nbsp;<strong>emuMMC</strong> ➤</summary>
+	<img src="images/safety_5.bmp" alt="s:5" width="73%">
+	</details>
 </li>
-<li><p>Select&nbsp;<strong>Create emuMMC</strong>, then <strong>SD Partition</strong>, then <strong>Part 1</strong></p>
+<li><details><summary>:camera: Select&nbsp;<strong>Create emuMMC</strong>, then <strong>SD Partition</strong>, then <strong>Part 1</strong> ➤</summary>
+	<img src="images/safety_7.bmp" alt="s:7" width="73%">
+	</details>
 </li>
 <li><p>Wait for it to finish. This will take about 15min depending on your SD cards write speed. You are cloning the switches internal memory to your SD card</p>
 </li>
