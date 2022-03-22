@@ -262,21 +262,96 @@ There are many homebrew guides out there. Some are better than others, but all w
 <p>
 	
 These steps will prevent your switch from getting permanently bricked or banned
-  <ol>
-    <li><b>Emummc:</b> Follow steps 2-10 of <a href="https://switch.homebrew.guide/emummc/emummc.html">this</a> guide</li> 
-	<ul>
-		<li>For part 4 make sure to slide to 29GiB. Creating the emuMMC will take some time so be patient. You are cloning the switches internal memory to your SD card</li>
-	</ul>
-    <li>After installing press close, then change emuMMC, then SD Raw 1, ok</li>
-    <li>Now follow <a href="https://nh-server.github.io/switch-guide/user_guide/emummc/making_emummc/">this</a> guide under Making a <b>NAND backup</b> and Getting your Console's <b>Unique Keys</b></li>
-	  <li>Follow <a href="https://rentry.org/ExosphereDNSMITM">this</a> <b>Exosphere</b> and <b>DNS Mitty</b> guide</li>
-	<ul>
-		<li>I used notepad on my windows PC to create these .ini and .txt files</li>
-		<li>For Exosphere just paste For EmuNAND</li>
-		<li>For DNS MITY make sure to rename the file to emummc.txt</li>
-  </ol>
-<p>
-Older guides recommend 90DNS. DO NOT DO THIS. It is not necessary and will slow down your internet connection. Incognito is also redundant as Exosphere does the same thing
+	
+<h3 class="atx" id="partitioning-your-sd-card-and-creating-an-emummc">Partitioning your SD Card and Creating an emuMMC</h3>
+<ul>
+<li>This is a crucial step to help prevent your device from getting banned</li>
+</ul>
+<ol>
+<li><p>Now you have entered Hetake and your screen should look like this</p>
+</li>
+<li><p>Select <strong>tools</strong>, then select <strong>Partition SD Card</strong>, then after a while press <strong>OK</strong></p>
+</li>
+<li><p>Drag the&nbsp;<strong>emuMMC (RAW)</strong>&nbsp;slider to 29GiB</p>
+</li>
+<li><p>Select&nbsp;<strong>Next Step</strong>,&nbsp;<strong>Start</strong>&nbsp;and wait for it to finish</p>
+</li>
+<li><p>Return to the home menu and select&nbsp;<strong>emuMMC</strong></p>
+</li>
+<li><p>Select&nbsp;<strong>Create emuMMC</strong>, then <strong>SD Partition</strong>, then <strong>Part 1</strong></p>
+</li>
+<li><p>Wait for it to finish. This will take about 15min depending on your SD cards write speed. You are cloning the switches internal memory to your SD card</p>
+</li>
+<li><p>After installing press <strong>close</strong>, then <strong>change emuMMC</strong>, then <strong>SD Raw 1</strong>, <strong>ok</strong></p>
+</li>
+</ol>
+<h3 class="atx" id="making-a-nand-backup-and-getting-your-consoleand39s-unique-keys">Making a&nbsp;<strong>NAND backup</strong>&nbsp;and Getting your Console's&nbsp;<strong>Unique Keys</strong></h3>
+<ul>
+<li>This will allow you to restore the device to a working state in case of emergencies.</li>
+</ul>
+<ol>
+<li><p>In Hetake select <strong>tools</strong> then <strong>backup eMMC</strong></p>
+</li>
+<li><p>Select&nbsp;<strong>eMMC BOOT0 &amp; BOOT1</strong>&nbsp;and wait a few seconds for that to complete</p>
+</li>
+<li><p>Select <strong>Close</strong>&nbsp;to continue, then Select&nbsp;<strong>eMMC RAW GPP</strong></p>
+</li>
+<li><p>Wait for it to finish. This will take about 15min depending on your SD cards write speed.</p>
+</li>
+<li><p>Select&nbsp;<strong>Home</strong>, then <strong>Payloads</strong>, and choose&nbsp;<strong>Lockpick_RCM.bin</strong></p>
+</li>
+<li><p>Within Lockpick_RCM Select <strong>Dump from SysNAND</strong> (Lockpick_RCM uses the volume buttons to navigate up and down and the power button to select)</p>
+</li>
+<li><p>Now your keys have been saved to <strong>/switch/prod.keys</strong> on the SD card. These encryption keys will be useful in the event of restoring your NAND as well as for some features of your hacked Switch.</p>
+</li>
+<li><p>Press any button to return to the main menu, and select <strong>Power Off</strong></p>
+</li>
+</ol>
+<h3 class="atx" id="moving-your-nand-backup-and-prodkeys-to-your-pc">Moving your NAND backup and prod.keys to your PC</h3>
+<ol>
+<li><p>Insert your SD card into your PC</p>
+</li>
+<li><p>Move from the root of your SD the&nbsp;<strong>/backup/</strong>&nbsp;folder containing your NAND backup to a safe place on your PC. Optionally, you can Zip it to save storage space.</p>
+</li>
+<li><p>Copy&nbsp;<strong>prod.keys</strong>&nbsp;from the&nbsp;<strong>/switch/</strong>&nbsp;folder on your SD to the same location on your PC as your NAND backup.</p>
+</li>
+</ol>
+<h3 class="atx" id="setup-exosphere-and-dns-mitm">Setup Exosphere and DNS MITM</h3>
+<ol>
+<li><p>Open a new file in notepad or anther text editor and paste this inside:</p>
+<code>
+[exosphere]
+debugmode=1
+debugmode_user=0
+disable_user_exception_handlers=0
+enable_user_pmu_access=0
+blank_prodinfo_sysmmc=0
+blank_prodinfo_emummc=1
+allow_writing_to_cal_sysmmc=0
+log_port=0
+log_baud_rate=115200
+log_inverted=0
+</code>
+</li>
+<li><p>Save the file as <strong>exosphere.ini</strong> to the root of your SD Card</p>
+</li>
+<li><p>In the <strong>/Atmostphere/</strong> folder on your SD card create an empty folder called <strong>hosts</strong></p>
+</li>
+<li><p>Open a new file in notepad or anther text editor and paste this inside:</p>
+<code>
+# Block Nintendo Servers
+127.0.0.1 *nintendo.*
+127.0.0.1 *nintendo-europe.com
+127.0.0.1 *nintendoswitch.*
+95.216.149.205 *conntest.nintendowifi.net
+95.216.149.205 *ctest.cdn.nintendo.net
+</code>
+</li>
+<li><p>&nbsp;&nbsp;Save the file as <strong>emummc.txt</strong> to your <strong>/atmosphere/hosts/</strong> folder</p>
+</li>
+</ol>
+	
+<u><strong>Note:</strong></u> Older guides recommend 90DNS. DO NOT DO THIS. It is not necessary and will slow down your internet connection. Incognito is also redundant as Exosphere does the same thing
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
