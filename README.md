@@ -28,7 +28,7 @@
        <li><a href="#how-much"> ➤ :moneybag: How much will it cost? How long will it take?</a></li>
      </ul>
 <li>
-  <a href="begin"> ➤ :checkered_flag: Lets Begin!
+  <a href="#begin"> ➤ :checkered_flag: Lets Begin!
      <ul>
 	<li><a href="#setup"> ➤ :floppy_disk: Step 1: Setup SD Card</a></li>
 	<li><a href="#enter_rcm"> ➤ :syringe: Step 2: Enter RCM and Inject Payload</a></li>
@@ -36,7 +36,7 @@
 	<li><a href="#applications"> ➤ :computer: Step 4: Installing Useful Applications</a></li>
      </ul>
 <li>
-  <a href="afterwards"> ➤ :crossed_flags: After Installation!
+  <a href="#afterwards"> ➤ :crossed_flags: After Installation!
      <ul>
 	<li><a href="#accessing"> ➤ :heavy_check_mark: Accessing your installed apps</a></li>
 	<li><a href="#overview"> ➤ :world_map: Overview of apps</a></li>
@@ -198,7 +198,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h1 align="center" id="#begin"> :checkered_flag: Lets Begin! </h1>
+<h1 align="center" id="begin"> :checkered_flag: Lets Begin! </h1>
 <p>
   
 <!-- Step 1e: Setup SD Card -->
@@ -308,7 +308,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-<h1 align="center" id="#afterwards"> :crossed_flags: After Installation! </h1>
+<h1 align="center" id="afterwards"> :crossed_flags: After Installation! </h1>
 <p>
 	  
 <!-- Accessing your Installed apps -->
