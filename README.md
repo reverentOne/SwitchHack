@@ -217,8 +217,8 @@ There are many homebrew guides out there. Some are better than others, but all w
 3. Download Software
    1.	Open <a href="https://www.sdsetup.com/console?switch">sdsetup</a>
    2.	Select Recommended Defaults
-   3.	Under tesla overlays check EdiZon Overlay and Status Monitor Overlay
-   4.	Under Utilities check Checkpoint and NxThemes Installer
+   3.	Under tesla overlays check **EdiZon Overlay** and **Status Monitor Overlay**
+   4.	Under Utilities check **Checkpoint** and **NxThemes Installer**
    5.	Download your ZIP then Extract the files
    6.	Open the SD folder and transfer all the files inside to the root (a.k.a the main/home directory) of your SD card
    7.	Open the Payloads folder and copy `Lockpick_RCM.bin` to your SD card inside the payloads folder which is located inside the bootloader folder
@@ -263,7 +263,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 	
 These steps will prevent your switch from getting permanently bricked or banned
 	
-<h3 class="atx" id="partitioning-your-sd-card-and-creating-an-emummc">Partitioning your SD Card and Creating an emuMMC</h3>
+<h4 class="atx" id="partitioning-your-sd-card-and-creating-an-emummc">Partitioning your SD Card and Creating an emuMMC</h4>
 <ul>
 <li>This is a crucial step to help prevent your device from getting banned</li>
 </ul>
@@ -285,7 +285,7 @@ These steps will prevent your switch from getting permanently bricked or banned
 <li><p>After installing press <strong>close</strong>, then <strong>change emuMMC</strong>, then <strong>SD Raw 1</strong>, <strong>ok</strong></p>
 </li>
 </ol>
-<h3 class="atx" id="making-a-nand-backup-and-getting-your-consoleand39s-unique-keys">Making a&nbsp;<strong>NAND backup</strong>&nbsp;and Getting your Console's&nbsp;<strong>Unique Keys</strong></h3>
+<h4 class="atx" id="making-a-nand-backup-and-getting-your-consoleand39s-unique-keys">Making a&nbsp;<strong>NAND backup</strong>&nbsp;and Getting your Console's&nbsp;<strong>Unique Keys</strong></h4>
 <ul>
 <li>This will allow you to restore the device to a working state in case of emergencies.</li>
 </ul>
@@ -307,7 +307,7 @@ These steps will prevent your switch from getting permanently bricked or banned
 <li><p>Press any button to return to the main menu, and select <strong>Power Off</strong></p>
 </li>
 </ol>
-<h3 class="atx" id="moving-your-nand-backup-and-prodkeys-to-your-pc">Moving your NAND backup and prod.keys to your PC</h3>
+<h4 class="atx" id="moving-your-nand-backup-and-prodkeys-to-your-pc">Moving your NAND backup and prod.keys to your PC</h4>
 <ol>
 <li><p>Insert your SD card into your PC</p>
 </li>
@@ -316,10 +316,11 @@ These steps will prevent your switch from getting permanently bricked or banned
 <li><p>Copy&nbsp;<strong>prod.keys</strong>&nbsp;from the&nbsp;<strong>/switch/</strong>&nbsp;folder on your SD to the same location on your PC as your NAND backup.</p>
 </li>
 </ol>
-<h3 class="atx" id="setup-exosphere-and-dns-mitm">Setup Exosphere and DNS MITM</h3>
+<h4 class="atx" id="setup-exosphere-and-dns-mitm">Setup Exosphere and DNS MITM</h4>
 <ol>
-<li><p>Open a new file in notepad or anther text editor and paste this inside:</p>
-<code>
+<li><p>Open a new file in notepad or anther text editor and paste this inside:</p></li>
+	
+```
 [exosphere]
 debugmode=1
 debugmode_user=0
@@ -331,22 +332,22 @@ allow_writing_to_cal_sysmmc=0
 log_port=0
 log_baud_rate=115200
 log_inverted=0
-</code>
-</li>
+```
+	
 <li><p>Save the file as <strong>exosphere.ini</strong> to the root of your SD Card</p>
 </li>
 <li><p>In the <strong>/Atmostphere/</strong> folder on your SD card create an empty folder called <strong>hosts</strong></p>
 </li>
-<li><p>Open a new file in notepad or anther text editor and paste this inside:</p>
-<code>
+<li><p>Open a new file in notepad or anther text editor and paste this inside:</p></li>
+
+```
 # Block Nintendo Servers
 127.0.0.1 *nintendo.*
 127.0.0.1 *nintendo-europe.com
 127.0.0.1 *nintendoswitch.*
 95.216.149.205 *conntest.nintendowifi.net
 95.216.149.205 *ctest.cdn.nintendo.net
-</code>
-</li>
+```
 <li><p>&nbsp;&nbsp;Save the file as <strong>emummc.txt</strong> to your <strong>/atmosphere/hosts/</strong> folder</p>
 </li>
 </ol>
@@ -390,7 +391,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <h2 id="accessing"> :heavy_check_mark: Accessing your Installed apps</h2>
 <p>
 	
-1. Follow <a href="#enter_rcm">step 2<a/> completely. Now click launch, then Fusee. This should start your Homebrew Switch. *Each time you Turn off your switch or take out the SD card you will have to repeat this process.* If you keep your switch powered on (which is quite easy to do) then this process won’t have to be followed.
+1. Follow <a href="#enter_rcm">step 2<a/> completely. Now click **launch**, then **Fusee**. This should start your Homebrew Switch. ***Each time you Turn off your switch or take out the SD card you will have to repeat this process.*** If you keep your switch powered on (which is quite easy to do) then this process won’t have to be followed.
 2. Accessing the homebrew menu: There are 2 ways to open the homebrew menu.
    1. First, you can launch it through the Album (Hold R when selecting if you actually want to access the Album not the hbmenu)
    2. Second, you can launch it by selecting any game while holding R
