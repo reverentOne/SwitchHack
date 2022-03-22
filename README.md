@@ -639,7 +639,7 @@ laid out <a href="https://games.jits.cc/">here</a></p>
 </ul>
 <h5 class="atx" id="rom-websites-and-torrents">ROM Websites and Torrents</h5>
 <p>There are many websites that offer pirated games. Unfortunately, every one of them are completely filled with ads, hidden downloads, and viruses. This method is the most time consuming and dangerous. An <strong>ad blocker is required</strong>, but even then it only does so much. It's also recommended you <strong>scan for viruses</strong></p>
-<p>Torrenting is another method of obtaining games, but this is <b>highly risky without a paid VPN</b> to hide your IP address. Without a VPN many people receive copyright infringement warnings from their internet service provider. You are unlikely to go to court over this, but after a few warnings the ISP may shutdown your internet access. The best client is <a href="https://www.qbittorrent.org/download.php">qbittorrent</a></p>
+<p>Torrenting is another method of obtaining games, but this is <b>highly risky without a paid VPN</b> to hide your IP address. Without a VPN many people receive copyright infringement warnings from their internet service provider. You are unlikely to go to court over this, but after a few warnings the ISP may shutdown your internet access. Outside of the USA this is ununcommon, but depending on your country, a lawyer may send a letter requesting payment of a fine. The best client is <a href="https://www.qbittorrent.org/download.php">qbittorrent</a></p>
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
 	
