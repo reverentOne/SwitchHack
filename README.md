@@ -217,7 +217,8 @@ There are many homebrew guides out there. Some are better than others, but all w
 3. Download Software
    1.	Open <a href="https://www.sdsetup.com/console?switch">sdsetup</a>
    2.	Select Recommended Defaults
-   3.	Under tesla overlays check **EdiZon Overlay** and **Status Monitor Overlay**
+   3.   Under Atmosphere *deselect* the check for sys-ftpd-light
+   3.	Under Tesla Overlays check **EdiZon Overlay** and **Status Monitor Overlay**
    4.	Under Utilities check **Checkpoint** and **NxThemes Installer**
    5.	Download your ZIP then Extract the files
    6.	Open the SD folder and transfer all the files inside to the root (a.k.a the main/home directory) of your SD card
@@ -391,14 +392,55 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <h2 id="accessing"> :heavy_check_mark: Accessing your Installed apps</h2>
 <p>
 	
-1. Follow <a href="#enter_rcm">step 2<a/> completely. Now click **launch**, then **Fusee**. This should start your Homebrew Switch. ***Each time you Turn off your switch or take out the SD card you will have to repeat this process.*** If you keep your switch powered on (which is quite easy to do) then this process won’t have to be followed.
-2. Accessing the homebrew menu: There are 2 ways to open the homebrew menu.
-   1. First, you can launch it through the Album (Hold R when selecting if you actually want to access the Album not the hbmenu)
-   2. Second, you can launch it by selecting any game while holding R
-      - Some hb apps don’t work if you access the menu through the Album, but until you have a game you need to use the Album
-3. Opening Tesla Menu
-4. Mission Control
-   - with MissionControl, you can use other consoles’ controllers on your Switch through Bluetooth. This is a background process 
+1. Follow <a href="#enter_rcm">step 2<a/> completely to open Hetake. Now there are 4 options under **Launch**
+
+	- **CFW(sysMMC)**: boots custom firmware on your sysNAND
+
+	- **CFW(emuMMC)**: boots custom firmware on your emuNAND
+
+	- **Stock**: boots stock firmware, unmodified
+
+	- **Fusee**: prefered way to boot into custom firmware to access all features, set automatically to your emuNAND
+  
+	Most of the time you want to Launch **Fusee** to access all Atmosphere custom features in a safe way that prevents you from getting banned. Connecting to Nintendo services such as the estore and online games is not possible.
+
+	- To play online games you own Launch **CFW(sysMMC)**. You will have acceess to Atmosphere custom features as well as Nintendo Services. Some features such as custom themes are probably safe, but it is recommended you reserve this for only playing online games. To prevent getting banned **Don't**:
+
+	  - Modify online games including: cheating, moding, or editing save files
+
+	  - Mess with online account stuff: Custom profile pic, clearing system logs, etc
+
+	  - Install **nsp**/**nsz**/**xci**/**xcz** files, forwarders, backups, or nro apps that modify your SysNAND
+	
+	***Each time you Turn off your switch or take out the SD card you will have to repeat this process.*** If you keep your switch powered on (which is quite easy to do) then this process won’t have to be followed.
+2. **Homebrew Menu** 
+	
+	There are 2 ways to open the homebrew menu.
+   	1. First, you can launch it through the Album (Hold R when selecting if you actually want to access the Album not the hbmenu)
+   	2. Second, you can launch it by selecting any game while holding R
+      	- Some hb apps don’t work if you access the menu through the Album, but until you have a game you need to use the Album
+3. **Tesla Menu**
+	
+	Tesla is a frontend for sysmodules, which are used to keep things running in the background of your Nintendo switch in the spare RAM
+
+	Access it at any time by hold down **L** and **DPad Down** and push on the **right joy stick**
+
+	Tesla Menu:
+
+	1. EdiZon: Allows you to turn on/off cheats in game. See ""
+
+	2. Sysmodules: Allows you to Toggle on/off various sysmodules
+
+	3. Status-Monitor: Mini/Full overlay with system status. Turn off by holding down both Left and Right joysticks
+
+	4. sys-clk: Allows you to disable/enable as well as edit your running app profile. See ""
+
+	5. Fizeau: Allows you to activate Fizeau and make simple changes. See ""
+
+	6. TriPlayer: Allows you to play/pause, skip to next song, or shutdown player. See ""
+
+4. **Mission Control**
+   - With MissionControl, you can use other consoles’ controllers on your Switch through Bluetooth. This is a background process and can be toggles On/Off in Tesla Sysmodules
    - For a list of compatible controllers look <a href="https://github.com/ndeadly/MissionControl">here</a>. I use the DualShock 4 PlayStation controller
    - To pair a controller, go to the Switch Home screen, then Controllers, then Change Grip/Order. While on this screen, place your controller in pairing mode and wait for it to connect to the switch. That is all!
 	
