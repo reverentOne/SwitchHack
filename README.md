@@ -389,6 +389,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 		    <li><a href="https://github.com/averne/Fizeau/releases">Fizeau</a></li>
 		    <li><a href="https://github.com/tallbl0nde/TriPlayer/releases">TriPlayer</a></li>
 		    <li><a href="https://github.com/ndeadly/MissionControl/releases">MissionControl</a></li>
+		    <li><a href="https://github.com/XorTroll/emuiibo/releases">emuiibo</a> (contents of the SdOut folder)</li>
 		</ul>
 </ol>
 <details><summary>:camera: This is what your root and switch folders should look like</summary>
@@ -441,17 +442,38 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 
 	Tesla Menu:
 
-	1. EdiZon: Allows you to turn on/off cheats in game. See ""
+	1. **EdiZon**: Allows you to turn on/off cheats in game. See ""
 
-	2. Sysmodules: Allows you to Toggle on/off various sysmodules
+	2. **Sysmodules**: Allows you to Toggle on/off various sysmodules
 
-	3. Status-Monitor: Mini/Full overlay with system status. Turn off by holding down both Left and Right joysticks
+	3. **Status-Monitor**: Mini/Full overlay with system status. Turn off by holding down both Left and Right joysticks
 
-	4. sys-clk: Allows you to disable/enable as well as edit your running app profile. See ""
+	4. **sys-clk**: Allows you to disable/enable as well as edit your running app profile. See ""
 
-	5. Fizeau: Allows you to activate Fizeau and make simple changes. See ""
+	5. **Fizeau**: Allows you to activate Fizeau and make simple changes. See ""
 
-	6. TriPlayer: Allows you to play/pause, skip to next song, or shutdown player. See ""
+	6. **TriPlayer**: Allows you to play/pause, skip to next song, or shutdown player. See ""
+	
+	7. **emuiibo**: Allows you to use any amiibo virtually
+		<details><summary>Steps to install amiibos</summary>
+			<ol>
+				<li><p>Download the latest release of <strong>emutool</strong> <a href="https://github.com/XorTroll/emuiibo/releases">here</a></p>
+				</li>
+				<li><p>Unzip the <strong>emutool-vx.x.x.zip</strong> and run <strong>emutool.exe</strong></p>
+				</li>
+				<li><p>Create a new folder somewhere on your PC with the exact name <code>amuiibo</code></p>
+				</li>
+				<li><p>In emutool select your desired amiibo, then select Create Virtual amiibo. browse and select your <code>amuiibo</code> folder you created</p>
+				</li>
+				<li><p>You can also select Generate all amiibos at once, but this option creates over 8000 folders and may cause problems when transfering to your SD card</p>
+				</li>
+				<li><p>Copy the <code>amuiibo</code> folder from your PC into the <code>/emuiibo/</code> folder on your SD card</p>
+				</li>
+				<li><p>Before opening a game go into the Tesla menu and connect each amuiibo you wish to use</p>
+				</li>
+			</ol>
+
+		</details>
 
 4. **Mission Control**
    - With MissionControl, you can use other consoles’ controllers on your Switch through Bluetooth. This is a background process and can be toggles On/Off in Tesla Sysmodules
