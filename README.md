@@ -601,6 +601,7 @@ Note: Skip to Tinfoil to start downloading games
 <li><p>Titles: Luffshop</p>
 </li>
 </ul>
+<p>After adding Luffshop go to file browser and disable or delete it, as its only purpose was to add multiple shops at once</p>
 <p>The details, if needed, to install Luffshop can be found <a href="https://github.com/carcaschoi/tinfoil-json">here</a></p>
 <h5 class="atx" id="titz-pro-shop"><strong>Titz Pro shop</strong></h5>
 <p>One of the shops that Luffshop redirected you to is titz (turtle in the shop). There is also a premium shop called Titz Pro. The only way to access this shop is through the turtle in the shop discord server <a href="https://discord.com/channels/829394042025672704/874130275343401000">here</a></p>
