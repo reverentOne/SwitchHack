@@ -44,12 +44,13 @@
 	<li><a href="#emulation"> ➤ :joystick: Multi-Console Retro Game Emulation</a></li>
 	<li><a href="#cheats"> ➤ :pirate_flag: Game Cheats and Mods</a></li>
 	<li><a href="#themes"> ➤ :art: Custom Themes</a></li>
+        <li><a href="#misc"> ➤ :open_file_folder: Miscellaneous</a></li>
      </ul>
 <li><a href="#troubleshooting"> ➤ :monocle_face: Troubleshooting</a></li>
 <li><a href="#resources"> ➤ :toolbox: Useful Resources</a></li>
 </ol>
 </details>
-
+	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h1 id="intro" align="center">:camping: Before You Begin! </h1>
@@ -906,6 +907,71 @@ If you replaced your user page with NX-Activity-Log then you will have to make a
 3. Open your user page, select Settings, and change Theme to Custom
   
 4. Now select Customize Theme, Customize by selecting your RGBA values, and apply with [x]
+	
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) <div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>	
+	
+<!-- Miscellaneous -->
+<h2 id="misc"> :open_file_folder: Miscellaneous</h2>
+	
+### Mission Control
+
+1. With MissionControl, you can use other consoles’ controllers on your Switch through Bluetooth. This is a background process and can be toggles On/Off in Tesla Sysmodules
+2. For a list of compatible controllers look [here](https://github.com/ndeadly/MissionControl). I use the DualShock 4 PlayStation controller
+3. To pair a controller, go to the Switch Home screen, then Controllers, then Change Grip/Order. While on this screen, place your controller in pairing mode and wait for it to connect to the switch. That is all!
+
+### AutoRCM
+
+* AutoRCM causes the console to believe it is bricked, and will automatically launch RCM upon boot without needing a jig.
+
+* **Pros**: You don't need an RCM jig to enter RCM mode
+	
+* **Cons**: It reduces the charge rate of the Switch in RCM, so if your Switch completely dies it will take about an hour of charging before it will turn back on. Also, you must send payload or it will act like a brick and will only boot into RCM
+
+**Instructions:**
+
+1. Boot Hekate
+2. Go to `Tools`
+3. At the bottom of the page, tap `Arch Bit • RCM • Touch • Pkg1/2`
+4. Then tap `AutoRCM`. It will show a little `ON` next to the option once you have done this.
+
+### LAN and Wireless Play
+
+* A few games have a hidden **LAN mode** that allows you to connect to multiple switch systems within the same network. Many games have **Wireless mode** which connects Switches directly to other Switches.
+
+* To do this with friends on different networks follow [these](http://www.lan-play.com/install-switch) instructions. Because you have custom firmware you can use [ldn_mitm](https://github.com/spacemeowx2/ldn_mitm/releases) to revert the local wireless play to wifi connection.
+
+* For a list of games with LAN mode and other resources see [this website](http://www.lan-play.com/games-switch)
+
+### Link a fake user account
+
+* Some games/apps may fail to launch until you link a Switch user account. Some titles may be stuck in *Updating game data* until you link a Switch user account.
+
+There are 2 main ways to link a fake user account:
+
+1. (Quickest) Tinfoil: Scroll down and Select **Options**, then **Fake Link Nintendo Online Account**
+  
+2. (Most Functionality) Linkalho:
+  
+  1. Download the latest release of`linkalho-vx.x.x.zip` [here](https://github.com/rdmrocha/linkalho/releases)
+    
+  2. Unzip and place the .nro file in the /switch/linkalho folder of your SDcard.
+    
+  3. Go to the homebrew app menu, run Linkalho, and select **Link all accounts***
+    
+
+### Stream your PC games to your Nintendo Switch
+
+* It is possible to Stream your PC screen and games to your Nintendo Switch, althought you should expect some latency. The quality of your steam is restricted by your internet connection as well as the Switch's hardware.
+
+1. Download `SkyNX.zip` and `SkyNXStreamer-win32-ia32.zip` from [here](https://github.com/DevL0rd/SkyNX/releases)
+2. Copy the switch folder in SkyNX.zip, to the root of your SD card
+3. If you want the app to show up on your home then copy the nsp to your SD card and install using Goldleaf
+4. Extract SkyNXStreamer-win32-ia32.zip to somewhere safe
+5. Open SkyNXStreamer-win32-ia32/SkyNXStreamer.exe
+6. Launch SkyNX on switch
+7. Put the IP showed on the app into the streamer
+8. adjusting settings if desired, then click start streamer
+
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png) <div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
 
