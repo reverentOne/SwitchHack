@@ -490,8 +490,6 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <img src="images/6.jpg" alt="6" width="70%" align="left">
 <img src="images/7.png" alt="7" width="70%" align="center">
 <p>
-	
-Note: Skip to Tinfoil to start downloading games
 
 1. **AIO Switch Updater** (<a href="https://github.com/HamletDuFromage/aio-switch-updater">Documentation</a>)
 	- Tool that helps you download and update CFWs, sigpatches, FWs and cheat codes. This app has many other miscellaneous features such as a tool to change software color scheme of Joy-Cons
@@ -500,6 +498,7 @@ Note: Skip to Tinfoil to start downloading games
 2. **Checkpoint**
    - Checkpoint is a fast simple save manager. With this tool you can backup or edit save files. For a while this app wasn’t compatible with the latest firmware. If that happens again check out JKSB which does essentially the exact same thing
 3. **Daybreak and Reboot to Payload**
+	- Tools used to update firmware and reboot to your current payload respectively
 4. **Fizeau** (<a href="https://github.com/averne/Fizeau/blob/master/README.md">Documentation</a>)
    - Fizeau allows you to adjust the color of your screen with corrections including gamma, luminance, and color range. I usually use this to filter out some blue light when playing at night. You can also use this to try and make games look more vibrant. This is a quick access overlay through the Tesla Menu. 
 5. **Ftpd pro** (<a href="https://github.com/mtheall/ftpd/blob/master/README.md">Documentation</a>)
