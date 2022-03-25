@@ -699,7 +699,7 @@ The Switch is great at emulating some consoles and not so great at emulating oth
     
 - Hit-or-miss Emulation with Android OS: Game Cube, Wii
   
-  - Technically, if you get the Android OS on Switch, you can get more emulators like Dolphin to run Wii and GameCube games. I do not recommend this as there are much better ways to Emulate these systems.
+  - Technically, if you get the Android OS on Switch, you can get more emulators like Dolphin to run Wii and GameCube games. I do not recommend this as there are much better ways to emulate these systems such as through a Steam Deck, Raspberry Pi, or PC. If still interested see <a href="https://switchroot.org/>switchroot</a> for more information
     
   
 
