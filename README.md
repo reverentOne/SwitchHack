@@ -493,27 +493,31 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 	
 Note: Skip to Tinfoil to start downloading games
 
-1. **Breeze and Edizon SE**
+1. **AIO Switch Updater** (<a href="https://github.com/HamletDuFromage/aio-switch-updater">Documentation</a>)
+	- Tool that helps you download and update CFWs, sigpatches, FWs and cheat codes. This app has many other miscellaneous features such as a tool to change software color scheme of Joy-Cons
+1. **Breeze and Edizon SE** (<a href="https://github.com/tomvita/Breeze-Beta/wiki">Breeze Documentation</a>, <a href="https://github.com/WerWolv/EdiZon/wiki">Edizon Documentation</a>)
+	- Game cheat tools. Both are developed by the same creator. Breeze was designed to be a more user friendly version of Edizon, but is still in beta and lacks some features such as easy in-game editting through the Tesla menu
 2. **Checkpoint**
    - Checkpoint is a fast simple save manager. With this tool you can backup or edit save files. For a while this app wasn’t compatible with the latest firmware. If that happens again check out JKSB which does essentially the exact same thing
 3. **Daybreak and Reboot to Payload**
 4. **Fizeau** (<a href="https://github.com/averne/Fizeau/blob/master/README.md">Documentation</a>)
-   - Fizeau allows you to adjust the color of your screen with corrections including gamma, luminance, and color range. I usually use this to filter out some blue light when playing at night. You can also use this to try and make games look more vibrant. I usually access this through the Tesla Menu. 
+   - Fizeau allows you to adjust the color of your screen with corrections including gamma, luminance, and color range. I usually use this to filter out some blue light when playing at night. You can also use this to try and make games look more vibrant. This is a quick access overlay through the Tesla Menu. 
 5. **Ftpd pro** (<a href="https://github.com/mtheall/ftpd/blob/master/README.md">Documentation</a>)
    - This is one of my very favorite apps. This allows you to download onto your switch wirelessly through Wi-Fi.
    - On your PC file browser, enter the ip address with the ftp:// prefix. e.g. ftp://xxx.xxx.x.x:5000
    - The Switch SD files should now appear on your PC. This is extremely useful for small files, but not recommended for files larger than 100MB as the transfer speed is much slower than direct to SD card
 6. **Goldleaf** (<a href="https://github.com/XorTroll/Goldleaf/blob/master/README.md">Documentation</a>)
-   - This is a multipurpose app that acts as a filesystem browser, NRO installer, web browser, and more
-   - If for whatever reason all the Tinfoil app stores are down you can use this app to install NRO game files
+   - This is a multipurpose app that acts as a filesystem browser, NRO installer, web browser, user icon installer, and more
 7. **HB App Store** (<a href="https://github.com/fortheusers/hb-appstore/blob/master/README.md">Documentation</a>)
    - This is a store for homebrew apps. Feel free to browse this and download any apps that seem interesting. Personally, I don’t like using this, but others may really appreciate it. There are many outdated or useless apps on the store so be careful. Most of the documentation for the apps are going to be on GitHub so I recommend you check that out before installing
-   - Start by checking out nxmp if you want a video player, ppsspp if you want to emulate psp games, amuiibo for virtual amiibos, sysDVR if you want to stream switch games to your PC
+   - Start by checking out nxmp if you want a video player, ppsspp if you want to emulate psp games, sysDVR if you want to stream switch games to your PC
 8. **NX Activity Log** (<a href="https://github.com/tallbl0nde/NX-Activity-Log/blob/master/README.md">Documentation</a>)
    - Because you can no longer connect to Nintendo servers you wouldn’t be able to see your activity and game play times without this app.
    - I recommend you replace your User Page with this app. To do that go to settings, scroll down to the bottom, and select Replace User Page to Enable it
 9. **nxdumptool** (<a href="https://github.com/DarkMatterCore/nxdumptool/blob/main/README.md">Documentation</a>)
+   - Used to generates XCI or NRO dumps from inserted gamecards or installed games
 10. **NXThemes Installer** (<a href="https://github.com/exelix11/SwitchThemeInjector/blob/master/readme.md">Documentation</a>)
+	- Used to install custom themes. See <a href="#themes">Custom Themes</a>
 11. **Sys-clk manager** (<a href="https://github.com/retronx-team/sys-clk/blob/develop/README.md">Documentation</a>)
     - Sys-clk is a system-wide underclock and overclock sysmodule that allows you to overclock the Switch. It includes automatic underclocking and overclocking depending on if you are docked and what games you are playing
 12. **Retroarch**
@@ -521,6 +525,7 @@ Note: Skip to Tinfoil to start downloading games
 13. **Tinfoil Installer**
     - Used to install Tinfoil for the first time. See <a href="#games">Installing games on your Switch</a>
 14. **TriPlayer**
+    - Audio player that is able to play music in the background, including when playing games or on the HOME menu.
     - See <a href="https://github.com/tallbl0nde/TriPlayer/wiki">TriPlayer wiki</a>
 
 	
@@ -851,6 +856,15 @@ Creating your own theme pack is one of the most fun and creative aspects of hack
 11. To create your own icons select Add New, fill out the options, then select Add
   
 12. After you have added all your prefered icons to the output you can Transfer it to your Switch using FTPD
+	
+### Change the color of the Joy-Con or other controllers
+	
+1. Make sure your Joy-Cons are docked, then open AIO Switch Updater in the hb menu
+
+2. Select **Tools**, then **Change the Joy-Cons color** or **Change the Pro controller color**, and select your color (note that other controllers connected with MissionControl will show up as Pro controllers)
+
+3. To create your own colors use <a href="https://hamletdufromage.github.io/JC-color-picker/JCpicker.html">this website</a> and copy the JSON to your `/config/aio-switch-updater/` folder
+	
 <br />
 <br />
 <p align="center"><img src="images/TfTheme.jpg" alt="ct" width="70%"></p>	
