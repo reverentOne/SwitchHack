@@ -942,7 +942,7 @@ If you replaced your user page with NX-Activity-Log then you will have to make a
 
 * For a list of games with LAN mode and other resources see [this website](http://www.lan-play.com/games-switch)
 
-### Link a fake user account
+### Link a Fake User Account
 
 * Some games/apps may fail to launch until you link a Switch user account. Some titles may be stuck in *Updating game data* until you link a Switch user account.
 
