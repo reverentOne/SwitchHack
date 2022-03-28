@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : "All-in-One Guide to Hacking your Nintendo Switch"
 name                     : "reverentOne"
 description              : "In progress site for SwitchHack"
-url                      : https://www.switchhack.com"
+url                      : "https://www.switchhack.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : reverentOne/SwitchHack
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
