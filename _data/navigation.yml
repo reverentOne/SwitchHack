@@ -5,7 +5,7 @@ main:
   - title: "Community Resources"
     url: \docs\pages\community_resources
   - title: Test
-    url: \test
+    url: /docs/pages/test/
   - title: Test 2
     url: /docs/pages/test_2/
   - title: Test 3
