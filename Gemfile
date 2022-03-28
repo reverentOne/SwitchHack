@@ -25,5 +25,6 @@ gem "minimal-mistakes-jekyll"
 #
 # If you have any other plugins, put them here!
 # Cf. https://jekyllrb.com/docs/plugins/installation/
+gem "jekyll-remote-theme"
 group :jekyll_plugins do
 end
