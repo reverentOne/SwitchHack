@@ -1,10 +1,12 @@
 # main links
 main:
   - title: "Quick-Start Guide"
-    url: \docs\pages\full_guide.md
+    url: \docs\pages\full_guide
   - title: "Community Resources"
-    url: \docs\pages\community_resources.md
+    url: \docs\pages\community_resources
   - title: Test
-    url: \docs\pages\test.md
+    url: \test
   - title: Test 2
-    url: /docs/pages/test_2.md
+    url: /docs/pages/test_2/
+  - title: Test 3
+    url: /mySwitchHackFile/
