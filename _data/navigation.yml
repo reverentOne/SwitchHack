@@ -4,3 +4,7 @@ main:
     url: \docs\pages\full_guide.md
   - title: "Community Resources"
     url: \docs\pages\community_resources.md
+  - title: Test
+    url: \docs\pages\test.md
+  - title: Test 2
+    url: \docs\pages\test_2.md
