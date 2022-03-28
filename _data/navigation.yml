@@ -7,4 +7,4 @@ main:
   - title: Test
     url: \docs\pages\test.md
   - title: Test 2
-    url: \docs\pages\test_2.md
+    url: /docs/pages/test_2.md
