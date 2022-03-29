@@ -1,0 +1,381 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 708px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.u-section-1 .u-layout-cell-1 {
+  min-height: 588px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 445px;
+  height: 445px;
+  background-image: url("images/switchPirates.png");
+  background-position: 50% 50%;
+  margin: 0 auto 0 0;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 106px;
+  height: 106px;
+  margin: -26px 20px 0 auto;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 588px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-1 .u-text-1 {
+  font-size: 3.75rem;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1.125rem;
+  line-height: 2.2;
+  background-image: none;
+  margin: 20px 0 0;
+}
+
+.u-section-1 .u-btn-1 {
+  font-size: 0.875rem;
+  letter-spacing: 3px;
+  background-image: none;
+  border-style: none;
+  font-weight: 700;
+  margin: 36px auto 0 0;
+  padding: 14px 52px 15px 51px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 605px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 485px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 426px;
+    height: 426px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-top: -7px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 485px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.25rem;
+  }
+
+  .u-section-1 .u-btn-1 {
+    text-transform: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 491px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 585px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 312px;
+    height: 312px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 88px;
+    height: 88px;
+    margin-top: 3px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 759px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 630px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 428px;
+    height: 428px;
+    margin-right: 92px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 134px;
+    height: 134px;
+    margin-top: -22px;
+    margin-right: 25px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 3.75rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 559px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 477px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 320px;
+    height: 320px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-shape-1 {
+    width: 87px;
+    height: 87px;
+    margin-top: 0;
+    margin-right: 10px;
+  }
+
+  .u-section-1 .u-text-1 {
+    font-size: 2.25rem;
+  }
+} .u-section-2 {
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 708px;
+}
+
+.u-section-2 .u-layout-wrap-1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.u-section-2 .u-layout-cell-1 {
+  min-height: 588px;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 30px;
+}
+
+.u-section-2 .u-text-1 {
+  font-size: 3.75rem;
+  font-weight: 400;
+  margin: 69px 0 0;
+}
+
+.u-section-2 .u-text-2 {
+  line-height: 2.2;
+  font-size: 1.125rem;
+  margin: 20px 0 0;
+}
+
+.u-section-2 .u-btn-1 {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 3px;
+  background-image: none;
+  border-style: none;
+  font-weight: 700;
+  margin: 36px 0 0 auto;
+  padding: 14px 52px 15px 51px;
+}
+
+.u-section-2 .u-layout-cell-2 {
+  min-height: 588px;
+}
+
+.u-section-2 .u-container-layout-2 {
+  padding: 30px;
+}
+
+.u-section-2 .u-image-1 {
+  width: 445px;
+  height: 445px;
+  background-image: url("images/hbdiscord.png");
+  background-position: 50% 50%;
+  margin: 0 auto 0 0;
+}
+
+.u-section-2 .u-shape-1 {
+  width: 106px;
+  height: 106px;
+  margin: -23px auto 0 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 605px;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 485px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 3.25rem;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 485px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 426px;
+    height: 426px;
+  }
+
+  .u-section-2 .u-shape-1 {
+    margin-top: -7px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 491px;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 100px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 371px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 312px;
+    height: 312px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .u-section-2 .u-shape-1 {
+    width: 88px;
+    height: 88px;
+    margin-top: 3px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 759px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 3.75rem;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 576px;
+  }
+
+  .u-section-2 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 428px;
+    height: 428px;
+    margin-right: 92px;
+    margin-left: 0;
+  }
+
+  .u-section-2 .u-shape-1 {
+    width: 134px;
+    height: 134px;
+    margin-top: -22px;
+    margin-right: 25px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 559px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 2.25rem;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 363px;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 320px;
+    height: 320px;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-shape-1 {
+    width: 87px;
+    height: 87px;
+    margin-top: 0;
+    margin-right: 10px;
+  }
+}
