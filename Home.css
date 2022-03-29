@@ -47,7 +47,7 @@
 .u-section-2 .u-shape-1 {
   width: 228px;
   height: 228px;
-  background-image: none;
+  box-shadow: 2px 0 0 0 rgba(0,0,0,0);
   margin: -215px auto 0 30px;
 }
 
@@ -61,7 +61,7 @@
 
 .u-section-2 .u-group-1 {
   width: 527px;
-  min-height: 477px;
+  min-height: 478px;
   margin: -374px 43px 0 auto;
 }
 
@@ -73,13 +73,13 @@
   font-style: normal;
   font-weight: 400;
   font-size: 1.875rem;
-  margin: 0;
+  margin: 20px 0 0;
 }
 
 .u-section-2 .u-text-3 {
   font-size: 1.25rem;
   font-weight: 300;
-  margin: 30px 0 0;
+  margin: 23px 0 0;
 }
 
 .u-section-2 .u-btn-1 {
@@ -88,7 +88,7 @@
   letter-spacing: 1px;
   background-image: none;
   border-style: none;
-  margin: 20px auto 0 0;
+  margin: 56px auto 0 0;
   padding: 11px 44px 11px 42px;
 }
 
@@ -118,16 +118,18 @@
   }
 
   .u-section-2 .u-shape-1 {
-    width: 193px;
-    height: 193px;
-    margin-top: -103px;
-    margin-left: 20px;
+    width: 212px;
+    height: 212px;
+    transition-duration: 2.5s;
+    transform: scale(1.1) translateX(0px) translateY(0px);
+    margin-top: -39px;
+    margin-left: 25px;
   }
 
   .u-section-2 .u-image-1 {
     height: 588px;
     width: 588px;
-    margin-top: 0;
+    margin-top: -83px;
     margin-left: 30px;
   }
 
@@ -366,6 +368,8 @@
 @media (max-width: 1199px) {
   .u-section-3 .u-image-1 {
     width: 697px;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
   }
 
   .u-section-3 .u-list-1 {
@@ -508,24 +512,13 @@
   margin: 20px 0 0;
 }
 
-.u-section-4 .u-text-3 {
-  font-style: italic;
-  margin: 20px 0 0;
-}
-
 .u-section-4 .u-btn-1 {
-  border-style: none none solid;
-  font-style: italic;
-  padding: 0;
-}
-
-.u-section-4 .u-btn-2 {
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: 1px;
   background-image: none;
   border-style: none;
-  margin: 30px auto 0 0;
+  margin: 20px auto 0 0;
 }
 
 .u-section-4 .u-carousel-item-2 {
@@ -536,36 +529,25 @@
   padding: 60px 60px 45px;
 }
 
-.u-section-4 .u-text-4 {
+.u-section-4 .u-text-3 {
   font-weight: 400;
   font-family: Roboto, sans-serif;
   margin: 0;
 }
 
-.u-section-4 .u-text-5 {
+.u-section-4 .u-text-4 {
   font-style: italic;
   font-size: 1.25rem;
   margin: 20px 0 0;
 }
 
-.u-section-4 .u-text-6 {
-  font-style: italic;
-  margin: 20px 0 0;
-}
-
-.u-section-4 .u-btn-3 {
-  border-style: none none solid;
-  font-style: italic;
-  padding: 0;
-}
-
-.u-section-4 .u-btn-4 {
+.u-section-4 .u-btn-2 {
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: 1px;
   background-image: none;
   border-style: none;
-  margin: 30px auto 0 0;
+  margin: 20px auto 0 0;
 }
 
 .u-section-4 .u-carousel-control-1 {
@@ -632,18 +614,27 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 738px;
+    min-height: 565px;
+  }
+
+  .u-section-4 .u-shape-1 {
+    margin-top: 0;
   }
 
   .u-section-4 .u-image-1 {
     width: 340px;
     height: 227px;
+    margin-top: -529px;
+    margin-right: -1px;
   }
 
   .u-section-4 .u-slider-1 {
-    width: 340px;
-    margin-top: 50px;
-    margin-left: 0;
+    min-height: 339px;
+    margin-top: 2px;
+    margin-bottom: -66px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-4 .u-container-layout-1 {
@@ -660,12 +651,11 @@
     padding-right: 50px;
   }
 
-  .u-section-4 .u-text-5 {
+  .u-section-4 .u-text-4 {
     font-size: 1.125rem;
   }
 } .u-section-5 {
   background-image: url("images/Switch_HD_Photo.png");
-  background-position: 50% 50%;
 }
 
 .u-section-5 .u-sheet-1 {
@@ -688,7 +678,7 @@
 
 @media (max-width: 1199px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 551px;
+    min-height: 611px;
   }
 
   .u-section-5 .u-text-1 {
@@ -701,10 +691,6 @@
 }
 
 @media (max-width: 991px) {
-  .u-section-5 .u-sheet-1 {
-    min-height: 422px;
-  }
-
   .u-section-5 .u-text-1 {
     margin-right: 329px;
   }
@@ -716,7 +702,7 @@
 
 @media (max-width: 767px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 317px;
+    min-height: 594px;
   }
 
   .u-section-5 .u-text-1 {
@@ -730,11 +716,13 @@
 
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 200px;
+    min-height: 557px;
   }
 
   .u-section-5 .u-text-1 {
     font-size: 1.5rem;
+    width: auto;
+    margin-top: 25px;
     margin-right: 0;
   }
 
@@ -777,8 +765,8 @@
 .u-section-6 .u-image-1 {
   width: 300px;
   height: 300px;
-  background-image: url("images/woman-wearing-virtual-reality-headset-playing-video-games_53876-985651.jpg");
-  background-position: 42.98% 50%;
+  background-image: url("images/young-couple-playing-video-games-9.jpg");
+  background-position: 40.17% 50%;
   margin: 12px auto 0 34px;
 }
 
@@ -795,13 +783,13 @@
   height: 300px;
   background-image: url("images/12-year-olds-gamer.webp");
   background-position: 60.86% 50%;
-  margin: -627px 91px 0 auto;
+  margin: -628px 92px 0 auto;
 }
 
 .u-section-6 .u-shape-1 {
   width: 228px;
   height: 228px;
-  margin: -16px 342px 0 auto;
+  margin: -15px 342px 0 auto;
 }
 
 .u-section-6 .u-shape-2 {
@@ -847,7 +835,6 @@
     height: 139px;
     margin-top: 46px;
     margin-right: 87px;
-    margin-bottom: 44px;
   }
 }
 
@@ -857,7 +844,7 @@
   }
 
   .u-section-6 .u-text-1 {
-    margin-top: 60px;
+    margin-top: 66px;
   }
 
   .u-section-6 .u-image-1 {
@@ -879,7 +866,6 @@
   .u-section-6 .u-shape-2 {
     margin-top: 186px;
     margin-right: 29px;
-    margin-bottom: 60px;
   }
 }
 
@@ -890,6 +876,7 @@
 
   .u-section-6 .u-text-1 {
     width: 540px;
+    margin-top: 60px;
   }
 
   .u-section-6 .u-text-2 {
@@ -929,7 +916,7 @@
     height: 127px;
     margin-top: 146px;
     margin-right: 34px;
-    margin-bottom: 47px;
+    margin-bottom: 56px;
   }
 }
 
@@ -1106,8 +1093,9 @@
 
   .u-section-7 .u-group-1 {
     min-height: 389px;
-    margin-top: -660px;
+    margin-top: -716px;
     margin-bottom: 60px;
+    margin-left: -12px;
   }
 
   .u-section-7 .u-container-layout-1 {
@@ -1135,7 +1123,8 @@
   .u-section-7 .u-group-1 {
     width: 284px;
     min-height: 376px;
-    margin-top: -555px;
+    margin-top: -611px;
+    margin-left: 0;
   }
 
   .u-section-7 .u-text-1 {
