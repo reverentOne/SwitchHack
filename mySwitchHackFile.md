@@ -1,15 +1,15 @@
-<h1 align="center"><img src="images/Switch_HD_Photo.png" alt="Switch_HD_Photo" width="4.5%"> SwitchHack <img src="images/Switch_HD_Photo.png" alt="Switch_HD_Photo" width="4.5%"></h1>
+<h1 align="center"><img src="all_images/Switch_HD_Photo.png" alt="Switch_HD_Photo" width="4.5%"> SwitchHack <img src="all_images/Switch_HD_Photo.png" alt="Switch_HD_Photo" width="4.5%"></h1>
 <h3 align="center"> All-in-One Guide to Hacking your Nintendo Switch T.0.1</h3>  
 </br> 
 	
 <p align="center"> 
-  <img src="images/SwitchHack.gif" alt="sh gif" width="60%">
+  <img src="all_images/SwitchHack.gif" alt="sh gif" width="60%">
 </p>
 
 [![HitCount](https://hits.dwyl.com/reverentOne/SwitchHack.svg?style=flat-square)](http://hits.dwyl.com/reverentOne/SwitchHack)
 
 <!---<p align="center"> 
-  <img src="images/Switch_HD_Photo.png" alt="Switch_HD_Photo" width="40%">
+  <img src="all_images/Switch_HD_Photo.png" alt="Switch_HD_Photo" width="40%">
 </p>--->
 
 <!-- TABLE OF CONTENTS -->
@@ -148,7 +148,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 	- <details><summary>What are my options if my Switch is patched? ➤</summary>
 		<br>
 		- The scope of this guide only covers unpatched Switches, as the only way to hack a Patched/Lite/OLED is to install a Mod Chip. To learn more about this see <a href="https://wololo.net/2022/02/17/how-to-hack-your-nintendo-switch-2022-edition-hwfly-and-sx-clones-rcm-oled-unpatched-vs-patched-trying-to-clear-it-up-for-you/">here</a>. Mod chips cost ~$130 and can ony be purched through chinese distributors. This is because Nintendo has <a href="https://www.justice.gov/usao-wdwa/pr/public-voice-and-principal-salesperson-notorious-videogame-piracy-group-sentenced-3">cracked down hard</a> on Mod Chip production. Currently the only reliable place to buy a mod chip is <a href="https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20220317124818&SearchText=HWFLY">Aliexpress</a>
-		<p align="left"><a href="https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20220317124818&SearchText=HWFLY"><img src="images/hwfly_oled.png" alt="mod chip" width="40%"></a></p>
+		<p align="left"><a href="https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20220317124818&SearchText=HWFLY"><img src="all_images/hwfly_oled.png" alt="mod chip" width="40%"></a></p>
 	</details>
 * Micro SD card (256GB or 512GB Recommended, 64GB Minimum)
   - Keep in mind that games are on average 5GB, but the largest ones are over 15GB
@@ -164,7 +164,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 <!-- What you can do with a hacked switch? -->
 <h2 id="what-can-you-do"> :electron: What you can do with a hacked switch?</h2>
 
-<img align="right" src="images/hacked_switch_home.jpg" alt="hacked switch home" width="55%">
+<img align="right" src="all_images/hacked_switch_home.jpg" alt="hacked switch home" width="55%">
 
 <br>
 
@@ -208,7 +208,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 <p> 
 	
 1. <details><summary>:camera: Format SD card to Fat32. I used <a href="http://ridgecrop.co.uk/index.htm?guiformat.htm">this tool</a> <a href=""></a></summary>
-	<img src="images/1.png" alt="1" width="40%">
+	<img src="all_images/1.png" alt="1" width="40%">
 	</details>
 2. Download payload sending application to desktop or other easily accessible location
    1. For Windows, you can use <a href="https://github.com/eliboa/TegraRcmGUI/releases">TegraRcmGUI</a> 
@@ -226,7 +226,7 @@ There are many homebrew guides out there. Some are better than others, but all w
    6.	Open the SD folder and transfer all the files inside to the root (a.k.a the main/home directory) of your SD card
    7.	Open the Payloads folder and copy `Lockpick_RCM.bin` to your SD card inside the payloads folder which is located inside the bootloader folder
 4. <details><summary>:camera: Download latest updates (Extract each and transfer to root of SD card. Click yes when asked to merge and override existing files)</summary>
-	<img src="images/2.png" alt="2" width="80%">
+	<img src="all_images/2.png" alt="2" width="80%">
 	</details> <p>
 		
 	1. <a href="https://github.com/Atmosphere-NX/Atmosphere/releases">Atmosphere</a>
@@ -246,7 +246,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 	- There are many other methods but this one is highly highly recommended. I used an LED light with bent wires before I got the jig which worked but was very annoying.
 	- For a list of alternate methods see <a href="https://gbatemp.net/threads/the-ultimate-list-of-mods-to-enter-rcm.502145/">here</a>)
 4. <details><summary>:camera: Hold down the <b>Volume Up</b> button and press the <b>Power</b> button</summary>
-	<img src="images/hekate_0.jpg" alt="jig" width="50%">
+	<img src="all_images/hekate_0.jpg" alt="jig" width="50%">
 	</details>
 	
 	- If the screen stays black that means you are in, YAH! If the switch logo appears, something went wrong, and you need to try again
@@ -255,7 +255,7 @@ There are many homebrew guides out there. Some are better than others, but all w
 6. Time to open up TegraRcmGUI on your PC
 7. Open the settings tab and select Install drivers (First time only)
 8. <details><summary>:camera: If your Switch is in RCM mode and connected correctly the red image should turn green and say RCM OK</summary>
-	<img src="images/3.png" alt="3" width="50%">
+	<img src="all_images/3.png" alt="3" width="50%">
 	</details>
 9. Select the hetake bin file from when you updated hetake and click Inject Payload
 10. Your switch should turn on. You can now disconnect it from your PC
@@ -275,25 +275,25 @@ These steps will prevent your switch from getting permanently bricked or banned
 </ul>
 <ol>
 <li><details><summary>:camera: Now you have entered Hetake and your screen should look like this ➤</summary>
-	<img src="images/safety_9.bmp" alt="s:9" width="73%">
+	<img src="all_images/safety_9.bmp" alt="s:9" width="73%">
 	</details>
 </li>
 <li><details><summary>:camera: Select <strong>tools</strong>, then select <strong>Partition SD Card</strong>, then after a while press <strong>OK</strong> ➤</summary>
-	<img src="images/safety_1.bmp" alt="s:1" width="73%">
+	<img src="all_images/safety_1.bmp" alt="s:1" width="73%">
 	</details>
 </li>
 <li><details><summary>:camera: Drag the&nbsp;<strong>emuMMC (RAW)</strong>&nbsp;slider to 29GiB ➤</summary>
-	<img src="images/safety_4.bmp" alt="s:4" width="73%">
+	<img src="all_images/safety_4.bmp" alt="s:4" width="73%">
 	</details>
 </li>
 <li><p>Select&nbsp;<strong>Next Step</strong>,&nbsp;<strong>Start</strong>&nbsp;and wait for it to finish</p>
 </li>
 <li><details><summary>:camera: Return to the home menu and select&nbsp;<strong>emuMMC</strong> ➤</summary>
-	<img src="images/safety_5.bmp" alt="s:5" width="73%">
+	<img src="all_images/safety_5.bmp" alt="s:5" width="73%">
 	</details>
 </li>
 <li><details><summary>:camera: Select&nbsp;<strong>Create emuMMC</strong>, then <strong>SD Partition</strong>, then <strong>Part 1</strong> ➤</summary>
-	<img src="images/safety_7.bmp" alt="s:7" width="73%">
+	<img src="all_images/safety_7.bmp" alt="s:7" width="73%">
 	</details>
 </li>
 <li><p>Wait for it to finish. This will take about 15min depending on your SD cards write speed. You are cloning the switches internal memory to your SD card</p>
@@ -394,9 +394,9 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 		</ul>
 </ol>
 <details><summary>:camera: This is what your root and switch folders should look like</summary>
-	<img src="images/4.png" alt="4" width="40%">
+	<img src="all_images/4.png" alt="4" width="40%">
 	&nbsp;&nbsp;&nbsp;
-	<img src="images/5.png" alt="5" width="40%">
+	<img src="all_images/5.png" alt="5" width="40%">
 	</details>
 	
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)<div align="right"><b><a href="#table-of-contents">↥ back to top</a></b></div>
@@ -488,8 +488,8 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <h2 id="overview"> :world_map: Overview of apps</h2>
 <p>
 
-<img src="images/6.jpg" alt="6" width="70%" align="left">
-<img src="images/7.png" alt="7" width="70%" align="center">
+<img src="all_images/6.jpg" alt="6" width="70%" align="left">
+<img src="all_images/7.png" alt="7" width="70%" align="center">
 <p>
 
 1. **AIO Switch Updater** (<a href="https://github.com/HamletDuFromage/aio-switch-updater">Documentation</a>)
@@ -584,7 +584,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <li><p>Now you fill out the information for the shop you want (see Luffshop and Titz Pro)</p>
 </li>
 <li><p><details><summary>:camera: A new tab in Tinfoil should appear called New Games</summary>
-<img src="images/tf3.jpg" alt="tf3" width="70%">
+<img src="all_images/tf3.jpg" alt="tf3" width="70%">
 </details></p>
 </li>
 <li><p>Great! Now you can search for any games or DLCs that your heart desires</p>
@@ -593,7 +593,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <h5 class="atx" id="luffshop">Luffshop</h5>
 <p>Luffshop is not actually a shop but a redirect to many other shops. Sometimes shops go down, but with Luffshop you will have a better shot at having access to games.</p>
 <details><summary>:camera: Fill out:</summary>
-<img width="70%" alt="tf1" src="images/tf1.jpg">
+<img width="70%" alt="tf1" src="all_images/tf1.jpg">
 </details>
 
 <ul>
@@ -623,7 +623,7 @@ Your Switch is now hacked and safe to use. In this step you will install many ap
 <li><p>Because tits pro is private it gets less traffic and is less likely to shutdown compared to other shops</p>
 </li>
 <li><p><details><summary>:camera: Gain access to Retroarch titles through Tinfoil. Nothing new, but this is a time saver. Just download the cores from Retroarch and the games will show up</summary>
-<img src="images/tf4.jpg" alt="tf4" width="70%">
+<img src="all_images/tf4.jpg" alt="tf4" width="70%">
 </details></p>
 </li>
 <li><p>You get early access to many titles. (Games get leaked, especially ones with physical releases. The most common reason is an employee of a store takes a copy home early from the stock that arrived. That is why leaks are usually 1-7 days before release.)</p>
@@ -675,7 +675,7 @@ laid out <a href="https://games.jits.cc/">here</a></p>
 <h2 id="emulation"> :joystick: Multi-Console Retro Game Emulation</h2>
 
 <p align="center"> 
-  <img src="images/emulators.gif" alt="emulators gif" width="60%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="all_images/emulators.gif" alt="emulators gif" width="60%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 The Switch is great at emulating some consoles and not so great at emulating others. Here is breakdown:
@@ -731,7 +731,7 @@ Now you will quickly come to realize that it takes some time to open your games.
 3. Open it and run the menu executable and follow the next steps for each game
   
 4. <details><summary>:camera: Fill out each box in the GUI before clicking Create Forwarder</summary>
-  	<img src="images/Forwarder.png" alt="forwarder" width="70%">
+  	<img src="all_images/Forwarder.png" alt="forwarder" width="70%">
     	</details>
   
   	- Application Name: Name of the game you want displayed
@@ -769,7 +769,7 @@ Now you will quickly come to realize that it takes some time to open your games.
 	
 Creating your own theme pack is one of the most fun and creative aspects of hacking your Switch! If you want the quick and easy way, there there are many premade packs available that you can use. If you are feeling abitious, then you can go all the way and even customize your game icons.
 	
-<p align="center"><img src="images/ct.jpg" alt="ct" width="70%"></p>
+<p align="center"><img src="all_images/ct.jpg" alt="ct" width="70%"></p>
 
 ### Install a Custom Theme
 
@@ -867,7 +867,7 @@ Creating your own theme pack is one of the most fun and creative aspects of hack
 	
 <br />
 <br />
-<p align="center"><img src="images/TfTheme.jpg" alt="ct" width="70%"></p>	
+<p align="center"><img src="all_images/TfTheme.jpg" alt="ct" width="70%"></p>	
 
 ### Install a Custom Tinfoil theme
 
