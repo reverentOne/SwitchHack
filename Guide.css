@@ -10,8 +10,8 @@
 .u-section-1 .u-text-1 {
   font-size: 3.75rem;
   background-image: none;
+  font-family: SFPRODISPLAYBOLD;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
   margin: 77px auto 60px;
 }
 
@@ -36,18 +36,19 @@
     font-size: 3rem;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 302px;
+  min-height: 214px;
 }
 
 .u-section-2 .u-list-1 {
   grid-template-rows: auto;
   width: 942px;
-  margin: 51px auto;
+  margin: -1px auto 44px;
 }
 
 .u-section-2 .u-repeater-1 {
   grid-template-columns: calc(20% - 8px) calc(20% - 8px) calc(20% - 8px) calc(20% - 8px) calc(20% - 8px);
   grid-gap: 10px 10px;
+  min-height: 172px;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -128,8 +129,6 @@
 @media (max-width: 1199px) {
   .u-section-2 .u-list-1 {
     width: 812px;
-    margin-top: 60px;
-    margin-bottom: 60px;
   }
 
   .u-section-2 .u-repeater-1 {
@@ -212,4 +211,19 @@
   .u-section-4 .u-custom-html-1 {
     height: auto;
   }
+}@font-face {
+  font-family: 'SFPRODISPLAYBOLD';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SFPRODISPLAYBOLD.OTF);
+}@font-face {
+  font-family: 'SF-Pro-Text-Thin';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SF-Pro-Text-Thin.otf);
+}@font-face {
+  font-family: 'SF-Pro-Text-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SF-Pro-Text-Regular.otf);
 }

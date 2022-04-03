@@ -206,4 +206,14 @@
   .u-section-1 .u-text-2 {
     margin-left: 2px;
   }
+}@font-face {
+  font-family: 'SF-Pro-Text-Thin';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SF-Pro-Text-Thin.otf);
+}@font-face {
+  font-family: 'SF-Pro-Text-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SF-Pro-Text-Regular.otf);
 }

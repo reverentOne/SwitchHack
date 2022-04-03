@@ -594,4 +594,14 @@
   .u-section-3 .u-text-1 {
     font-size: 2.25rem;
   }
+}@font-face {
+  font-family: 'SF-Pro-Text-Thin';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SF-Pro-Text-Thin.otf);
+}@font-face {
+  font-family: 'SF-Pro-Text-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/SF-Pro-Text-Regular.otf);
 }
