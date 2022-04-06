@@ -202,6 +202,7 @@ main {
 }
 /* Styling the Disclosure Widgets */
 details > summary {
+  box-shadow: 1px 1px 2px #bbbbbb;
   cursor: pointer;
   padding: .5rem 1rem;
 }
@@ -212,6 +213,7 @@ details > div {
   border: 2px solid #a5a2a2;
   margin-top: 0;
   padding: 1rem;
+  box-shadow: 1px 1px 2px #bbbbbb;
 } </style>
           <main><!------------------------------------------Guide Text----------------------------------------------------------------->
             <div>
@@ -237,116 +239,116 @@ details > div {
                       </li>
                       <li>
                         <details>
-                          <summary>
-                            <div>Alternatively, for compatable devices see this chart</div>
-                          </summary>
-                          <table>
-                            <thead>
-                              <tr>
-                                <th align="left">Serial Numbers</th>
-                                <th align="left">
-                                  <span>Unpatched</span>
-                                </th>
-                                <th align="left">
-                                  <span>Potentially patched</span>
-                                </th>
-                                <th align="left">
-                                  <span>Patched</span>
-                                </th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td align="left">XAW1</td>
-                                <td align="left">XAW10000000000 to XAW10074000000</td>
-                                <td align="left">XAW10074000000 to XAW10120000000</td>
-                                <td align="left">XAW10120000000 and up</td>
-                              </tr>
-                              <tr>
-                                <td align="left">XAW4</td>
-                                <td align="left">XAW40000000000 to XAW40011000000</td>
-                                <td align="left">XAW40011000000 to XAW40012000000</td>
-                                <td align="left">XAW40012000000 and up</td>
-                              </tr>
-                              <tr>
-                                <td align="left">XAW7</td>
-                                <td align="left">XAW70000000000 to XAW70017800000</td>
-                                <td align="left">XAW70017800000 to XAW70030000000</td>
-                                <td align="left">XAW70030000000 and up</td>
-                              </tr>
-                              <tr>
-                                <td align="left">XAJ1</td>
-                                <td align="left">XAJ10000000000 to XAJ10020000000</td>
-                                <td align="left">XAJ10020000000 to XAJ10030000000</td>
-                                <td align="left">XAJ10030000000 and up</td>
-                              </tr>
-                              <tr>
-                                <td align="left">XAJ4</td>
-                                <td align="left">XAJ40000000000 to XAJ40046000000</td>
-                                <td align="left">XAJ40046000000 to XAJ40060000000</td>
-                                <td align="left">XAJ40060000000 and up</td>
-                              </tr>
-                              <tr>
-                                <td align="left">XAJ7</td>
-                                <td align="left">XAJ70000000000 to XAJ70040000000</td>
-                                <td align="left">XAJ70040000000 to XAJ70050000000</td>
-                                <td align="left">XAJ70050000000 and up</td>
-                              </tr>
-                              <tr>
-                                <td align="left">XKW1</td>
-                                <td align="left">
-                                  <strong>N/A</strong>
-                                </td>
-                                <td align="left">
-                                  <strong>N/A</strong>
-                                </td>
-                                <td align="left">XKW10000000000 and up</td>
-                              </tr>
-                              <tr>
-                                <td align="left">XKJ1</td>
-                                <td align="left">
-                                  <strong>N/A</strong>
-                                </td>
-                                <td align="left">
-                                  <strong>N/A</strong>
-                                </td>
-                                <td align="left">XKJ10000000000 and up</td>
-                              </tr>
-                              <tr>
-                                <td align="left">XJW1</td>
-                                <td align="left">
-                                  <strong>N/A</strong>
-                                </td>
-                                <td align="left">
-                                  <strong>N/A</strong>
-                                </td>
-                                <td align="left">XJW01000000000 and up</td>
-                              </tr>
-                              <tr>
-                                <td align="left">XWW1</td>
-                                <td align="left">
-                                  <strong>N/A</strong>
-                                </td>
-                                <td align="left">
-                                  <strong>N/A</strong>
-                                </td>
-                                <td align="left">XWW01000000000 and up</td>
-                              </tr>
-                            </tbody>
-                          </table> - If your switch is <b>"Potentially patched"</b> this means there is a high likelyhood that your Switch is patched, but the only way to know for sure is to endter RCM and test it. During <a href="#enter_rcm">Step 2</a> you will not be able to send the payload if it is patched. 
+                          <summary>Alternatively, for compatable devices see this chart</summary>
+                          <div>
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th align="left">Serial Numbers</th>
+                                  <th align="left">
+                                    <span>Unpatched</span>
+                                  </th>
+                                  <th align="left">
+                                    <span>Potentially patched</span>
+                                  </th>
+                                  <th align="left">
+                                    <span>Patched</span>
+                                  </th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td align="left">XAW1</td>
+                                  <td align="left">XAW10000000000 to XAW10074000000</td>
+                                  <td align="left">XAW10074000000 to XAW10120000000</td>
+                                  <td align="left">XAW10120000000 and up</td>
+                                </tr>
+                                <tr>
+                                  <td align="left">XAW4</td>
+                                  <td align="left">XAW40000000000 to XAW40011000000</td>
+                                  <td align="left">XAW40011000000 to XAW40012000000</td>
+                                  <td align="left">XAW40012000000 and up</td>
+                                </tr>
+                                <tr>
+                                  <td align="left">XAW7</td>
+                                  <td align="left">XAW70000000000 to XAW70017800000</td>
+                                  <td align="left">XAW70017800000 to XAW70030000000</td>
+                                  <td align="left">XAW70030000000 and up</td>
+                                </tr>
+                                <tr>
+                                  <td align="left">XAJ1</td>
+                                  <td align="left">XAJ10000000000 to XAJ10020000000</td>
+                                  <td align="left">XAJ10020000000 to XAJ10030000000</td>
+                                  <td align="left">XAJ10030000000 and up</td>
+                                </tr>
+                                <tr>
+                                  <td align="left">XAJ4</td>
+                                  <td align="left">XAJ40000000000 to XAJ40046000000</td>
+                                  <td align="left">XAJ40046000000 to XAJ40060000000</td>
+                                  <td align="left">XAJ40060000000 and up</td>
+                                </tr>
+                                <tr>
+                                  <td align="left">XAJ7</td>
+                                  <td align="left">XAJ70000000000 to XAJ70040000000</td>
+                                  <td align="left">XAJ70040000000 to XAJ70050000000</td>
+                                  <td align="left">XAJ70050000000 and up</td>
+                                </tr>
+                                <tr>
+                                  <td align="left">XKW1</td>
+                                  <td align="left">
+                                    <strong>N/A</strong>
+                                  </td>
+                                  <td align="left">
+                                    <strong>N/A</strong>
+                                  </td>
+                                  <td align="left">XKW10000000000 and up</td>
+                                </tr>
+                                <tr>
+                                  <td align="left">XKJ1</td>
+                                  <td align="left">
+                                    <strong>N/A</strong>
+                                  </td>
+                                  <td align="left">
+                                    <strong>N/A</strong>
+                                  </td>
+                                  <td align="left">XKJ10000000000 and up</td>
+                                </tr>
+                                <tr>
+                                  <td align="left">XJW1</td>
+                                  <td align="left">
+                                    <strong>N/A</strong>
+                                  </td>
+                                  <td align="left">
+                                    <strong>N/A</strong>
+                                  </td>
+                                  <td align="left">XJW01000000000 and up</td>
+                                </tr>
+                                <tr>
+                                  <td align="left">XWW1</td>
+                                  <td align="left">
+                                    <strong>N/A</strong>
+                                  </td>
+                                  <td align="left">
+                                    <strong>N/A</strong>
+                                  </td>
+                                  <td align="left">XWW01000000000 and up</td>
+                                </tr>
+                              </tbody>
+                            </table> - If your switch is <b>"Potentially patched"</b> this means there is a high likelyhood that your Switch is patched, but the only way to know for sure is to endter RCM and test it. During <a href="#enter_rcm">Step 2</a> you will not be able to send the payload if it is patched. 
+                          </div>
                         </details>
                       </li>
                       <li>
                         <details>
-                          <summary>
-                            <div>What are my options if my Switch is patched?</div>
-                          </summary>
-                          <br> - The scope of this guide only covers unpatched Switches, as the only way to hack a Patched/Lite/OLED is to install a Mod Chip. To learn more about this see <a target="_blank" href="https://wololo.net/2022/02/17/how-to-hack-your-nintendo-switch-2022-edition-hwfly-and-sx-clones-rcm-oled-unpatched-vs-patched-trying-to-clear-it-up-for-you/">here</a>. Mod chips cost ~$130 and can ony be purched through chinese distributors. This is because Nintendo has <a target="_blank" href="https://www.justice.gov/usao-wdwa/pr/public-voice-and-principal-salesperson-notorious-videogame-piracy-group-sentenced-3">cracked down hard</a> on Mod Chip production. Currently the only reliable place to buy a mod chip is <a target="_blank" href="https://www.aliexpress.com/wholesale?catId=0&amp;initiative_id=SB_20220317124818&amp;SearchText=HWFLY">Aliexpress</a>
-                          <p align="left">
-                            <a target="_blank" href="https://www.aliexpress.com/wholesale?catId=0&amp;initiative_id=SB_20220317124818&amp;SearchText=HWFLY">
-                              <img src="all_images/hwfly_oled.png" alt="mod chip" width="40%">
-                            </a>
-                          </p>
+                          <summary>What are my options if my Switch is patched?</summary>
+                          <div>
+                            <br> - The scope of this guide only covers unpatched Switches, as the only way to hack a Patched/Lite/OLED is to install a Mod Chip. To learn more about this see <a target="_blank" href="https://wololo.net/2022/02/17/how-to-hack-your-nintendo-switch-2022-edition-hwfly-and-sx-clones-rcm-oled-unpatched-vs-patched-trying-to-clear-it-up-for-you/">here</a>. Mod chips cost ~$130 and can ony be purched through chinese distributors. This is because Nintendo has <a target="_blank" href="https://www.justice.gov/usao-wdwa/pr/public-voice-and-principal-salesperson-notorious-videogame-piracy-group-sentenced-3">cracked down hard</a> on Mod Chip production. Currently the only reliable place to buy a mod chip is <a target="_blank" href="https://www.aliexpress.com/wholesale?catId=0&amp;initiative_id=SB_20220317124818&amp;SearchText=HWFLY">Aliexpress</a>
+                            <p align="left">
+                              <a target="_blank" href="https://www.aliexpress.com/wholesale?catId=0&amp;initiative_id=SB_20220317124818&amp;SearchText=HWFLY">
+                                <img src="all_images/hwfly_oled.png" alt="mod chip" width="40%">
+                              </a>
+                            </p>
+                          </div>
                         </details>
                       </li>
                     </ul>
@@ -433,12 +435,12 @@ details > div {
                 <ol type="I">
                   <li>
                     <details>
-                      <summary>
-                        <div>Format SD card to Fat32. I used <a target="_blank" href="http://ridgecrop.co.uk/index.htm?guiformat.htm">this tool</a>
-                          <a href=""></a>
-                        </div>
+                      <summary>Format SD card to Fat32. I used <a target="_blank" href="http://ridgecrop.co.uk/index.htm?guiformat.htm">this tool</a>
+                        <a href=""></a>
                       </summary>
-                      <img src="all_images/1.png" alt="1" width="40%">
+                      <div>
+                        <img src="all_images/1.png" alt="1" width="40%">
+                      </div>
                     </details>
                   </li>
                   <li>
@@ -480,10 +482,10 @@ details > div {
                   </li>
                   <li>
                     <details>
-                      <summary>
-                        <div>📷 Download latest updates (Extract each and transfer to root of SD card. Click yes when asked to merge and override existing files)</div>
-                      </summary>
-                      <img src="all_images/2.png" alt="2" width="80%">
+                      <summary>📷 Download latest updates (Extract each and transfer to root of SD card. Click yes when asked to merge and override existing files)</summary>
+                      <div>
+                        <img src="all_images/2.png" alt="2" width="80%">
+                      </div>
                     </details>
                     <p></p>
                     <ol type="1">
@@ -530,11 +532,11 @@ details > div {
                   </li>
                   <li>
                     <details>
-                      <summary>
-                        <div>📷 Hold down the <b>Volume Up</b> button and press the <b>Power</b> button
-                        </div>
+                      <summary>📷 Hold down the <b>Volume Up</b> button and press the <b>Power</b> button
                       </summary>
-                      <img src="all_images/hekate_0.jpg" alt="jig" width="50%">
+                      <div>
+                        <img src="all_images/hekate_0.jpg" alt="jig" width="50%">
+                      </div>
                     </details>
                     <ul>
                       <li>If the screen stays black that means you are in, YAH! If the switch
@@ -558,10 +560,10 @@ details > div {
                   </li>
                   <li>
                     <details>
-                      <summary>
-                        <div>📷 If your Switch is in RCM mode and connected correctly the red image should turn green and say RCM OK</div>
-                      </summary>
-                      <img src="all_images/3.png" alt="3" width="50%">
+                      <summary>📷 If your Switch is in RCM mode and connected correctly the red image should turn green and say RCM OK</summary>
+                      <div>
+                        <img src="all_images/3.png" alt="3" width="50%">
+                      </div>
                     </details>
                   </li>
                   <li>
@@ -593,30 +595,30 @@ details > div {
                 <ol>
                   <li>
                     <details>
-                      <summary>
-                        <div>📷 Now you have entered Hetake and your screen should look like this</div>
-                      </summary>
-                      <img src="all_images/safety_9.bmp" alt="s:9" width="73%">
+                      <summary>📷 Now you have entered Hetake and your screen should look like this</summary>
+                      <div>
+                        <img src="all_images/safety_9.bmp" alt="s:9" width="73%">
+                      </div>
                     </details>
                   </li>
                   <li>
                     <p></p>
                     <details>
-                      <summary>
-                        <div>📷 Select <strong>tools</strong>, then select <strong>Partition SD Card</strong>, then after a while press <strong>OK</strong>
-                        </div>
+                      <summary>📷 Select <strong>tools</strong>, then select <strong>Partition SD Card</strong>, then after a while press <strong>OK</strong>
                       </summary>
-                      <img src="all_images/safety_1.bmp" alt="s:1" width="73%">
+                      <div>
+                        <img src="all_images/safety_1.bmp" alt="s:1" width="73%">
+                      </div>
                     </details>
                     <p></p>
                   </li>
                   <li>
                     <details>
-                      <summary>
-                        <div>📷 Drag the&nbsp;<strong>emuMMC (RAW)</strong>&nbsp;slider to 29GiB
-                        </div>
+                      <summary>📷 Drag the&nbsp;<strong>emuMMC (RAW)</strong>&nbsp;slider to 29GiB
                       </summary>
-                      <img src="all_images/safety_4.bmp" alt="s:4" width="73%">
+                      <div>
+                        <img src="all_images/safety_4.bmp" alt="s:4" width="73%">
+                      </div>
                     </details>
                   </li>
                   <li>
@@ -626,21 +628,21 @@ details > div {
                   <li>
                     <p></p>
                     <details>
-                      <summary>
-                        <div>📷 Return to the home menu and select&nbsp;<strong>emuMMC</strong>
-                        </div>
+                      <summary>📷 Return to the home menu and select&nbsp;<strong>emuMMC</strong>
                       </summary>
-                      <img src="all_images/safety_5.bmp" alt="s:5" width="73%">
+                      <div>
+                        <img src="all_images/safety_5.bmp" alt="s:5" width="73%">
+                      </div>
                     </details>
                     <p></p>
                   </li>
                   <li>
                     <details>
-                      <summary>
-                        <div>📷 Select&nbsp;<strong>Create emuMMC</strong>, then <strong>SD Partition</strong>, then <strong>Part 1</strong>
-                        </div>
+                      <summary>📷 Select&nbsp;<strong>Create emuMMC</strong>, then <strong>SD Partition</strong>, then <strong>Part 1</strong>
                       </summary>
-                      <img src="all_images/safety_7.bmp" alt="s:7" width="73%">
+                      <div>
+                        <img src="all_images/safety_7.bmp" alt="s:7" width="73%">
+                      </div>
                     </details>
                   </li>
                   <li>
@@ -793,10 +795,10 @@ log_inverted=0</code>
                   </ul>
                 </ol>
                 <details>
-                  <summary>
-                    <div>📷 This is what your root and switch folders should look like</div>
-                  </summary>
-                  <img src="all_images/4.png" alt="4" width="40%"> &nbsp;&nbsp;&nbsp; <img src="all_images/5.png" alt="5" width="40%">
+                  <summary>📷 This is what your root and switch folders should look like</summary>
+                  <div>
+                    <img src="all_images/4.png" alt="4" width="40%"> &nbsp;&nbsp;&nbsp; <img src="all_images/5.png" alt="5" width="40%">
+                  </div>
                 </details>
                 <p>
                   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" alt="-----------------------------------------------------">
@@ -948,38 +950,38 @@ log_inverted=0</code>
                 virtually
                         </p>
                         <details>
-                          <summary>
-                            <div>Steps to install amiibos</div>
-                          </summary>
-                          <ol>
-                            <li>
-                              <p>Download the latest release of <strong>emutool</strong>
-                                <a target="_blank" href="https://github.com/XorTroll/emuiibo/releases">here</a>
-                              </p>
-                            </li>
-                            <li>
-                              <p>Unzip the <strong>emutool-vx.x.x.zip</strong> and run <strong>emutool.exe</strong>
-                              </p>
-                            </li>
-                            <li>
-                              <p>Create a new folder somewhere on your PC with the exact name <code>amuiibo</code>
-                              </p>
-                            </li>
-                            <li>
-                              <p>In emutool select your desired amiibo, then select Create Virtual amiibo. browse and select your <code>amuiibo</code> folder you created
-                              </p>
-                            </li>
-                            <li>
-                              <p>You can also select Generate all amiibos at once, but this option creates over 8000 folders and may cause problems when transfering to your SD card</p>
-                            </li>
-                            <li>
-                              <p>Copy the <code>amuiibo</code> folder from your PC into the <code>/emuiibo/</code> folder on your SD card
-                              </p>
-                            </li>
-                            <li>
-                              <p>Before opening a game go into the Tesla menu and connect each amuiibo you wish to use</p>
-                            </li>
-                          </ol>
+                          <summary>Steps to install amiibos</summary>
+                          <div>
+                            <ol>
+                              <li>
+                                <p>Download the latest release of <strong>emutool</strong>
+                                  <a target="_blank" href="https://github.com/XorTroll/emuiibo/releases">here</a>
+                                </p>
+                              </li>
+                              <li>
+                                <p>Unzip the <strong>emutool-vx.x.x.zip</strong> and run <strong>emutool.exe</strong>
+                                </p>
+                              </li>
+                              <li>
+                                <p>Create a new folder somewhere on your PC with the exact name <code>amuiibo</code>
+                                </p>
+                              </li>
+                              <li>
+                                <p>In emutool select your desired amiibo, then select Create Virtual amiibo. browse and select your <code>amuiibo</code> folder you created
+                                </p>
+                              </li>
+                              <li>
+                                <p>You can also select Generate all amiibos at once, but this option creates over 8000 folders and may cause problems when transfering to your SD card</p>
+                              </li>
+                              <li>
+                                <p>Copy the <code>amuiibo</code> folder from your PC into the <code>/emuiibo/</code> folder on your SD card
+                                </p>
+                              </li>
+                              <li>
+                                <p>Before opening a game go into the Tesla menu and connect each amuiibo you wish to use</p>
+                              </li>
+                            </ol>
+                          </div>
                         </details>
                       </li>
                     </ol>
@@ -1223,10 +1225,10 @@ log_inverted=0</code>
                   <li>
                     <p></p>
                     <details>
-                      <summary>
-                        <div>📷 A new tab in Tinfoil should appear called New Games</div>
-                      </summary>
-                      <img src="all_images/tf3.jpg" alt="tf3" width="70%">
+                      <summary>📷 A new tab in Tinfoil should appear called New Games</summary>
+                      <div>
+                        <img src="all_images/tf3.jpg" alt="tf3" width="70%">
+                      </div>
                     </details>
                     <p></p>
                   </li>
@@ -1237,10 +1239,10 @@ log_inverted=0</code>
                 <h5 class="atx" id="luffshop">Luffshop</h5>
                 <p>Luffshop is not actually a shop but a redirect to many other shops. Sometimes shops go down, but with Luffshop you will have a better shot at having access to games.</p>
                 <details>
-                  <summary>
-                    <div>📷 Fill out:</div>
-                  </summary>
-                  <img width="70%" alt="tf1" src="all_images/tf1.jpg">
+                  <summary>📷 Fill out:</summary>
+                  <div>
+                    <img width="70%" alt="tf1" src="all_images/tf1.jpg">
+                  </div>
                 </details>
                 <ul>
                   <li>
@@ -1269,12 +1271,12 @@ log_inverted=0</code>
                 <p></p>
                 <details>
                   <summary>
-                    <div>
-                      <em>Descord help for noobs</em>
-                    </div>
+                    <em>Descord help for noobs</em>
                   </summary>
-                  <ul> Discord can be extremely confusing and looks archaic if you are not used to it. When you open the turtle in the shop discord there should be a bunch of channels on the left side that all have # next to them. Find the one that says #bot-commands and open it. Now at the bottom there should be a way for you to send a message. Type /donate. You will then get a personal message from a bot named Donations. The bot will ask you questions about your donation. Once your donation is confirmed you can go back to the turtle in the shell server. This time open the #tits-pro-access channel and type ?request. You should now get a personal message from a bot named no spies who will give you the shop key. For more help read <a target="_blank" href="https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord">this</a>
-                  </ul>
+                  <div>
+                    <ul> Discord can be extremely confusing and looks archaic if you are not used to it. When you open the turtle in the shop discord there should be a bunch of channels on the left side that all have # next to them. Find the one that says #bot-commands and open it. Now at the bottom there should be a way for you to send a message. Type /donate. You will then get a personal message from a bot named Donations. The bot will ask you questions about your donation. Once your donation is confirmed you can go back to the turtle in the shell server. This time open the #tits-pro-access channel and type ?request. You should now get a personal message from a bot named no spies who will give you the shop key. For more help read <a target="_blank" href="https://support.discord.com/hc/en-us/articles/360045138571-Beginner-s-Guide-to-Discord">this</a>
+                    </ul>
+                  </div>
                 </details>
                 <p></p>
                 <ul>
@@ -1292,10 +1294,10 @@ log_inverted=0</code>
                       <li>
                         <p></p>
                         <details>
-                          <summary>
-                            <div>📷 Gain access to Retroarch titles through Tinfoil. Nothing new, but this is a time saver. Just download the cores from Retroarch and the games will show up</div>
-                          </summary>
-                          <img src="all_images/tf4.jpg" alt="tf4" width="70%">
+                          <summary>📷 Gain access to Retroarch titles through Tinfoil. Nothing new, but this is a time saver. Just download the cores from Retroarch and the games will show up</summary>
+                          <div>
+                            <img src="all_images/tf4.jpg" alt="tf4" width="70%">
+                          </div>
                         </details>
                         <p></p>
                       </li>
@@ -1465,10 +1467,10 @@ log_inverted=0</code>
                   </li>
                   <li>
                     <details>
-                      <summary>
-                        <div>📷 Fill out each box in the GUI before clicking Create Forwarder</div>
-                      </summary>
-                      <img src="all_images/Forwarder.png" alt="forwarder" width="70%">
+                      <summary>📷 Fill out each box in the GUI before clicking Create Forwarder</summary>
+                      <div>
+                        <img src="all_images/Forwarder.png" alt="forwarder" width="70%">
+                      </div>
                     </details>
                     <ul>
                       <li>Application Name: Name of the game you want displayed</li>
