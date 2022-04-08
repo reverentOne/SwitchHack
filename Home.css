@@ -36,20 +36,20 @@
     min-height: 658px;
   }
 }.u-section-2 .u-sheet-1 {
-  min-height: 1230px;
+  min-height: 1211px;
 }
 
 .u-section-2 .u-shape-1 {
   width: 228px;
   height: 228px;
   box-shadow: 2px 0 0 0 rgba(0,0,0,0);
-  margin: 79px auto 0 32px;
+  margin: 66px auto 0 30px;
 }
 
 .u-section-2 .u-text-1 {
   font-size: 3.75rem;
   font-family: Ubuntu, sans-serif;
-  margin: -144px 0 0 301px;
+  margin: -131px 0 0 301px;
 }
 
 .u-section-2 .u-image-1 {
@@ -62,12 +62,12 @@
 
 .u-section-2 .u-group-1 {
   width: 527px;
-  min-height: 478px;
+  min-height: 486px;
   margin: -374px 43px 0 auto;
 }
 
 .u-section-2 .u-container-layout-1 {
-  padding: 40px;
+  padding: 40px 40px 20px;
 }
 
 .u-section-2 .u-text-2 {
@@ -89,7 +89,7 @@
   letter-spacing: 1px;
   background-image: none;
   border-style: none;
-  margin: 56px auto 0 0;
+  margin: 29px auto 0 0;
   padding: 11px 44px 11px 42px;
 }
 
@@ -98,13 +98,13 @@
   width: 310px;
   background-image: url("images/person_holding_switch.webp");
   background-position: 50% 50%;
-  margin: -295px auto 0 0;
+  margin: -302px auto 0 0;
 }
 
 .u-section-2 .u-shape-2 {
   width: 147px;
   height: 147px;
-  margin: -9px auto 60px 320px;
+  margin: -31px auto 60px 320px;
 }
 
 @media (max-width: 1199px) {
@@ -182,7 +182,9 @@
   }
 
   .u-section-2 .u-container-layout-1 {
-    padding: 30px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .u-section-2 .u-image-2 {
@@ -204,7 +206,7 @@
 
   .u-section-2 .u-shape-1 {
     margin-top: 187px;
-    margin-left: 32px;
+    margin-left: 30px;
   }
 
   .u-section-2 .u-text-1 {
@@ -532,7 +534,7 @@
 }
 
 .u-section-4 .u-container-layout-2 {
-  padding: 60px 60px 45px;
+  padding: 45px 60px;
 }
 
 .u-section-4 .u-text-3 {
@@ -544,7 +546,7 @@
 .u-section-4 .u-text-4 {
   font-style: italic;
   font-size: 1.25rem;
-  margin: 20px 0 0;
+  margin: 21px 0 0;
 }
 
 .u-section-4 .u-btn-2 {
@@ -553,7 +555,7 @@
   letter-spacing: 1px;
   background-image: none;
   border-style: none;
-  margin: 20px auto 0 0;
+  margin: 19px auto 0 0;
 }
 
 .u-section-4 .u-carousel-control-1 {
@@ -755,20 +757,11 @@
 
 .u-section-6 .u-text-2 {
   width: 680px;
+  font-size: 1.125rem;
   margin: 22px auto 0;
 }
 
-.u-section-6 .u-text-3 {
-  width: 680px;
-  margin: 15px auto 0;
-}
-
 .u-section-6 .u-btn-1 {
-  border-style: none none solid;
-  padding: 0;
-}
-
-.u-section-6 .u-btn-2 {
   letter-spacing: 1px;
   background-image: none;
   border-style: none;
@@ -781,7 +774,7 @@
   height: 300px;
   background-image: url("images/young-couple-playing-video-games-9.jpg");
   background-position: 40.17% 50%;
-  margin: 12px auto 0 34px;
+  margin: 5px auto 0 34px;
 }
 
 .u-section-6 .u-image-2 {
@@ -897,10 +890,6 @@
     width: 540px;
   }
 
-  .u-section-6 .u-text-3 {
-    width: 540px;
-  }
-
   .u-section-6 .u-image-1 {
     width: 230px;
     height: 230px;
@@ -945,10 +934,6 @@
   }
 
   .u-section-6 .u-text-2 {
-    width: 340px;
-  }
-
-  .u-section-6 .u-text-3 {
     width: 340px;
   }
 
@@ -1009,42 +994,27 @@
 
 .u-section-7 .u-group-1 {
   width: 472px;
-  min-height: 431px;
+  min-height: 527px;
   background-image: none;
   box-shadow: 5px 5px 0px 0 rgba(0,0,0,0.15);
   margin: -675px auto 60px 0;
 }
 
 .u-section-7 .u-container-layout-1 {
-  padding: 30px;
+  padding: 30px 24px 29px;
 }
 
 .u-section-7 .u-text-1 {
-  font-weight: 700;
-  line-height: 1.3;
-  font-size: 2.25rem;
-  margin: 0;
-}
-
-.u-section-7 .u-text-2 {
-  font-size: 1.25rem;
-  font-weight: 300;
-  line-height: 36px;
-  margin: 20px 0 0;
+  margin: 0 0 0 14px;
 }
 
 .u-section-7 .u-btn-1 {
-  border-style: none none solid;
-  padding: 0;
-}
-
-.u-section-7 .u-btn-2 {
   font-size: 1rem;
   border-style: solid;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 20px auto 0 0;
+  margin: 14px auto 0 14px;
 }
 
 @media (max-width: 1199px) {
@@ -1060,7 +1030,6 @@
 
   .u-section-7 .u-group-1 {
     width: 399px;
-    min-height: 419px;
   }
 }
 
@@ -1074,18 +1043,12 @@
   }
 
   .u-section-7 .u-image-1 {
-    margin-top: 58px;
+    margin-top: 543px;
   }
 
   .u-section-7 .u-group-1 {
     width: 371px;
-    min-height: 418px;
     margin-top: -755px;
-    margin-bottom: 83px;
-  }
-
-  .u-section-7 .u-text-2 {
-    font-size: 1.125rem;
   }
 }
 
@@ -1106,9 +1069,7 @@
   }
 
   .u-section-7 .u-group-1 {
-    min-height: 389px;
     margin-top: -716px;
-    margin-bottom: 60px;
     margin-left: -12px;
   }
 
@@ -1136,13 +1097,16 @@
 
   .u-section-7 .u-group-1 {
     width: 284px;
-    min-height: 376px;
     margin-top: -611px;
     margin-left: 0;
   }
 
   .u-section-7 .u-text-1 {
-    font-size: 1.5rem;
+    margin-left: 0;
+  }
+
+  .u-section-7 .u-btn-1 {
+    margin-left: 0;
   }
 }@font-face {
   font-family: 'SFPRODISPLAYBOLD';
