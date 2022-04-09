@@ -1,0 +1,13 @@
+Add 
+
+<?php include "/Google_Analytics.html" ?>
+
+to line 4 of index.html
+
+Add
+
+<script class="u-script" type="text/javascript" src="leftnav.js" defer=""></script>
+
+to line 14 of Guide.html
+
+Delete extra footer from all html pages
