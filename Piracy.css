@@ -765,6 +765,10 @@
   .u-section-4 .u-text-1 {
     margin-top: 48px;
   }
+
+  .u-section-4 .u-text-4 {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -936,8 +940,7 @@
 }
 
 .u-section-7 .u-text-2 {
-  width: 800px;
-  margin: 55px calc(((100% - 1140px) / 2) + 170px) 0;
+  margin: 55px 220px 0;
 }
 
 .u-section-7 .u-btn-1 {
@@ -956,7 +959,6 @@
 }
 
 .u-section-7 .u-custom-html-1 {
-  height: auto;
   min-height: 51px;
   margin: -2461px 0 0 calc(((100% - 1140px) / 2) + 50px);
 }
@@ -975,16 +977,18 @@
   }
 
   .u-section-7 .u-text-2 {
-    margin-left: calc(((100% - 940px) / 2) + 70px);
-    margin-right: calc(((100% - 940px) / 2) + 70px);
+    width: 800px;
+    margin-left: 120px;
+    margin-right: 120px;
   }
 
   .u-section-7 .u-custom-html-1 {
+    height: auto;
     margin-left: calc(((100% - 940px) / 2));
   }
 
   .u-section-7 .u-icon-1 {
-    margin-left: calc(((100% - 940px) / 2) + 55px);
+    margin-left: calc(((100% - 940px) / 2));
   }
 }
 
@@ -1005,7 +1009,7 @@
   }
 
   .u-section-7 .u-icon-1 {
-    margin-left: calc(((100% - 720px) / 2) + 55px);
+    margin-left: calc(((100% - 720px) / 2));
   }
 }
 
@@ -1017,6 +1021,7 @@
 
   .u-section-7 .u-text-2 {
     width: 540px;
+    margin-top: 20px;
     margin-left: calc(((100% - 540px) / 2));
     margin-right: calc(((100% - 540px) / 2));
   }
@@ -1026,7 +1031,7 @@
   }
 
   .u-section-7 .u-icon-1 {
-    margin-left: calc(((100% - 540px) / 2) + 55px);
+    margin-left: calc(((100% - 540px) / 2));
   }
 }
 
@@ -1047,7 +1052,7 @@
   }
 
   .u-section-7 .u-icon-1 {
-    margin-left: calc(((100% - 340px) / 2) + 55px);
+    margin-left: calc(((100% - 340px) / 2));
   }
 }@font-face {
   font-family: 'SFPRODISPLAYBOLD';
