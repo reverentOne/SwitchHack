@@ -11,3 +11,19 @@ Add
 to line 14 of Guide.html
 
 Delete extra footer from all html pages
+
+Edits
+
+in Home.html
+line 150 change reference to "Guide.html#games"
+line 157 change reference to "Guide.html#mission-control"
+line 189 change reference to "Guide.html#games"
+
+in Guide.html
+line 86 change reference to "Guide.html#intro"
+line 91 change reference to "Guide.html#begin"
+line 96 change reference to "Guide.html#afterwards"
+
+in Piracy.html
+line 112 change reference to "Guide.html#games"
+line 113 change reference to "Guide.html#games"
